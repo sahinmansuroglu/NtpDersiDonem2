@@ -53,8 +53,8 @@
 ```
 > Herhangi bir kontrolün(nesnenin) özelliklerin değiştirmek ve olayları(Event) ile ilgili düzenleme yapmak için nesne seçiliyken aşağıdaki özellikler(Properties) penceresinden yararlanılabilir. Ya da direk XAML kodları üzerinden de bu işlem yapılabilir.
 | ÖZellikler |Olaylar|
-|--------:|----------------------------|
-|  ![image](https://user-images.githubusercontent.com/28144917/152681894-52f66a26-cbbf-44d0-9049-579d63543aad.png)       |  ![image](https://user-images.githubusercontent.com/28144917/152682028-6bbdcc32-2fdd-435f-ba6f-629158f61da7.png)
+|:--------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/152681894-52f66a26-cbbf-44d0-9049-579d63543aad.png)       |![image](https://user-images.githubusercontent.com/28144917/152682028-6bbdcc32-2fdd-435f-ba6f-629158f61da7.png)
                          | 
 
 
