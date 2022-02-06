@@ -106,3 +106,13 @@ namespace WpfApp1
 }
 
 ```
+
+
+> Uygulamadda TextBox'a girilen Ad Soyad bilgisinin ListBox'a ekletilebilmesi için ListeyeEkleClick metodu içerisine aşağıdaki kodların eklenmesi gerekir
+
+```csharp
+        private void ListeyeEkleClick(object sender, RoutedEventArgs e)
+        {
+            listBox.Items.Add(textBox1.Text);   
+        }
+```
