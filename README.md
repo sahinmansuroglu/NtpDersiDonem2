@@ -14,7 +14,7 @@
 5. [Canvas Panel Kullanımı]()
 
 
-### 2.  WPF Style işlemler Control Library ###
+### 2.  WPF Style işlemler ###
 1. [WPF Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/1_Ders.md) 
 2. [Bölüm Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Ders.md)  
 3. [Bölüm Cevaplar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
