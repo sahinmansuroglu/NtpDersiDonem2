@@ -59,7 +59,7 @@
 
 > Butona'a tıklama olayı eklendikten sonra Button'umuzun XAML kodu aşağıdaki gibi olmuştur.
 
-```
+```XAML
 <Button x:Name="button1" 
                 Content="Listeye Ekle" 
                 HorizontalAlignment="Left" 
