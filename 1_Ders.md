@@ -25,6 +25,7 @@
                Margin="41,46,0,0" 
                VerticalAlignment="Top" 
                Width="160"/>
+            
         <TextBox x:Name="textBox" 
                  HorizontalAlignment="Left" 
                  Height="33" 
@@ -32,12 +33,14 @@
                  TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
                  Width="167"/>
+            
         <Button x:Name="button" 
                 Content="Listeye Ekle" 
                 HorizontalAlignment="Left" 
                 Height="33" Margin="312,46,0,0" 
                 VerticalAlignment="Top" 
                 Width="186"/>
+            
         <ListBox x:Name="listBox" 
                  HorizontalAlignment="Left" 
                  Height="128" 
