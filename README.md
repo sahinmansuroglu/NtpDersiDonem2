@@ -6,9 +6,9 @@
 2. [Bölüm Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Ders.md)  
 3. [Bölüm Cevaplar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
 
-### 2. Bölüm WPF Layout(Yerleşim) Kavramları ###WPF – LAYOUTS
+### 2. Bölüm WPF Layout(Yerleşim) Kavramları ###
 1. [Grid Panel Kullanımı]()
-2. [Stack Panel Kullanımı] ()
+2. [Stack Panel Kullanımı]()
 3. [Wrap Panel Kullanımı]()
 4. [Dock Panel Kullanımı]()
 5. [Canvas Panel Kullanımı]()
