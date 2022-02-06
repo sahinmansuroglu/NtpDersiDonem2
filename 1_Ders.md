@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/28144917/152680886-fbe1f05e-63ca-4684-9036-e3e0cb326e8a.png)
 
-```xaml
+```xml
 <Window x:Class="WpfApp1.IlkUygulama"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
