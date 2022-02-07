@@ -4,7 +4,7 @@
 ### 1. Bölüm WPF Temelleri ###
 1. [WPF ve XAML Nedir, İlk Uygulama.](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/1_Ders.md) 
 2. [Örnek Uygulama (Label, Textbox, Button ve Listbox kullanımı)](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Ders.md)  
-3. [Nesne Ağacı (Element Tree)](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
+3. [.....](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
 
 ### 2. Bölüm WPF Layout(Yerleşim) Kavramları ###
 1. [Grid Panel Kullanımı]()
