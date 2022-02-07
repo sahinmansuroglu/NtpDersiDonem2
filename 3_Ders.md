@@ -43,8 +43,16 @@
 **Ekran Görüntüsü**
 
 ![image](https://user-images.githubusercontent.com/28144917/152768421-8a5186c1-d269-4001-9b44-0ead8664b61b.png)
-### 3. VerticalAlignment ve HorizontalAlignment Özellikleri  ##
-> Margin özelliği bir nesnenin bulunduğu nesne içerisinde soldan, üstten, sağdan ve aşağıdan uzaklığını ayarlamak için kullanılır.
+
+### 3. VerticalAlignment  ve HorizontalAlignment Özellikleri  ##
+> VerticalAlignment  ve HorizontalAlignment Özellikleri  dikey ve yatay hizalama yapmak için kullanılır
+
+| Yatay Hizalama Seçenekleri |Dikey Hizalama Seçenekleri|
+|:--------:|:----------------------------:|
+| ![image](https://user-images.githubusercontent.com/28144917/152773239-07048d68-f1b0-430f-a195-2e661a0878dd.png)      |![image](https://user-images.githubusercontent.com/28144917/152773532-67459cdb-5042-44b7-970d-089504eb9d8b.png)
+| 
+
+
 
 **Örnekler**
 ```xaml
