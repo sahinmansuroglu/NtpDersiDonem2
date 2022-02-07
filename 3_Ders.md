@@ -54,15 +54,9 @@
 **Örnekler**
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|![image](https://user-images.githubusercontent.com/28144917/152774068-b2f1d14e-1a1c-4b0c-9205-cf8515b46228.png)
-     |![image](https://user-images.githubusercontent.com/28144917/152774100-4f4cda04-bc1c-45be-9022-bf090c2bf52c.png)
-  | 
-|  ![image](https://user-images.githubusercontent.com/28144917/152774175-f9a53543-a149-419c-a418-0ddf4a50c882.png)
-   | ![image](https://user-images.githubusercontent.com/28144917/152774204-c6d9454c-0195-4b9a-b4aa-791a5f1dd2bc.png)
- | 
-| ![image](https://user-images.githubusercontent.com/28144917/152774268-52e7de2d-ec1a-4519-8e30-8084d7cd7c1f.png)
-    | ![image](https://user-images.githubusercontent.com/28144917/152774290-023c1206-d239-4bed-9ab8-df7d2804ad74.png)
- | 
+|![image](https://user-images.githubusercontent.com/28144917/152774068-b2f1d14e-1a1c-4b0c-9205-cf8515b46228.png)|![image](https://user-images.githubusercontent.com/28144917/152774100-4f4cda04-bc1c-45be-9022-bf090c2bf52c.png)| 
+|![image](https://user-images.githubusercontent.com/28144917/152774175-f9a53543-a149-419c-a418-0ddf4a50c882.png)| ![image](https://user-images.githubusercontent.com/28144917/152774204-c6d9454c-0195-4b9a-b4aa-791a5f1dd2bc.png)| 
+|![image](https://user-images.githubusercontent.com/28144917/152774268-52e7de2d-ec1a-4519-8e30-8084d7cd7c1f.png)| ![image](https://user-images.githubusercontent.com/28144917/152774290-023c1206-d239-4bed-9ab8-df7d2804ad74.png)| 
 
 
 ```xaml
