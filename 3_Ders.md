@@ -59,16 +59,15 @@
 |![image](https://user-images.githubusercontent.com/28144917/152774268-52e7de2d-ec1a-4519-8e30-8084d7cd7c1f.png)| ![image](https://user-images.githubusercontent.com/28144917/152774290-023c1206-d239-4bed-9ab8-df7d2804ad74.png)| 
 
 
-```xaml
-        <Button x:Name="button1" Foreground="Red" Background="Yellow"/>
-        <TextBox x:Name="textKutu1" Foreground="Blue" Background="Yellow"/>
-```
+
 
 ### 3. Margin ##
-> Margin özelliği bir nesnenin bulunduğu nesne içerisinde soldan, üstten, sağdan ve aşağıdan uzaklığını ayarlamak için kullanılır.
+> Margin özelliği bir nesnenin bulunduğu nesne içerisinde soldan, yukarıdan, sağdan ve aşağıdan uzaklığını ayarlamak için kullanılır.
 
 **Örnekler**
-```xaml
-        <Button x:Name="button1" Foreground="Red" Background="Yellow"/>
-        <TextBox x:Name="textKutu1" Foreground="Blue" Background="Yellow"/>
-```
+**Örnekler**
+| Örnek Kod |Ekran Görüntüsü|
+|:--------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/152775445-2713f493-9e21-48c6-9cf4-a2bb0ace3114.png)|![image](https://user-images.githubusercontent.com/28144917/152775478-dc90799c-3b4d-47c3-8d9c-38679919afcc.png)| 
+|![image](https://user-images.githubusercontent.com/28144917/152775586-0ce686d7-a588-4a03-9dae-9304d3b5d847.png)|![image](https://user-images.githubusercontent.com/28144917/152775620-64d9d29c-8584-460a-89d0-4f8c73626c41.png)| 
+|![image](https://user-images.githubusercontent.com/28144917/152775718-0cd9bdef-a36b-4b79-97da-df0d1ebd4576.png)|![image](https://user-images.githubusercontent.com/28144917/152775745-f29cf2d1-267d-48b5-b177-dd7f653120e5.png)|
