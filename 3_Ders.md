@@ -28,7 +28,7 @@
 ```
 
 ### 4. Content Özelliği ##
-> Content özelliği, bir nesnenin yeteneklerine bağlı olarak ekranda ne göstereceğini ayarlama için kullanılır
+> Content özelliği, bir nesnenin  ekranda ne göstereceğini ayarlamak için kullanılır
 
 **Örnekler**
 ```xaml
