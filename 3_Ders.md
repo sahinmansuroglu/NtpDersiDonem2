@@ -80,7 +80,5 @@
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/152776972-9da05d46-6e23-4f82-8d78-b173f768e7f3.png)|![image](https://user-images.githubusercontent.com/28144917/152777007-391b7c75-2a18-45a1-882b-11b6e89ee15e.png)| 
-|![image](https://user-images.githubusercontent.com/28144917/152777075-b3fb1739-d50d-41f6-b72d-d8ee68d6c44a.png)
-|![image](https://user-images.githubusercontent.com/28144917/152777110-d49d840e-6dfe-46a2-84f8-e33d9dd4ca8f.png)| 
-|![image](https://user-images.githubusercontent.com/28144917/152777267-2205f3e6-ad29-4fef-8d9a-f54572cc0074.png)|![image](https://user-images.githubusercontent.com/28144917/152777292-4c8fc95c-cdca-4ca7-9157-43a4f5e6b3b5.png)
-| 
+|![image](https://user-images.githubusercontent.com/28144917/152777075-b3fb1739-d50d-41f6-b72d-d8ee68d6c44a.png)|![image](https://user-images.githubusercontent.com/28144917/152777110-d49d840e-6dfe-46a2-84f8-e33d9dd4ca8f.png)| 
+|![image](https://user-images.githubusercontent.com/28144917/152777267-2205f3e6-ad29-4fef-8d9a-f54572cc0074.png)|![image](https://user-images.githubusercontent.com/28144917/152777292-4c8fc95c-cdca-4ca7-9157-43a4f5e6b3b5.png)| 
