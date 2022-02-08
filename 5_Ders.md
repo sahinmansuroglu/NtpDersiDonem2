@@ -298,7 +298,8 @@ namespace WpfApp15
 ```
 ### 5. RadioButton  ### 
 > İki yada daha çok seçenek içerisinden seçin yapabilmek için kullanılan UI nesnesidir.
-> | Örnek Kod |Ekran Görüntüsü|
+
+| Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
@@ -316,7 +317,8 @@ namespace WpfApp15
 ```
 ### 6. ComboBox  ### 
 > Aşağıya doğru açılır liste oluşturmak için kullanılan UI nesnesidir
-> | Örnek Kod |Ekran Görüntüsü|
+
+| Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
@@ -335,7 +337,8 @@ namespace WpfApp15
 ```
 ### 7. ListBox  ### 
 > Verileri liste halinde görüntülemek için kullanılan UI nesnesidir.
-> | Örnek Kod |Ekran Görüntüsü|
+
+| Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
@@ -354,7 +357,8 @@ namespace WpfApp15
 ```
 ### 8. Image  ### 
 > Resim görüntülemek için kullanılan UI nesnesidir.
-> | Örnek Kod |Ekran Görüntüsü|
+
+| Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
