@@ -11,7 +11,8 @@
 
 ### 2. TextBox  ### 
 > TextBox kullanıcıdan veri almak için kullanılan UI nesnesidir.
-> | Örnek Kod |Ekran Görüntüsü|
+
+| Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/152948804-3488911c-c424-42fc-abdf-9b87f8829585.png)|![image](https://user-images.githubusercontent.com/28144917/152948796-96145dea-337d-4301-a3de-de5807115858.png)|
 |||
