@@ -2,6 +2,12 @@
 > WPf Uygulamarında kullanılan bir çok kullanıcı arayüz nesnesi bulunmaktadır. Ancak bölümde sık kullanılan temel nesneler anlatılacaktır. Sonraki bölümlerde yeri geldikçe yeni nesneler de anlatılacaktır.
 ### 1. Label  ### 
 > Ekranda metin Görüntülüyebilmek kullanılan UI nesnesidir. (Tek Satırlık veri için kullanılabilir)
+
+| Örnek Kod |Ekrab Görüntüsü|
+|:--------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/152944859-9424b0be-984f-4c4b-946f-4c1d0de1442b.png)|![image](https://user-images.githubusercontent.com/28144917/152944893-1905bf52-531d-4386-a0bd-b3ee43cf0c29.png)| 
+
+
 ### 2. TextBlock  ### 
 > Ekranda metin Görüntülüyebilmek kullanılan UI nesnesidir. (Birden fazla Satırlık veri için de kullanılabilir.)
 ### 3. TextBox  ### 
