@@ -82,3 +82,12 @@
 |![image](https://user-images.githubusercontent.com/28144917/152776972-9da05d46-6e23-4f82-8d78-b173f768e7f3.png)|![image](https://user-images.githubusercontent.com/28144917/152777007-391b7c75-2a18-45a1-882b-11b6e89ee15e.png)| 
 |![image](https://user-images.githubusercontent.com/28144917/152777075-b3fb1739-d50d-41f6-b72d-d8ee68d6c44a.png)|![image](https://user-images.githubusercontent.com/28144917/152777110-d49d840e-6dfe-46a2-84f8-e33d9dd4ca8f.png)| 
 |![image](https://user-images.githubusercontent.com/28144917/152777267-2205f3e6-ad29-4fef-8d9a-f54572cc0074.png)|![image](https://user-images.githubusercontent.com/28144917/152777292-4c8fc95c-cdca-4ca7-9157-43a4f5e6b3b5.png)| 
+
+
+### 7. BorderThickness ve BorderBrush Özelliği ##
+> BorderThickness ile kenarlığın kalınlığı ayarlanır.  BorderBrush kenarlığın rengi ayarlanır.
+
+| Örnek Kod |Ekran Görüntüsü|
+|:--------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/152928190-5eaff5f4-6309-4bad-9af0-237ca3b598a7.png)|![image](https://user-images.githubusercontent.com/28144917/152928212-273fefb8-c731-4332-9a56-72d6040521d8.png)| 
+|![image](https://user-images.githubusercontent.com/28144917/152928393-0ae1420a-e0e4-4e71-99db-2fffc60c81be.png)|![image](https://user-images.githubusercontent.com/28144917/152928439-f8f239aa-1f92-47c6-9616-76fe1d6052b4.png)|
