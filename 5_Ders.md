@@ -191,7 +191,7 @@ namespace WpfApp15
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/152971840-a24351b2-34e4-41ae-84ae-7969ba41dbe5.png)|![image](https://user-images.githubusercontent.com/28144917/152971877-bdeef89a-7de2-47c0-b60a-41ce73bf5c14.png)|
-|![image](https://user-images.githubusercontent.com/28144917/152972220-877bd43d-87ee-45cf-9851-a856a04922eb.png)|![image](https://user-images.githubusercontent.com/28144917/152972215-aac291c7-01e6-4bb2-b50a-b2afd9fd7bc0.png)|
+|![image](https://user-images.githubusercontent.com/28144917/152972215-aac291c7-01e6-4bb2-b50a-b2afd9fd7bc0.png)|![image](https://user-images.githubusercontent.com/28144917/152972220-877bd43d-87ee-45cf-9851-a856a04922eb.png)|
 |![image](https://user-images.githubusercontent.com/28144917/152972893-79697098-0e66-47d9-9106-7333bdfbf6dc.png)| ![image](https://user-images.githubusercontent.com/28144917/152972920-150f53e7-4b2e-4b0f-94ea-83f5fa8fb990.png)|
 #### CheckBox Örneği ####
 > Aşağıdaki Ekran Tasarımı yapınız. Eğer Checkbox kutusu onaylanırsa butonu aktifleştirilsin. Eğer onay kaldırılırsa buton pasif hale getirilsin.
