@@ -187,7 +187,8 @@ namespace WpfApp15
 ```
 ### 4. CheckBox  ### 
 > Onay kutusu, kullanıcının ikili bir seçim yapmasına, yani iki olası durumdan sadece birin seçebilmesini sağlayan UI nesnesidir.
-> | Örnek Kod |Ekran Görüntüsü|
+
+| Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/152971840-a24351b2-34e4-41ae-84ae-7969ba41dbe5.png)|![image](https://user-images.githubusercontent.com/28144917/152971877-bdeef89a-7de2-47c0-b60a-41ce73bf5c14.png)|
 |![image](https://user-images.githubusercontent.com/28144917/152972220-877bd43d-87ee-45cf-9851-a856a04922eb.png)|![image](https://user-images.githubusercontent.com/28144917/152972215-aac291c7-01e6-4bb2-b50a-b2afd9fd7bc0.png)|
