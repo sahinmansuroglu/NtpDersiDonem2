@@ -49,7 +49,8 @@
     </Grid>
 </Window>
 ```
-**Not:** Ekrandaki nesneler XAML yapısında  mantıksal bir ağaç şeklinde bulunurlar. Yukarıdaki örneği incelersek kök olarak Window onun içinde bir Grid ve Grid'in içerisinde de Label, Textbox, Button ve ListBox nesneleri bulunmaktadır.
+>**Not:** Ekrandaki nesneler XAML yapısında  mantıksal bir ağaç şeklinde bulunurlar. Yukarıdaki örneği incelersek kök olarak Window onun içinde bir Grid ve Grid'in içerisinde de Label, Textbox, Button ve ListBox nesneleri bulunmaktadır.
+> Diğer bir ifadeyle de  Grid İçin Konuşacak Olursan Window nesnesi Grid'in parent(ebeveyn)'ı iken, içerisindeki Label, Textbox, Button ve ListBox nesneleri ise Grid'in Child(Çocuk) elemanıdır.
 
 > Herhangi bir kontrolün(nesnenin) özelliklerin değiştirmek ve olayları(Event) ile ilgili düzenleme yapmak için nesne seçiliyken aşağıdaki özellikler(Properties) penceresinden yararlanılabilir. Ya da direk XAML kodları üzerinden de bu işlem yapılabilir.
 
