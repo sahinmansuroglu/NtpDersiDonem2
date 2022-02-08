@@ -189,29 +189,183 @@ namespace WpfApp15
 > Onay kutusu, kullanıcının ikili bir seçim yapmasına, yani iki olası durumdan sadece birin seçebilmesini sağlayan UI nesnesidir.
 > | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|||
-|||
+|![image](https://user-images.githubusercontent.com/28144917/152971840-a24351b2-34e4-41ae-84ae-7969ba41dbe5.png)|![image](https://user-images.githubusercontent.com/28144917/152971877-bdeef89a-7de2-47c0-b60a-41ce73bf5c14.png)|
+|![image](https://user-images.githubusercontent.com/28144917/152972220-877bd43d-87ee-45cf-9851-a856a04922eb.png)|![image](https://user-images.githubusercontent.com/28144917/152972215-aac291c7-01e6-4bb2-b50a-b2afd9fd7bc0.png)|
+|![image](https://user-images.githubusercontent.com/28144917/152972893-79697098-0e66-47d9-9106-7333bdfbf6dc.png)| ![image](https://user-images.githubusercontent.com/28144917/152972920-150f53e7-4b2e-4b0f-94ea-83f5fa8fb990.png)|
+#### CheckBox Örneği ####
+> Aşağıdaki Ekran Tasarımı yapınız. Eğer Checkbox kutusu onaylanırsa butonu aktifleştirilsin. Eğer onay kaldırılırsa buton pasif hale getirilsin.
+> Ek olarak butona  tıklandığında "Bilgieriniz kaydedilmiştir" şeklinde mesaj görüntülensin.
+
+![image](https://user-images.githubusercontent.com/28144917/152978925-4841a469-e59a-4a2f-b73b-46aa7e8cabb1.png)
+
+**XAML kodları**
+
+```xaml
+<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="300">
+    <Grid>
+
+        <CheckBox 
+            x:Name="chbOnay"
+            Content="Bilgilerimin Doğruluğunu Onaylıyorum"
+            VerticalAlignment="Center"
+            Foreground="Red"
+            FontSize="14"
+            BorderBrush="Red"
+            BorderThickness="3"
+            Padding="5 0 0 0"
+            HorizontalAlignment="Left"
+            Margin="15,0,0,0"
+            Click="chbOnay_Click"  
+         />
+
+        <Button
+            Name="btnOnay"
+            Width="90"
+            Height="30"
+            Content="Bilgileri Kaydet"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Margin="0,0,5,5"
+            IsEnabled="False"
+            />
+    </Grid>
+</Window>
+
+```
+
+**C# kodları**
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp15
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        
+
+        private void chbOnay_Click(object sender, RoutedEventArgs e)
+        {
+            if (chbOnay.IsChecked==true)
+            {
+                //MessageBox.Show("butonu Aktifle");
+                btnOnay.IsEnabled = true;
+
+            }
+            else
+            {
+                btnOnay.IsEnabled = false;
+                //MessageBox.Show("butonu Pasifle");
+            }
+        }
+
+        private void btnOnay_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Bilgieriniz kaydedilmiştir");
+        }
+    }
+}
+
+```
 ### 5. RadioButton  ### 
 > İki yada daha çok seçenek içerisinden seçin yapabilmek için kullanılan UI nesnesidir.
 > | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
+
+**XAML kodları**
+
+```xaml
+
+```
+
+
+**C# kodları**
+```csharp
+
+```
 ### 6. ComboBox  ### 
 > Aşağıya doğru açılır liste oluşturmak için kullanılan UI nesnesidir
 > | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
+
+
+**XAML kodları**
+
+```xaml
+
+```
+
+
+**C# kodları**
+```csharp
+
+```
 ### 7. ListBox  ### 
 > Verileri liste halinde görüntülemek için kullanılan UI nesnesidir.
 > | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
+
+
+**XAML kodları**
+
+```xaml
+
+```
+
+
+**C# kodları**
+```csharp
+
+```
 ### 8. Image  ### 
 > Resim görüntülemek için kullanılan UI nesnesidir.
 > | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |||
 |||
+
+
+**XAML kodları**
+
+```xaml
+
+```
+
+
+**C# kodları**
+```csharp
+
+```
