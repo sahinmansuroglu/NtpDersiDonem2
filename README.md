@@ -9,13 +9,13 @@
 5. [Temel WPF nesneleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/5_Ders.md) 
 
 
-### 2. Bölüm WPF Layout(Yerleşim) Kavramları ###
-2. [Stack Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/StackPanel.md)
-1. [Border Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
-2. [Grid Panel Kullanımı]()
-3. [Wrap Panel Kullanımı]()
-4. [Dock Panel Kullanımı]()
-5. [Canvas Panel Kullanımı]()
+### 2. Bölüm WPF Layout(Yerleşim) Kavramları (Henüz Hazdır Değil) ###
+1. [Stack Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/StackPanel.md)
+2. [Border Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
+3. [Grid Panel Kullanımı]()
+4. [Wrap Panel Kullanımı]()
+5. [Dock Panel Kullanımı]()
+6. [Canvas Panel Kullanımı]()
 
 
 ### 2.  WPF Style işlemler ###
