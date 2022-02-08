@@ -110,14 +110,79 @@ namespace WpfApp15
 |![image](https://user-images.githubusercontent.com/28144917/152952727-bdc6f3d4-aad4-4011-a80c-04f725134f1c.png)|![image](https://user-images.githubusercontent.com/28144917/152952669-f1aa21d6-d7d9-4678-ad92-f4b16cafda75.png)|
 |![image](https://user-images.githubusercontent.com/28144917/152952338-00d488d2-a03c-4e1b-b631-ac5eb34108ee.png)|![image](https://user-images.githubusercontent.com/28144917/152952284-9ce6fb49-562b-42c7-8d63-ed274ae01399.png)|
 
+#### Button Örneği ####
+> Wpf Penceresinin ortasına genişliği 75 yuksekliği 40 olan bir button ekleyiniz. Butona her tıklandığında tıklandığında 0 ile 100 arası bir sayıyı butonun üzerinde gösterin.
 
 **XAML kodları**
 ```xaml
+<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200">
+    <Grid>
+
+        <Button
+            x:Name="buton2"
+            Content="Tıklayınız.."
+            FontSize="15"
+            FontWeight="Bold"
+            Width="150"
+            Height="60"
+            Background="BlanchedAlmond"
+            BorderBrush="Red"
+            BorderThickness="2"
+            Click="buton2_Click"
+               
+        />
+        
+    </Grid>
+</Window>
 
 ```
 
 **C# kodları**
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp15
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void buton2_Click(object sender, RoutedEventArgs e)
+        {
+            Random random = new Random();
+            int rastgeleSayi = random.Next(1, 100);
+            buton2.Content = $"Tıklayınız : {rastgeleSayi}";
+
+
+        }
+    }
+}
 
 ```
 ### 4. CheckBox  ### 
