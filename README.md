@@ -10,8 +10,9 @@
 
 
 ### 2. Bölüm WPF Layout(Yerleşim) Kavramları ###
-1. [Grid Panel Kullanımı]()
 2. [Stack Panel Kullanımı]()
+1. [Border Panel Kullanımı]()
+2. [Grid Panel Kullanımı]()
 3. [Wrap Panel Kullanımı]()
 4. [Dock Panel Kullanımı]()
 5. [Canvas Panel Kullanımı]()
