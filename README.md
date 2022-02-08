@@ -10,8 +10,8 @@
 
 
 ### 2. Bölüm WPF Layout(Yerleşim) Kavramları ###
-2. [Stack Panel Kullanımı]()
-1. [Border Panel Kullanımı]()
+2. [Stack Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/StackPanel.md)
+1. [Border Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
 2. [Grid Panel Kullanımı]()
 3. [Wrap Panel Kullanımı]()
 4. [Dock Panel Kullanımı]()
