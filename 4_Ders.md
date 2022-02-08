@@ -11,12 +11,12 @@
     8. Oluşturulan border içerisine boş bir grid oluşturunuz.
     9. Oluşturulan grid'in içerisinde
     
-	a. Sol Üst Köşeye label ekleyin (İçeriği "Galatasaray" arkaplan rengi "red" ön plan rengi "yellow" olacak  )
-	b. Sağ Üst Köşeye label ekleyin (İçeriği "Fenerbahçe" arkaplan rengi "blue" ön plan rengi "yellow" olacak genişiği 100px yüksekliği 40px olacak  )
-	c. Sol alt Köşeye label ekleyin (İçeriği "Anadolu Efes" arkaplan rengi "blue" ön plan rengi "white" olacak genişiği 100px yüksekliği 40px olacak  )
-	d. Sağ alt Köşeye label ekleyin (İçeriği "Beşiktaş" arkaplan rengi "black" ön plan rengi "white" olacak genişiği 100px yüksekliği 40px olacak  )
-	e. Tüm Labellerin genişiği 100px yüksekliği 40px ve içerisindeki yazılar dikeyde ve yatayda ortalı olacak.
-	f. Tüm labelleri köşelerden 15px uzaklıkta olacak.
+		a. Sol Üst Köşeye label ekleyin (İçeriği "Galatasaray" arkaplan rengi "red" ön plan rengi "yellow" olacak  )
+		b. Sağ Üst Köşeye label ekleyin (İçeriği "Fenerbahçe" arkaplan rengi "blue" ön plan rengi "yellow" olacak genişiği 100px yüksekliği 40px olacak  )
+		c. Sol alt Köşeye label ekleyin (İçeriği "Anadolu Efes" arkaplan rengi "blue" ön plan rengi "white" olacak genişiği 100px yüksekliği 40px olacak  )
+		d. Sağ alt Köşeye label ekleyin (İçeriği "Beşiktaş" arkaplan rengi "black" ön plan rengi "white" olacak genişiği 100px yüksekliği 40px olacak  )
+		e. Tüm Labellerin genişiği 100px yüksekliği 40px ve içerisindeki yazılar dikeyde ve yatayda ortalı olacak.
+		f. Tüm labelleri köşelerden 15px uzaklıkta olacak.
 	
     10. Gridin ortasında 70px genişliğinde ve 70 px yükseliğinde içeriği "Tıklayınız." olan bir buton ekleyin.
     11. Buton Seçili iken properties/event bölümünden "click" olayına "tiklanmaMetodu" adinda bir metod ekleyin. 
