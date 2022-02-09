@@ -1,10 +1,10 @@
 ## WPF (Windows Presentation Foundation) Nedir ##
-> WPF  görsel yönden etkileyici grafiksel kullanıcı arayüzleri yaratmmak için kullanılan UI(User Interface) framework'üdür. WPF, .Net ailesinin bir üyesidir ve bundan dolayı  .NET framework'ünün bir parçası olarak çalışacağı sisteme kurulur. Visual Studio IDE ile geliştirilir.
+> WPF, grafik tabanlı kullanıcı arayüzleri yaratmak için kullanılan bir UI(User Interface) framework'üdür. WPF, .Net ailesinin bir üyesidir ve bundan dolayı  .NET framework'ünün bir parçası olarak çalışacağı sisteme kurulur. Visual Studio IDE ile geliştirilir.
 
-> WPF uygulamalarında kullanıcı arayüzü oluşturmak için XAML (Extensible Application Markup Language) kullanılır. XAML, WPF'in kullanıcı arayüzü geliştirmek için kullandığı script dilinin adıdır. C# ise WPF'in arka planında kullanılan programlama dilidir.
+> WPF uygulamalarında kullanıcı arayüzü oluşturmak için XAML (Extensible Application Markup Language) kullanılır. XAML, WPF'in kullanıcı arayüzü geliştirmek için kullandığı script dilinin adıdır. C# ise WPF'in arka planında kullanılan programlama dilidir.(WPF'in arka planında Visual basic programlama dili ile de geliştirme yapılabilir)
 
 ### İlk Uygulama ###
-> Aşağıdaki ilk Uygulamamızda bir TextBlock nesnesi kullandık ve ekranda "Merhaba WPF Uygulaması" mesajını yazdırdık.
+> Aşağıdaki ilk Uygulamamızda bir Label nesnesi kullandık ve ekranda "Merhaba WPF Uygulaması" mesajını yazdırdık.
 
 ```xml
 <Window x:Class="WpfApp1.MainWindow"
@@ -16,9 +16,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="65">
+        <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="65">
             Merhaba WPF Uygulaması
-        </TextBlock>
+        </Label>
         
        
     </Grid>
