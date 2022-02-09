@@ -4,7 +4,7 @@
 > WPF uygulamalarında kullanıcı arayüzü oluşturmak için XAML (Extensible Application Markup Language) kullanılır. XAML, WPF'in kullanıcı arayüzü geliştirmek için kullandığı script dilinin adıdır. C# ise WPF'in arka planında kullanılan programlama dilidir.(WPF'in arka planında Visual basic programlama dili ile de geliştirme yapılabilir)
 
 ### İlk Uygulama ###
-> Aşağıdaki ilk Uygulamamızda bir Label nesnesi kullandık ve ekranda "Merhaba WPF Uygulaması" mesajını yazdırdık.
+> Aşağıdaki ilk Uygulamamızda Ana Penceremizin(Window) içerisinde bir Label nesnesi kullandık ve ekranda "Merhaba WPF Uygulaması" mesajını yazdırdık.
 
 ```xml
 <Window x:Class="WpfApp1.MainWindow"
