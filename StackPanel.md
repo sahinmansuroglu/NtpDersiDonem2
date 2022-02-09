@@ -12,3 +12,32 @@
 |||
 |||
 
+
+**Örnek**
+
+![image](https://user-images.githubusercontent.com/28144917/153192812-2990ed51-6509-498c-bfe5-cbc0d9780cbd.png)
+
+
+```csharp
+<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300  " Width="300" >
+    <StackPanel Margin="30">
+        <Label Content="Lütfen Favori  Spor Dalınızı Seçiniz." FontSize="14"/>
+        <RadioButton Margin="15,15,0,0">Basketbol</RadioButton>
+        <RadioButton Margin="15,15,0,0">Futbol</RadioButton>
+        <RadioButton Margin="15,15,0,0">Voleybol</RadioButton>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Oyla" Margin="5" MinWidth="60"></Button>
+            <Button Content="Çıkış" Margin="5" MinWidth="60"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
+
+```
+
