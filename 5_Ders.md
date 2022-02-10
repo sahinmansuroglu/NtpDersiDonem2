@@ -409,15 +409,118 @@ namespace WpfApp15
 |:--------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/153394884-27edcba3-b333-4a54-b222-d6dc04b7d359.png)|![image](https://user-images.githubusercontent.com/28144917/153394921-971e5938-4de5-49e5-be2e-0c6a01e3ebbd.png)|
 |![image](https://user-images.githubusercontent.com/28144917/153394551-fad381d3-89db-4c91-9d34-8b2f7d14c72a.png)|![image](https://user-images.githubusercontent.com/28144917/153394599-4ad3aa27-38e1-4925-b456-b22cf38cc94f.png)|
+
+#### RadioButton Örneği ####
+> Aşağıdaki Ekran görüntüsünü tasarlayınız. Ardından onayla butonuna tıklandığında girilen metini seçilen renkte olacak şekilde kırmızı çerçeveli label içerisinde görüntüleyen c# kodunu yazınız.
+![image](https://user-images.githubusercontent.com/28144917/153409890-872931e8-b985-4508-a9e4-00540fa30519.png)
+
+
 **XAML kodları**
 
 ```xaml
+<Window x:Class="WpfApp18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp18"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="240" Width="200">
+    <Border 
+        Background="LightBlue"
+        Margin="5"
+        CornerRadius="5"
+        Padding="10">
+    <StackPanel Orientation="Vertical">
+            <Label Content="Renk Seçiniz."
+                   HorizontalContentAlignment="Center"
+                   BorderThickness="0 0 0 2"
+                   BorderBrush="DarkBlue"
+                   /> 
+
+            <StackPanel Orientation="Horizontal" Margin="10" >
+                <RadioButton x:Name="rbKirmizi"  Content="Kırmızı"/>
+                <RadioButton  x:Name="rbMavi" Content="Mavi" Margin="15 0 0 0"/>
+            </StackPanel>
+        <Label Content="Metin Giriniz"
+                HorizontalContentAlignment="Center"
+                   BorderThickness="0 0 0 2"
+                   BorderBrush="DarkBlue"/>
+        <TextBox x:Name="txtMetin" Margin="10" Height="25" />
+        <Button 
+            x:Name="btnOnayla" 
+            Content="Onayla" 
+            Click="btnOnayla_Click"/>
+
+        <Label x:Name="lblBilgi"
+               Height="30" 
+               BorderThickness="1"
+               BorderBrush="LightCoral"
+               Margin="5"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"/>
+
+
+
+
+
+
+
+    </StackPanel>
+
+    </Border>
+
+
+</Window>
 
 ```
 
 
 **C# kodları**
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp18
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        
+
+        private void btnOnayla_Click(object sender, RoutedEventArgs e)
+        {
+            if (rbKirmizi.IsChecked==true)
+            {
+                lblBilgi.Foreground = Brushes.Red;
+            }
+            if (rbMavi.IsChecked == true)
+            {
+                lblBilgi.Foreground = Brushes.Blue;
+            }
+            lblBilgi.Content = txtMetin.Text;
+        }
+    }
+}
 
 ```
 ### 6. ComboBox  ### 
