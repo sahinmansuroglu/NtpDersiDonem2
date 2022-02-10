@@ -28,3 +28,5 @@
 **Ekran Çıktısı**
 
 ![image](https://user-images.githubusercontent.com/28144917/152687981-3f973733-4009-420e-a724-0a3d70dbcd7e.png)
+
+**Window Nesnesinin özellikleri**
