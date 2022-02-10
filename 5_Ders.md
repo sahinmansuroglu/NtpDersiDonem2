@@ -412,6 +412,7 @@ namespace WpfApp15
 
 #### RadioButton Örneği ####
 > Aşağıdaki Ekran görüntüsünü tasarlayınız. Ardından onayla butonuna tıklandığında girilen metini seçilen renkte olacak şekilde kırmızı çerçeveli label içerisinde görüntüleyen c# kodunu yazınız.
+
 ![image](https://user-images.githubusercontent.com/28144917/153409890-872931e8-b985-4508-a9e4-00540fa30519.png)
 
 
