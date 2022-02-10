@@ -194,8 +194,104 @@ namespace WpfApp15
 
 ```
 #### Button Örneği-2 ####
-> Wpf Penceresinin ortasına genişliği 75 yuksekliği 40 olan contenti "Tıklayınız" olan bir button ekleyiniz. Butona tıklanıldığında pencerenin sol üst köşesine Contenti "buton1" sağ üst köşesine de Contenti "buton2" olan bir buton ekletiniz. buton1'e tıklandığında "buton1 e tıkladınız"  buton2'e tıklandığında ise "buton2 ye tıkladınız" şekli ne mesaj görüntülesin
+> Wpf Penceresinin ortasına genişliği 75px, yuksekliği 40px,  content'i "Tıklayınız" olan bir button ekleyiniz. Butona tıklanıldığında pencerenin sol üst köşesine Content'i "Buton1", sağ üst köşesine de Content'i "Buton2" olan bir buton ekletiniz. Buton1'e tıklandığında "Buton1 e tıkladınız"  Buton2'e tıklandığında ise "Buton2 ye tıkladınız" şekli ne mesaj görüntülesin
+**XAML kodları**
 
+```xaml
+<Window x:Class="WpfApp18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp18"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Grid x:Name="grid1" >
+        <Button 
+            x:Name="btnTikla"
+            Content="Tıklayınız "
+            Width="75"
+            Height="40"
+            Click="btnTikla_Click"  
+ 
+            />
+    </Grid>
+</Window>
+
+```
+**C# kodları**
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp18
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void btnTikla_Click(object sender, RoutedEventArgs e)
+        {
+            Button btn1 = new Button
+            {
+                Content = "Buton1",
+                Width = 100,
+                Height = 40,
+                VerticalAlignment=VerticalAlignment.Top,
+                HorizontalAlignment=HorizontalAlignment.Left
+
+            };
+
+            Button btn2 = new Button
+            {
+                Content = "Buton2",
+                Width = 100,
+                Height = 40,
+                VerticalAlignment = VerticalAlignment.Top,
+                HorizontalAlignment = HorizontalAlignment.Right
+
+            };
+
+            btn1.Click += Btn1_Click;
+            btn2.Click += Btn2_Click;
+
+            grid1.Margin = new Thickness(10);
+
+            grid1.Children.Add(btn1);
+            grid1.Children.Add(btn2);
+        }
+
+        private void Btn2_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Buton2'ye tıklandı");
+        }
+
+        private void Btn1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Buton1'e tıklandı");
+        }
+    }
+}
+
+```
 ### 4. CheckBox  ### 
 > Onay kutusu, kullanıcının ikili bir seçim yapmasına, yani iki olası durumdan sadece birin seçebilmesini sağlayan UI nesnesidir.
 
