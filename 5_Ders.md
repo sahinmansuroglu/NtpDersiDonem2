@@ -8,6 +8,10 @@
 |![image](https://user-images.githubusercontent.com/28144917/152944859-9424b0be-984f-4c4b-946f-4c1d0de1442b.png)|![image](https://user-images.githubusercontent.com/28144917/152944893-1905bf52-531d-4386-a0bd-b3ee43cf0c29.png)| 
 |![image](https://user-images.githubusercontent.com/28144917/152947779-58081717-514a-4dbc-8192-e93c848e9b78.png)|![image](https://user-images.githubusercontent.com/28144917/152947829-cbfb5fdb-773e-4ec7-817e-bece7787cc18.png)|
 
+### 2. Textblock  ### 
+> Ekranda metin Görüntülüyebilmek kullanılan UI nesnesidir. (Bir ve birden fazla satırdan oluşan veriler için kullanılabilir)
+
+| Örnek Kod |Ekran Görüntüsü|
 
 ### 2. TextBox  ### 
 > TextBox kullanıcıdan veri almak için kullanılan UI nesnesidir.
