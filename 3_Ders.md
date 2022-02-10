@@ -93,8 +93,8 @@
 |![image](https://user-images.githubusercontent.com/28144917/152928190-5eaff5f4-6309-4bad-9af0-237ca3b598a7.png)|![image](https://user-images.githubusercontent.com/28144917/152928212-273fefb8-c731-4332-9a56-72d6040521d8.png)| 
 |![image](https://user-images.githubusercontent.com/28144917/152928393-0ae1420a-e0e4-4e71-99db-2fffc60c81be.png)|![image](https://user-images.githubusercontent.com/28144917/152928439-f8f239aa-1f92-47c6-9616-76fe1d6052b4.png)|
 
-### 9. VerticalAlignment  ve HorizontalAlignment Özellikleri  ##
-> VerticalAlignment  ve HorizontalAlignment özellikleri  bir nesnenin içeriğini dikeyde ve yatayda hizalamak için kullanılır.
+### 9. VerticalContentAlignment  ve HorizontalContentAlignment Özellikleri  ##
+> VerticalContentAlignment  ve HorizontalContentAlignment özellikleri  bir nesnenin içeriğini dikeyde ve yatayda hizalamak için kullanılır.
 
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
