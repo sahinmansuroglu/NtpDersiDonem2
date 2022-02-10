@@ -118,7 +118,7 @@ namespace WpfApp15
 |![image](https://user-images.githubusercontent.com/28144917/152952727-bdc6f3d4-aad4-4011-a80c-04f725134f1c.png)|![image](https://user-images.githubusercontent.com/28144917/152952669-f1aa21d6-d7d9-4678-ad92-f4b16cafda75.png)|
 |![image](https://user-images.githubusercontent.com/28144917/152952338-00d488d2-a03c-4e1b-b631-ac5eb34108ee.png)|![image](https://user-images.githubusercontent.com/28144917/152952284-9ce6fb49-562b-42c7-8d63-ed274ae01399.png)|
 
-#### Button Örneği ####
+#### Button Örneği-1 ####
 > Wpf Penceresinin ortasına genişliği 75 yuksekliği 40 olan bir button ekleyiniz. Butona her tıklandığında tıklandığında 0 ile 100 arası bir sayıyı butonun üzerinde gösterin.
 
 **XAML kodları**
@@ -193,6 +193,9 @@ namespace WpfApp15
 }
 
 ```
+#### Button Örneği-2 ####
+> Wpf Penceresinin ortasına genişliği 75 yuksekliği 40 olan contenti "Tıklayınız" olan bir button ekleyiniz. Butona tıklanıldığında pencerenin sol üst köşesine Contenti "buton1" sağ üst köşesine de Contenti "buton2" olan bir buton ekletiniz. buton1'e tıklandığında "buton1 e tıkladınız"  buton2'e tıklandığında ise "buton2 ye tıkladınız" şekli ne mesaj görüntülesin
+
 ### 4. CheckBox  ### 
 > Onay kutusu, kullanıcının ikili bir seçim yapmasına, yani iki olası durumdan sadece birin seçebilmesini sağlayan UI nesnesidir.
 
