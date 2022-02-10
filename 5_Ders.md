@@ -403,13 +403,13 @@ namespace WpfApp15
 
 ```
 ### 5. RadioButton  ### 
-> İki yada daha çok seçenek içerisinden seçin yapabilmek için kullanılan UI nesnesidir.
+> İki yada daha çok seçenek içerisinden tek bir seçin yapabilmek için kullanılan UI nesnesidir.
 
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|||
-|||
-
+|![image](https://user-images.githubusercontent.com/28144917/153394884-27edcba3-b333-4a54-b222-d6dc04b7d359.png)|![image](https://user-images.githubusercontent.com/28144917/153394921-971e5938-4de5-49e5-be2e-0c6a01e3ebbd.png)
+|
+|![image](https://user-images.githubusercontent.com/28144917/153394551-fad381d3-89db-4c91-9d34-8b2f7d14c72a.png)|![image](https://user-images.githubusercontent.com/28144917/153394599-4ad3aa27-38e1-4925-b456-b22cf38cc94f.png)|
 **XAML kodları**
 
 ```xaml
