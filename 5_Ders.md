@@ -12,6 +12,9 @@
 > Ekranda metin Görüntülüyebilmek kullanılan UI nesnesidir. (Bir ve birden fazla satırdan oluşan veriler için kullanılabilir)
 
 | Örnek Kod |Ekran Görüntüsü|
+|:--------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/153364535-2ffbf114-af75-42c7-aa5e-ba0183b5824c.png)|![image](https://user-images.githubusercontent.com/28144917/153364575-7c2cc814-7527-4a55-b8d5-f1af48e4f671.png)|
+|![image](https://user-images.githubusercontent.com/28144917/153364737-22691e18-25f1-4f95-bc69-a88a862c2be3.png)|![image](https://user-images.githubusercontent.com/28144917/153364764-e776e69e-41eb-4a20-9475-1aa9ca482ce6.png)|
 
 ### 2. TextBox  ### 
 > TextBox kullanıcıdan veri almak için kullanılan UI nesnesidir.
