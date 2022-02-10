@@ -24,7 +24,7 @@
                VerticalAlignment="Top" 
                Width="160"/>
             
-        <TextBox x:Name="textBox" 
+        <TextBox x:Name="txtAdsoyad" 
                  HorizontalAlignment="Left" 
                  Height="33" 
                  Margin="121,46,0,0" 
@@ -32,14 +32,14 @@
                  VerticalAlignment="Top" 
                  Width="167"/>
             
-        <Button x:Name="button" 
+        <Button x:Name="btnEkle" 
                 Content="Listeye Ekle" 
                 HorizontalAlignment="Left" 
                 Height="33" Margin="312,46,0,0" 
                 VerticalAlignment="Top" 
                 Width="186"/>
             
-        <ListBox x:Name="listBox" 
+        <ListBox x:Name="lstAdSoyad" 
                  HorizontalAlignment="Left" 
                  Height="128" 
                  Margin="41,106,0,0" 
@@ -61,13 +61,13 @@
 > Butona'a tıklama olayı eklendikten sonra Button'umuzun XAML kodu aşağıdaki gibi olmuştur.
 
 ```XAML
-<Button x:Name="button1" 
+<Button x:Name="btnEkle" 
                 Content="Listeye Ekle" 
                 HorizontalAlignment="Left" 
                 Height="33" Margin="312,46,0,0" 
                 VerticalAlignment="Top" 
                 Width="186" 
-                Click="ListeyeEkleClick"/>
+                Click="btnEkleClick"/>
 ```
 
 > Tasarımın  c# kod kısmı aşağıdaki gibi görünmektedir.
@@ -99,7 +99,7 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void ListeyeEkleClick(object sender, RoutedEventArgs e)
+        private void btnEkleClick(object sender, RoutedEventArgs e)
         {
 
         }
@@ -113,9 +113,9 @@ namespace WpfApp1
 
 
 ```csharp
-        private void ListeyeEkleClick(object sender, RoutedEventArgs e)
+        private void btnEkleClick(object sender, RoutedEventArgs e)
         {
-            listBox.Items.Add(textBox1.Text);   
+            lstAdSoyad.Items.Add(txtAdsoyad.Text);   
         }
 ```
 
