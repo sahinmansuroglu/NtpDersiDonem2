@@ -405,6 +405,10 @@ namespace WpfApp15
 ### 5. RadioButton  ### 
 > İki yada daha çok seçenek içerisinden tek bir seçin yapabilmek için kullanılan UI nesnesidir.
 
+**Not:** 
+[Stack Panel Kullanımı ile ilgili bilgi almak için buraya tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/StackPanel.md)
+[Border Panel Kullanımı ile ilgili bilgi almak için buraya tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
+
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/153394884-27edcba3-b333-4a54-b222-d6dc04b7d359.png)|![image](https://user-images.githubusercontent.com/28144917/153394921-971e5938-4de5-49e5-be2e-0c6a01e3ebbd.png)|
