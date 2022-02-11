@@ -406,7 +406,9 @@ namespace WpfApp15
 > İki yada daha çok seçenek içerisinden tek bir seçin yapabilmek için kullanılan UI nesnesidir.
 
 **Not:** 
+
 [Stack Panel Kullanımı ile ilgili bilgi almak için buraya tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/StackPanel.md)
+
 [Border Panel Kullanımı ile ilgili bilgi almak için buraya tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
 
 | Örnek Kod |Ekran Görüntüsü|
