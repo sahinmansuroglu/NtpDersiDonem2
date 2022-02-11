@@ -76,6 +76,8 @@
 ### 7. Padding ##
 > Padding özelliği bir nesnenin içerisinde bulunan nesnelerin soldan, yukarıdan, sağdan ve aşağıdan uzaklığını ayarlamak için kullanılır.
 
+[Border Panel Kullanımı ile ilgili bilgi almak için buraya tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
+
 **Örnekler**
 
 | Örnek Kod |Ekran Görüntüsü|
