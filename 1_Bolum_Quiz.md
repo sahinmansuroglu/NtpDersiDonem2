@@ -1,7 +1,7 @@
 ##  Quiz Sorusu ##
 
-[Proje Dosyası](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8053909/WpfApp1.zip)
 
+[Proje Dosyası](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8054260/WpfApp1.zip)
 
 ![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)
 
