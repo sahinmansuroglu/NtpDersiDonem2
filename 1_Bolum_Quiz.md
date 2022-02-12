@@ -3,7 +3,8 @@
 
 | Ekran Görüntüsü |Arayuzün Basit Anahat Yapısı|Arayuzün Ayrıntılı Anahat Yapısı|
 |:--------:|:----------------------------:|:----------------------------:|
-|![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)|![image](https://user-images.githubusercontent.com/28144917/153723262-8cd77405-75e2-4d21-88dc-565e481d6d52.png)|![image](https://user-images.githubusercontent.com/28144917/153723517-97053586-71e7-444c-ae4c-3d07ed5bd39e.png)|
+|![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)|![image](https://user-images.githubusercontent.com/28144917/153724252-bcd19047-0bbf-4663-b88c-c98392289c0c.png)
+|![image](https://user-images.githubusercontent.com/28144917/153724232-4a029462-59b8-477b-9d9d-465586219861.png)|
 
 [Uygulamanın Tamamlanmış Hali için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8054260/WpfApp1.zip)
 
