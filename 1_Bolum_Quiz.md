@@ -1,11 +1,15 @@
 ##  Quiz Sorusu ##
 
 
+| Ekran Görüntüsü |Arayuz Nesne Yapısı|
+|:--------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)|
+
+![image](https://user-images.githubusercontent.com/28144917/153723262-8cd77405-75e2-4d21-88dc-565e481d6d52.png)|
+
 [Proje Dosyası](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8054260/WpfApp1.zip)
 
-![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)
 
-![image](https://user-images.githubusercontent.com/28144917/153723262-8cd77405-75e2-4d21-88dc-565e481d6d52.png)
 
 
 ```xaml
