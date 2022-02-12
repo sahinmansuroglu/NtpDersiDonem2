@@ -16,7 +16,8 @@
 5. Beşinci adımda oluşturuluna 5 Adet Border nesnesinin Özellikleri:CornerRadius="10,10,10,10" Background="White" Margin="0 10 0 10"
 7. Beşinci adımda oluşturuluna 5 Adet Border nesnesinin herbirinin içerisine genişliği 200 olan Grid nesnesi oluşturun.
 8. Border1 içerisindeki Grid'in içerisine 
-   - Content'i "1. Sayı olan"
+   - Content'i "1. Sayı" olan aşağıdaki özelliklerde bir label nesnesi ekleyin
+      -  VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"
 10. sfdsf
 11.  
 ### Çözümün XAML kodları ###
