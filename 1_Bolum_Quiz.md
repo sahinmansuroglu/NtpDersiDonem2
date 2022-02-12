@@ -1,7 +1,7 @@
 ##  Quiz Sorusu ##
 
 
-| Ekran Görüntüsü |Arayuzün Basit Anahat Yapısı|Arayuzün Ayrıntılı Anahat Yapısı|
+| Ekran Görüntüsü |Arayüzün Basit Anahat Yapısı|Arayüzün Ayrıntılı Anahat Yapısı|
 |:--------:|:----------------------------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)|![image](https://user-images.githubusercontent.com/28144917/153724252-bcd19047-0bbf-4663-b88c-c98392289c0c.png)|![image](https://user-images.githubusercontent.com/28144917/153724232-4a029462-59b8-477b-9d9d-465586219861.png)|
 
