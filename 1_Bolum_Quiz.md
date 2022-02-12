@@ -7,10 +7,12 @@
 
 [Uygulamanın Tamamlanmış Hali için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8054260/WpfApp1.zip)
 
-> **Aşağıda Verilenleri sırasıyla uygulayarak yukarıda verilen uygulamayı tasarlayını.**
+> **Aşağıda Verilenleri sırasıyla uygulayarak yukarıda görselleri verilen WPF uygulamasını   tasarlayınız.**
  
-1. sada
-2. 
+1. Ana Window'un yüksekliğini 300px genişliğini de 280px olarak ayarlayınız.
+2. Ana Window'un içerisinde "BorderEnDis" adında  olan bir border oluşturun. (özellikleri: CornerRadius="25" Background="#FF8000FF" Padding="20" )
+3. "BorderEnDis" adlı border'in içerisinde adı "Grid1" ve genişliği 250px olan bir grid olulşturun.
+4. "Grid1" adlı grid'in içerisinde  StackPanelDikey adında bir StackPanel oluşturunuz(özellikleri: Orientation="Vertical"  VerticalAlignment="Top" Margin="10")
 
 
 
