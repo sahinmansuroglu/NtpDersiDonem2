@@ -7,7 +7,7 @@
 3. [WPF nesnelerinin ortak Özellikleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
 4. [Ortak Özellikler ile ilgili Örnek](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/4_Ders.md) 
 5. [Temel WPF nesneleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/5_Ders.md) 
-
+6. [Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/1_Bolum_Quiz.md) 
 
 ### 2. Bölüm WPF Layout(Yerleşim) Kavramları (Henüz Hazdır Değil) ###
 1. [Border Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
