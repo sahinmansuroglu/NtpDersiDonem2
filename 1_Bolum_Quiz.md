@@ -41,7 +41,7 @@
       -  VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"
     - Adı "lblSonuc", Content'i "?" olan aşağıdaki özelliklerde bir label nesnesi ekleyin
       -  VerticalContentAlignment="Center" Width="100" Margin="2" HorizontalAlignment="Right"
-14. Buton'un tıklanma olayı için bir metod ekleyiniz. ve Butona tıklandığında girilen sayılara seçilen işlemi yaptırıp sonucu lblSonuc adlı Label nesnesinde görüntületiniz.
+14. Buton'un tıklanma olayı için bir metod ekleyiniz ve bu metot içerisinde butona tıklandığında girilen sayılara seçilen işlemi yaptırtıp sonucu lblSonuc adlı Label nesnesinde görüntületiniz.
 15. Son olarak ana window'a  aşağıdaki özellikleri ekleyiniz.
     -  WindowStyle="None"          AllowsTransparency="True"          Background="Transparent"
 
