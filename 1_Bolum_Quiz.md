@@ -3,10 +3,8 @@
 [Proje Dosyası](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8053909/WpfApp1.zip)
 
 
+![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)
 
-![image](https://user-images.githubusercontent.com/28144917/153717856-e71ac89f-fa7f-49d9-9bec-202053aa166d.png)
-
-![image](https://user-images.githubusercontent.com/28144917/153717906-6f5e18d5-7c1c-4bc0-b0b0-c6113c62afc1.png)
 
 
 ```xaml
@@ -17,79 +15,70 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="700" 
+        Title="MainWindow" Height="300" Width="280" 
         WindowStyle="None"
-        AllowsTransparency="True"
+    AllowsTransparency="True"
         Background="Transparent"
         >
-    <Grid>
-        <Border CornerRadius="25" Background="#FF8000FF" Padding="20">
-            <Grid>
-                <StackPanel Orientation="Horizontal" Height="40" VerticalAlignment="Top" Margin="10">
-                    <Border CornerRadius="10,0,0,10" Background="White">
-                        <Label Content="1. Sayı" VerticalContentAlignment="Center" Width="150" FontWeight="Bold" />
+    
+        <Border x:Name="BorderEnDis" CornerRadius="25" Background="#FF8000FF" Padding="20">
+            <Grid x:Name="Grid1" Width="250" >
+                <StackPanel x:Name="StackPanelDikey" Orientation="Vertical"  VerticalAlignment="Top" Margin="10" >
+                    <Border x:Name="Border1" CornerRadius="10,10,10,10" Background="White" Margin="0 10 0 10">
+                        <Grid Width="200">
+                            <Label Content="1. Sayı" VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="txtSayi1" VerticalContentAlignment="Center" Width="100" Margin="2" HorizontalAlignment="Right" />
+                        </Grid>
+                       
                     </Border>
-                    <Border CornerRadius="0,10,10,0" Background="White" Padding="5">
-                        <TextBox x:Name="txtSayi1" VerticalContentAlignment="Center" Width="150" />
-                    </Border>
+                    <Border x:Name="Border2" CornerRadius="10,10,10,10" Background="White" Margin="0 0 0 10">
+                        <Grid Width="200">
+                            <Label Content="2. Sayı" VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="txtSayi2" VerticalContentAlignment="Center" Width="100" Margin="2" HorizontalAlignment="Right" />
+                        </Grid>
 
-                    <Border CornerRadius="10,0,0,10" Background="White" Margin="20 0 0 0 ">
-                        <Label Content="2. Sayı" VerticalContentAlignment="Center" Width="150" FontWeight="Bold"  />
                     </Border>
-                    <Border CornerRadius="0,10,10,0" Background="White" Padding="5">
-                        <TextBox x:Name="txtSayi2" VerticalContentAlignment="Center" Width="150" />
-                    </Border>
+                    <Border x:Name="Border3" CornerRadius="10,10,10,10" Background="White" Height="30">
+                        <StackPanel Orientation="Horizontal">
+                        <RadioButton x:Name="rbTopla" GroupName="islem" Content="Topla" VerticalAlignment="Center" FontWeight="Bold" Margin="5" />
+                        <RadioButton x:Name="rbCikart" GroupName="islem" Content="Çıkart" VerticalAlignment="Center" FontWeight="Bold" Margin="5"/>
+                        <RadioButton x:Name="rbCarp" GroupName="islem" Content="Çarp" VerticalAlignment="Center" FontWeight="Bold" Margin="5"/>
+                        <RadioButton x:Name="rbBol" GroupName="islem" Content="Böl" VerticalAlignment="Center" FontWeight="Bold" Margin="5"/>
 
-                </StackPanel>
+                    </StackPanel>
 
-               
-
-                <StackPanel Orientation="Horizontal" Height="40" VerticalAlignment="Top" Margin="10 70,0,0" HorizontalAlignment="Center">
-                    <Border CornerRadius="10,10,10,10" Background="White" Width="70" Padding="5,0,0,0" Margin="20 0 0 0">
-                        <RadioButton x:Name="rbTopla" GroupName="islem" Content="Topla" VerticalAlignment="Center" FontWeight="Bold" />
                     </Border>
-                    <Border CornerRadius="10,10,10,10" Background="White" Width="70" Padding="5,0,0,0" Margin="20 0 0 0">
-                        <RadioButton x:Name="rbCikart" GroupName="islem" Content="Çıkart" VerticalAlignment="Center" FontWeight="Bold" />
-                    </Border>
-                    <Border CornerRadius="10,10,10,10" Background="White" Width="70" Padding="5,0,0,0" Margin="20 0 0 0">
-                        <RadioButton x:Name="rbCarp" GroupName="islem" Content="Çarp" VerticalAlignment="Center" FontWeight="Bold" />
-                    </Border>
-                    <Border CornerRadius="10,10,10,10" Background="White" Width="70" Padding="5,0,0,0" Margin="20 0 0 0">
-                        <RadioButton x:Name="rbBol" GroupName="islem" Content="Böl" VerticalAlignment="Center" FontWeight="Bold" />
-                    </Border>
-
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal"  Height="50" VerticalAlignment="Top" Margin="10 140,0,0" HorizontalAlignment="Center">
-                    <Border CornerRadius="10,10,10,10" Background="#FF1A1123">
+                    <Border x:Name="Border4" CornerRadius="10,10,10,10" Background="#FF1A1123" Margin="0 10 0 0">
                         <Button x:Name="btnHesapla" Content="Hesapla" 
-                                Width="150"
-                                VerticalContentAlignment="Center"
-                                Background="Transparent" BorderThickness="0" 
-                                Margin="15"
-                                FontWeight="Bold"
-                                Foreground="White"
-                                Click="btnHesapla_Click"/>
+                                    Width="150"
+                                    VerticalContentAlignment="Center"
+                                    Background="Transparent" BorderThickness="0" 
+                                    Margin="5"
+                                    FontWeight="Bold"
+                                    Foreground="White"
+                                    Click="btnHesapla_Click"/>
                     </Border>
+                    <Border CornerRadius="10,10,10,10" Background="White" Margin="0 10 0 10">
+                    <Grid Width="200">
+                        <Label Content="Sonuç :" Width="100" HorizontalAlignment="Left" FontWeight="Bold"/>
+                        <Label x:Name="lblSonuc" Content="?" Width="100"  HorizontalAlignment="Right" FontWeight="Bold"/>
+
+                    </Grid>
+
+                </Border>
+            </StackPanel>
+
                
-                    
-                </StackPanel>
+
                 
-                <StackPanel Orientation="Horizontal" Height="30" VerticalAlignment="Top" Margin="10 200,0,0" HorizontalAlignment="Center">
-                    <Border CornerRadius="10,0,0,10" Background="White">
-                        <Label Content="Sonuç :" VerticalContentAlignment="Center" Width="150"  HorizontalContentAlignment="Right" FontWeight="Bold"/>
-                    </Border>
-                    <Border CornerRadius="0,10,10,0" Background="White" >
-                        <Label x:Name="lblSonuc" Content="?" VerticalContentAlignment="Center" Width="150"  HorizontalContentAlignment="Left" FontWeight="Bold"/>
-                    </Border>
 
-
-                </StackPanel>
+             
 
             </Grid>
         </Border>
-    </Grid>
+
 </Window>
+
 
 ```
 
