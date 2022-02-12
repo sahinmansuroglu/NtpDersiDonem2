@@ -35,7 +35,7 @@
     - Oluşturulan Tüm Radio Butonların Özellikleri: VerticalAlignment="Center" FontWeight="Bold" Margin="5"
 12. Border4  içerisindeki aşağıdaki özelliklerde "btnHesapla" adında Content'i "Hesapla" olan bir button nesnesi ekleyiniz.
     - Width="150"   VerticalContentAlignment="Center"  Background="Transparent" 
-    - BorderThickness="0"   rgin="5"   FontWeight="Bold"   Foreground="White"
+    - BorderThickness="0"   Margin="5"   FontWeight="Bold"   Foreground="White"
 13. Border5 içerisindeki Grid'in içerisine 
     - Content'i "Sonuç" olan aşağıdaki özelliklerde bir label nesnesi ekleyin
       -  VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"
