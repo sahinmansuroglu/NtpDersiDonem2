@@ -28,11 +28,11 @@
       -  VerticalContentAlignment="Center" Width="100" Margin="2" HorizontalAlignment="Right"
 10. Border3 içerisine Orientation="Horizontal" özelliğinde bir StackPanel Ekleyiniz.
 11. Border3 içerisindeki StackPanel içerisine;
-   - "rbTopla" adında Content'i "topla" olan radioButton ekleyiniz.
-   - "rbCikart" adında Content'i "Çıkart" olan radioButton ekleyiniz.
-   - "rbCarp" adında Content'i "Çarp" olan radioButton ekleyiniz.
-   - "rbBol" adında Content'i "Böl" olan radioButton ekleyiniz.
-   - Oluşturulan Tüm Radio Butonların Özellikleri: VerticalAlignment="Center" FontWeight="Bold" Margin="5"
+    - "rbTopla" adında Content'i "topla" olan radioButton ekleyiniz.
+    - "rbCikart" adında Content'i "Çıkart" olan radioButton ekleyiniz.
+    - "rbCarp" adında Content'i "Çarp" olan radioButton ekleyiniz.
+    - "rbBol" adında Content'i "Böl" olan radioButton ekleyiniz.
+    - Oluşturulan Tüm Radio Butonların Özellikleri: VerticalAlignment="Center" FontWeight="Bold" Margin="5"
 12. Border4  içerisindeki aşağıdaki özelliklerde "btnHesapla" adında Content'i "Hesapla" olan bir button nesnesi ekleyiniz.
    - Width="150"   VerticalContentAlignment="Center"  Background="Transparent" 
    - BorderThickness="0"   rgin="5"   FontWeight="Bold"   Foreground="White"
