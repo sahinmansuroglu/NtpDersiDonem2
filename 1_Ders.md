@@ -42,7 +42,7 @@ Bu, son kullanıcının pencerenizi yeniden boyutlandırıp boyutlandıramayaca�
 Bu özellik pencerenin,  içeriğine uyacak şekilde kendisiniotomatik olarak yeniden boyutlandırabilmesi için kullanılır. Varsayılan, Manuel'dir; bu, pencerenin otomatik olarak yeniden boyutlandırılmadığı anlamına gelir. Diğer seçenekler Width, Height ve WidthAndHeight'tır ve bunların her biri pencere boyutunu otomatik olarak yatay, dikey veya her iki şekilde ayarlayacaktır.
 
 > **Topmost:**
-Varsayılan false'dur, ancak true olarak ayarlanırsa, Pencereniz simge durumuna küçültülmediği sürece diğer pencerelerin üstünde kalacaktır. S
+Varsayılan false'dur, ancak true olarak ayarlanırsa, Pencereniz simge durumuna küçültülmediği sürece diğer pencerelerin üstünde kalacaktır.
 
 > **WindowStartupLocation:**
 
