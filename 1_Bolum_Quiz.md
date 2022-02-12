@@ -13,13 +13,28 @@
 2. Ana Window'un içerisinde "BorderEnDis" adında  olan bir border oluşturun. (özellikleri: CornerRadius="25" Background="#FF8000FF" Padding="20" )
 3. "BorderEnDis" adlı border'in içerisinde  "Grid1" adında ve genişliği 250px olan bir grid oluşturun.
 4. "Grid1" adlı grid'in içerisinde  "StackPanelDikey" adında bir StackPanel oluşturunuz(özellikleri: Orientation="Vertical"  VerticalAlignment="Top" Margin="10")
-5. Beşinci adımda oluşturuluna 5 Adet Border nesnesinin Özellikleri:CornerRadius="10,10,10,10" Background="White" Margin="0 10 0 10"
-7. Beşinci adımda oluşturuluna 5 Adet Border nesnesinin herbirinin içerisine genişliği 200 olan Grid nesnesi oluşturun.
+5. StackPanelDikey adlı StackPanel İçerisine "Border1","Border2","Border3", "Border4" ve "Border5" adlarında 5 adet Border nesnesi ekleyin.
+6. Beşinci adımda oluşturuluna 5 Adet Border nesnesinin Özellikleri:CornerRadius="10,10,10,10" Background="White" Margin="0 10 0 10"
+7. "Border1","Border2" ve "Border5" adlı Border nesnesilerinin herbirinin içerisine genişliği 200 olan Grid nesnesi oluşturun.
 8. Border1 içerisindeki Grid'in içerisine 
    - Content'i "1. Sayı" olan aşağıdaki özelliklerde bir label nesnesi ekleyin
       -  VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"
-10. sfdsf
-11.  
+   - adı txtSayi1 olan aşağıdaki özelliklerde bir TextBox nesnesi ekleyin
+      -  VerticalContentAlignment="Center" Width="100" Margin="2" HorizontalAlignment="Right"
+9. Border2 içerisindeki Grid'in içerisine 
+   - Content'i "2. Sayı" olan aşağıdaki özelliklerde bir label nesnesi ekleyin
+      -  VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"
+   - adı txtSayi2 olan aşağıdaki özelliklerde bir TextBox nesnesi ekleyin
+      -  VerticalContentAlignment="Center" Width="100" Margin="2" HorizontalAlignment="Right"
+10. Border3 içerisine Orientation="Horizontal" özelliğinde bir StackPanel Ekleyiniz.
+11. Border3 içerisindeki StackPanel içerisine;
+   - "rbTopla" adında Content'i "topla" olan radioButton ekleyiniz.
+   - "rbCikart" adında Content'i "Çıkart" olan radioButton ekleyiniz.
+   - "rbCarp" adında Content'i "Çarp" olan radioButton ekleyiniz.
+   - "rbBol" adında Content'i "Böl" olan radioButton ekleyiniz.
+   - Oluşturulan Tüm Radio Butonların Özeliikleri: VerticalAlignment="Center" FontWeight="Bold" Margin="5"
+
+
 ### Çözümün XAML kodları ###
 
 ```xaml
