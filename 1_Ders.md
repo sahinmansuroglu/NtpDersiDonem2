@@ -30,20 +30,23 @@
 ![image](https://user-images.githubusercontent.com/28144917/152687981-3f973733-4009-420e-a724-0a3d70dbcd7e.png)
 
 **Window Nesnesinin önemli özellikleri**
-> **Icon:** Pencerenin Sol üst köşesinde pencere başılığının solunda  gösterilen pencere simgesini tanımlamamızı sağlar
+> **Icon:** Pencerenin Sol üst köşesinde ve pencere başılığının solunda  gösterilen pencere simgesini tanımlamamızı sağlar.
+
 > **ResizeMode:**
-Bu, son kullanıcının pencerenizi yeniden boyutlandırıp boyutlandıramayacağını kontrol eder. Varsayılan, CanResize'dır; bu, kullanıcının pencereyi büyütme/simge durumuna küçültme düğmelerini kullanarak veya kenarlardan birini sürükleyerek diğer herhangi bir pencere gibi yeniden boyutlandırmasına olanak tanır. CanMinimize, kullanıcının pencereyi simge durumuna küçültmesine izin verir, ancak ekranı büyütmesine veya büyütüp küçültmesine izin vermez. NoResize, büyütme ve küçültme düğmelerinin kaldırıldığı ve pencerenin daha büyük veya daha küçük sürüklenemeyeceği en katı olanıdır.
+Bu, son kullanıcının pencerenizi yeniden boyutlandırıp boyutlandıramayacağını kontrol eder. Varsayılan, CanResize'dır; bu, kullanıcının pencereyi  yeniden boyutlandırmasına imkan verir. CanMinimize, kullanıcının pencereyi simge durumuna küçültmesine izin verir, ancak ekranı büyütmesine veya büyütüp küçültmesine izin vermez. NoResize, büyütme ve küçültme düğmelerinin kaldırıldığı bir seçenektir.
 
 > **ShowInTaskbar:**
- Varsayılan değer doğrudur, ancak yanlış olarak ayarlarsanız pencereniz Windows görev çubuğunda gösterilmez. Birincil olmayan pencereler veya tepsiye küçültmesi gereken uygulamalar için kullanışlıdır.
+ Varsayılan değer True, ancak false olarak ayarlarsanız pencereniz Windows görev çubuğunda gösterilmez. 
 
 > **SizeToContent:**
-Pencerenin, içeriğine otomatik olarak uyacak şekilde kendisini yeniden boyutlandırmasının gerekip gerekmediğine karar verin. Varsayılan, Manuel'dir; bu, pencerenin otomatik olarak yeniden boyutlandırılmadığı anlamına gelir. Diğer seçenekler Width, Height ve WidthAndHeight'tır ve bunların her biri pencere boyutunu otomatik olarak yatay, dikey veya her iki şekilde ayarlayacaktır.
+Bu özellik pencerenin,  içeriğine uyacak şekilde kendisiniotomatik olarak yeniden boyutlandırabilmesi için kullanılır. Varsayılan, Manuel'dir; bu, pencerenin otomatik olarak yeniden boyutlandırılmadığı anlamına gelir. Diğer seçenekler Width, Height ve WidthAndHeight'tır ve bunların her biri pencere boyutunu otomatik olarak yatay, dikey veya her iki şekilde ayarlayacaktır.
 
 > **Topmost:**
-Varsayılan yanlıştır, ancak true olarak ayarlanırsa, Pencereniz simge durumuna küçültülmediği sürece diğer pencerelerin üstünde kalacaktır. Sadece özel durumlar için kullanışlıdır.
+Varsayılan false'dur, ancak true olarak ayarlanırsa, Pencereniz simge durumuna küçültülmediği sürece diğer pencerelerin üstünde kalacaktır. S
+
 > **WindowStartupLocation:**
 
 Pencerenizin ilk konumunu kontrol eder. Varsayılan, Manuel'dir; bu, pencerenin başlangıçta pencerenizin Üst ve Sol özelliklerine göre konumlandırılacağı anlamına gelir. Diğer seçenekler, pencereyi sahip penceresinin ortasına konumlandıran CenterOwner ve pencereyi ekranın ortasına konumlandıran CenterScreen'dir.
+
 > **WindowState :**
-İlk pencere durumunu kontrol eder. Normal, Maksimize veya Küçültülmüş olabilir. Varsayılan, Normal'dir; bu, pencerenizin ekranı kaplamış veya simge durumuna küçültülmüş olarak başlamasını istemiyorsanız kullanmanız gereken şeydir.
+Pencerenin İlk ekrana gelme durumunu kontrol eder. Normal, Maksimize veya Minimize olabilir. 
