@@ -3,18 +3,17 @@
 
 | Ekran Görüntüsü |Arayuzün Basit Anahat Yapısı|Arayuzün Ayrıntılı Anahat Yapısı|
 |:--------:|:----------------------------:|:----------------------------:|
-|![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)|![image](https://user-images.githubusercontent.com/28144917/153724252-bcd19047-0bbf-4663-b88c-c98392289c0c.png)
-|![image](https://user-images.githubusercontent.com/28144917/153724232-4a029462-59b8-477b-9d9d-465586219861.png)|
+|![image](https://user-images.githubusercontent.com/28144917/153723052-a15cef98-629d-4351-b124-2dcfad03baa4.png)|![image](https://user-images.githubusercontent.com/28144917/153724252-bcd19047-0bbf-4663-b88c-c98392289c0c.png)|![image](https://user-images.githubusercontent.com/28144917/153724232-4a029462-59b8-477b-9d9d-465586219861.png)|
 
 [Uygulamanın Tamamlanmış Hali için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8054260/WpfApp1.zip)
 
 > **Aşağıda Verilenleri sırasıyla uygulayarak yukarıda görselleri verilen WPF uygulamasını   tasarlayınız.**
  
-1. Ana Window'un yüksekliğini 300px genişliğini de 280px olarak ayarlayınız.
+1. Ana Window'un yüksekliğini 300px, genişliğini de 280px olarak ayarlayınız.
 2. Ana Window'un içerisinde "BorderEnDis" adında  olan bir border oluşturun. (özellikleri: CornerRadius="25" Background="#FF8000FF" Padding="20" )
-3. "BorderEnDis" adlı border'in içerisinde adı "Grid1" ve genişliği 250px olan bir grid olulşturun.
-4. "Grid1" adlı grid'in içerisinde  StackPanelDikey adında bir StackPanel oluşturunuz(özellikleri: Orientation="Vertical"  VerticalAlignment="Top" Margin="10")
-
+3. "BorderEnDis" adlı border'in içerisinde  "Grid1" adında ve genişliği 250px olan bir grid oluşturun.
+4. "Grid1" adlı grid'in içerisinde  "StackPanelDikey" adında bir StackPanel oluşturunuz(özellikleri: Orientation="Vertical"  VerticalAlignment="Top" Margin="10")
+5. "StackPanelDikey" adlı StackPanel içerisinde aşağıdaki özelliklerde "Border1", "Border2", "Border3","Border4" ve "Border5" adlarında 5 adet border oluşturunuz.
 
 
 ### Çözümün XAML kodları ###
