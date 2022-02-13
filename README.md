@@ -22,4 +22,9 @@
 1. [WPF Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/1_Ders.md) 
 2. [Bölüm Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Ders.md)  
 3. [Bölüm Cevaplar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
-### 2.  WPF User Control Library ###
+### 3.  WPF User Control Library ###
+
+
+### 4.  Karma ###
+
+1. [WPF - Dependency Properties](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DependencyProperties.md) 
