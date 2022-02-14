@@ -536,16 +536,148 @@ namespace WpfApp18
 |![image](https://user-images.githubusercontent.com/28144917/153815025-1b8af4f5-192d-4252-ba4f-8ec105a29a3e.png)|![image](https://user-images.githubusercontent.com/28144917/153814980-07704f65-75ca-443a-9d76-f4270670083a.png)|
 
 
-####  ComboBox Örnek #### 
+####  ComboBox Örnek ####
+> Aşağıdaki Örnekte Şu işlemler yapılmaktadir;
+        - Herhangi bir şehir seçildiğinde kırmızı kenarlıklı label içerisinde seili şehir gösterilmektedir
+        - Herhangi bir şehir Şehir Sil butonuna tıklandığında seçili şehir combobox'dan sildirilmiştir.
+        - text kutusuna şehir adı girilip Şehir ekle butonuna tıklandığında şehir combobox'a ekletilmiştir.
+
+
+![image](https://user-images.githubusercontent.com/28144917/153820903-46199105-492c-4f77-91b0-bcb4e0a0febb.png)
+
+
 **XAML kodları**
 
 ```xaml
+<Window x:Class="WpfApp19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp19"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="420" Width="350">
+    <Grid>
+
+        <Border Background="LightBlue" 
+                Margin="10"
+                CornerRadius="15">
+            <StackPanel Margin="10" >
+                <Label   Content="Şehir Seçiniz"
+                         FontSize="20"
+                         HorizontalContentAlignment="Center"
+                         BorderThickness="0 0 0 5"
+                         BorderBrush="DarkBlue"
+                         Margin="0 0 0 15"/>
+
+                <ComboBox Name="cbSehir"  
+                          Width="140" 
+                          SelectedValuePath="Content"
+                          SelectionChanged="cbSehir_SelectionChanged"  >
+                    <ComboBoxItem  Content="Adana"/>
+                    <ComboBoxItem Content="Mersin"/>
+                    <ComboBoxItem Content="İzmir"/>
+                    <ComboBoxItem Content="Ankara"/>
+                </ComboBox>
+              
+                <Label Content="Sehir Giriniz"
+                       FontSize="20"
+                         HorizontalContentAlignment="Center"
+                         BorderThickness="0 0 0 5"
+                         BorderBrush="DarkBlue"
+                         Margin="0 0 0 0"/>
+                <TextBox x:Name="txtSehir" Margin="15" FontSize="15" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button x:Name="btnSehirEkle" 
+                        Content="Şehir Ekle" 
+                        Margin="10" 
+                        FontSize="15" 
+                        Padding="0 5 0 5"
+                        Click="btnSehirEkle_Click"  
+                      
+                       />
+                <Button x:Name="btnSehirSil" 
+                        Content="Şehir Sil" 
+                        Margin="10" 
+                        FontSize="15" 
+                        Padding="0 5 0 5"
+                        Click="btnSehirSil_Click"
+                       />
+                <Label Name="lblSeciliSehir" FontSize="10"
+                       BorderBrush="Red"
+                       BorderThickness="2"
+                       Height="40"
+                       Margin="15"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            </StackPanel>
+            
+            
+        </Border>
+        
+    </Grid>
+</Window>
 
 ```
 
 
 **C# kodları**
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp19
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void cbSehir_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            lblSeciliSehir.Content = cbSehir.SelectedValue.ToString();
+          
+            
+        }
+
+        private void btnSehirEkle_Click(object sender, RoutedEventArgs e)
+        {
+            cbSehir.Items.Add(txtSehir.Text);
+        }
+
+        private void btnSehirSil_Click(object sender, RoutedEventArgs e)
+        {
+            if (cbSehir.SelectedIndex==-1)
+            {
+                MessageBox.Show("Lütfen Silinecek Şehir Seçiniz");
+            }
+            else
+            {
+                cbSehir.Items.RemoveAt(cbSehir.SelectedIndex);
+                lblSeciliSehir.Content = "";
+            }
+           
+
+        }
+    }
+}
 
 ```
 ### 7. ListBox  ### 
