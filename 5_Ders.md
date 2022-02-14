@@ -538,6 +538,7 @@ namespace WpfApp18
 
 ####  ComboBox Örnek ####
 > Aşağıdaki Örnekte Şu işlemler yapılmaktadir;
+
         - Herhangi bir şehir seçildiğinde kırmızı kenarlıklı label içerisinde seili şehir gösterilmektedir
         - Herhangi bir şehir Şehir Sil butonuna tıklandığında seçili şehir combobox'dan sildirilmiştir.
         - text kutusuna şehir adı girilip Şehir ekle butonuna tıklandığında şehir combobox'a ekletilmiştir.
