@@ -805,10 +805,10 @@ namespace WpfApp20
 
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|||
-|||
+|![image](https://user-images.githubusercontent.com/28144917/154017392-b5ff0bf8-94f9-49f4-bdf7-71d8ba19b372.png)|![image](https://user-images.githubusercontent.com/28144917/154017463-6634311f-fe1e-4a78-9f39-698f9dc1d934.png)|
+|![image](https://user-images.githubusercontent.com/28144917/154017656-e7eb7737-3027-45da-9483-5e9d25bfe877.png)|![image](https://user-images.githubusercontent.com/28144917/154017613-752c6f9b-f56d-439b-b162-b1421d6a5001.png)|
 
-
+|||
 
 **XAML kodları**
 
