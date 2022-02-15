@@ -540,9 +540,9 @@ namespace WpfApp18
 ####  ComboBox Örnek ####
 > Aşağıdaki Örnekte Şu işlemler yapılmaktadir;
 
-        - Herhangi bir şehir seçildiğinde kırmızı kenarlıklı label içerisinde seili şehir gösterilmektedir
-        - Herhangi bir şehir Şehir Sil butonuna tıklandığında seçili şehir combobox'dan sildirilmiştir.
-        - text kutusuna şehir adı girilip Şehir ekle butonuna tıklandığında şehir combobox'a ekletilmiştir.
+        - Herhangi bir şehir seçildiği zaman kırmızı kenarlıklı label içerisinde seçili şehir gösterilmektedir
+        - Şehir Sil butonuna tıklandığında seçili şehir combobox'dan sildirilmiştir.
+        - text kutusuna şehir adı girilip Şehir ekle butonuna tıklandığında girilen şehir combobox'a ekletilmiştir.
 
 
 ![image](https://user-images.githubusercontent.com/28144917/153820903-46199105-492c-4f77-91b0-bcb4e0a0febb.png)
@@ -707,8 +707,8 @@ namespace WpfApp19
 
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|||
-|||
+|![image](https://user-images.githubusercontent.com/28144917/154004443-c85be1d0-7405-4a8a-8fbe-48cf96b520ed.png)|![image](https://user-images.githubusercontent.com/28144917/154004516-0c634ba2-4064-4c26-9828-025720d8609b.png)|
+|![image](https://user-images.githubusercontent.com/28144917/154004296-8952efaa-3dc2-4e5e-9cea-e4815b8250e1.png)|![image](https://user-images.githubusercontent.com/28144917/154004280-e9f54f0c-5843-4327-b60f-17e705edf2a5.png)|
 
 
 **XAML kodları**
