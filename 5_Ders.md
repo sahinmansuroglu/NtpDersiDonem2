@@ -693,15 +693,111 @@ namespace WpfApp19
 
 #### 8. ListBox Örneği  #### 
 > Aşağıdaki Örnekte Çalışma Anında ListBox'a veri ekleme ve ver silme işlemi yapılmıştır.
+
+![image](https://user-images.githubusercontent.com/28144917/154015319-6705a25b-e47f-423c-9e77-ff14e9c3889e.png)
+
+
 **XAML kodları**
 
 ```xaml
+<Window x:Class="WpfApp20.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp20"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Grid>
+        <StackPanel>
+            <Label Content="Şehir Adı Giriniz" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="txtSehir" Margin="15 5 15 5" Height="30"/>
+            <Button x:Name="btnSehirEkle" 
+                    Content="Şehir Ekle" 
+                    Margin="15 5 15 5" 
+                    Padding="0 5 0 5"
+                    Click="btnSehirEkle_Click"  />
+            <Button x:Name="btnSehirSil" 
+                    Content="Şehir Sil" 
+                    Margin="15 5 15 5" 
+                    Padding="0 5 0 5"
+                    Click="btnSehirSil_Click"/>
+            <ListBox x:Name="lbSehirler" Margin="10" Height="100">
+                <ListBoxItem Content="Mersin"></ListBoxItem>
+                <ListBoxItem Content="Adana"></ListBoxItem>
+                <ListBoxItem Content="Ankara"></ListBoxItem>
+                <ListBoxItem Content="Van"></ListBoxItem>
+            </ListBox>
+        </StackPanel>
+        
+      
+    </Grid>
+</Window>
 
 ```
 
 
 **C# kodları**
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp20
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void btnSehirEkle_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtSehir.Text.Trim().Length==0)
+            {
+                MessageBox.Show("Şehir Adı Giriniz...");
+            }
+            else
+            {
+                lbSehirler.Items.Add(txtSehir.Text);
+                txtSehir.Clear();
+            }
+            
+        }
+
+        private void btnSehirSil_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (lbSehirler.SelectedIndex==-1)
+            {
+                MessageBox.Show("Lütfen ListBox'dan Bir Şehir Seçiniz...");
+            }
+            else
+            {
+                int indexNo = lbSehirler.SelectedIndex;
+
+                lbSehirler.Items.RemoveAt(indexNo);
+            }
+           
+           
+        }
+    }
+}
 
 ```
 ### 8. Image  ### 
