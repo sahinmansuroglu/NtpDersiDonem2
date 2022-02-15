@@ -687,10 +687,12 @@ namespace WpfApp19
 
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|||
-|||
+|![image](https://user-images.githubusercontent.com/28144917/154004443-c85be1d0-7405-4a8a-8fbe-48cf96b520ed.png)|![image](https://user-images.githubusercontent.com/28144917/154004516-0c634ba2-4064-4c26-9828-025720d8609b.png)|
+|![image](https://user-images.githubusercontent.com/28144917/154004296-8952efaa-3dc2-4e5e-9cea-e4815b8250e1.png)|![image](https://user-images.githubusercontent.com/28144917/154004280-e9f54f0c-5843-4327-b60f-17e705edf2a5.png)|
 
 
+#### 8. ListBox Örneği  #### 
+> Aşağıdaki Örnekte Çalışma Anında ListBox'a veri ekleme ve ver silme işlemi yapılmıştır.
 **XAML kodları**
 
 ```xaml
@@ -707,8 +709,9 @@ namespace WpfApp19
 
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|![image](https://user-images.githubusercontent.com/28144917/154004443-c85be1d0-7405-4a8a-8fbe-48cf96b520ed.png)|![image](https://user-images.githubusercontent.com/28144917/154004516-0c634ba2-4064-4c26-9828-025720d8609b.png)|
-|![image](https://user-images.githubusercontent.com/28144917/154004296-8952efaa-3dc2-4e5e-9cea-e4815b8250e1.png)|![image](https://user-images.githubusercontent.com/28144917/154004280-e9f54f0c-5843-4327-b60f-17e705edf2a5.png)|
+|||
+|||
+
 
 
 **XAML kodları**
