@@ -691,7 +691,7 @@ namespace WpfApp19
 |![image](https://user-images.githubusercontent.com/28144917/154004296-8952efaa-3dc2-4e5e-9cea-e4815b8250e1.png)|![image](https://user-images.githubusercontent.com/28144917/154004280-e9f54f0c-5843-4327-b60f-17e705edf2a5.png)|
 
 
-#### 8. ListBox Örneği  #### 
+#### ListBox Örneği  #### 
 > Aşağıdaki Örnekte Çalışma Anında ListBox'a veri ekleme ve ver silme işlemi yapılmıştır.
 
 ![image](https://user-images.githubusercontent.com/28144917/154015319-6705a25b-e47f-423c-9e77-ff14e9c3889e.png)
@@ -809,14 +809,89 @@ namespace WpfApp20
 |![image](https://user-images.githubusercontent.com/28144917/154017656-e7eb7737-3027-45da-9483-5e9d25bfe877.png)|![image](https://user-images.githubusercontent.com/28144917/154017613-752c6f9b-f56d-439b-b162-b1421d6a5001.png)|
 |![image](https://user-images.githubusercontent.com/28144917/154017920-3cccc69e-ffa8-4c96-86dd-10c3249a3649.png)|![image](https://user-images.githubusercontent.com/28144917/154017955-7f91e501-aa75-41ac-927b-af0fa08282a3.png)|
 
+####  Image Nesnesi Örneği  ####
+> Aşağıdaki Örnekte çalışma anında arayüzdeki butonlara tıklanarak uygun resim ekranda gösterilmiştir.
+
+![image](https://user-images.githubusercontent.com/28144917/154022955-7a90c412-9aaa-4c4c-8b89-d1524c7ac34c.png)
+
+
 **XAML kodları**
 
 ```xaml
+<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="300">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="3 0 0 0">
+                <Button Name="btnBasket" Content="Basketbol Topu" Margin="5" Padding="5" Click="btnBasket_Click"    />
+                <Button x:Name="btnFutbol" Content="Futbol Topu" Margin="5"  Padding="5" Click="btnFutbol_Click"/>
+                <Button x:Name="btnVoleybol" Content="Voleybol Topu" Margin="5"  Padding="5" Click="btnVoleybol_Click"/>
+
+            </StackPanel>
+            <Image Margin="15" 
+                   Name="imgTop"
+               Source="/resimler/basketbolTopu.jpg" 
+               Stretch="Uniform"/>
+        </StackPanel>
+        
+        
+
+    </Grid>
+</Window>
 
 ```
 
 
 **C# kodları**
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp1
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void btnBasket_Click(object sender, RoutedEventArgs e)
+        {
+            imgTop.Source = new BitmapImage(new Uri("/resimler/basketbolTopu.jpg", UriKind.Relative));
+        }
+
+        private void btnFutbol_Click(object sender, RoutedEventArgs e)
+        {
+            imgTop.Source= new BitmapImage(new Uri("/resimler/futbolTopu.jpg", UriKind.Relative));
+        }
+
+        private void btnVoleybol_Click(object sender, RoutedEventArgs e)
+        {
+            imgTop.Source = new BitmapImage(new Uri("/resimler/voleybolTopu.jpg", UriKind.Relative));
+        }
+    }
+}
 
 ```
