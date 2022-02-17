@@ -11,7 +11,7 @@
 |![image](https://user-images.githubusercontent.com/28144917/154026590-7ecdaed0-7aa4-4494-910b-cddde8d87dca.png)|![image](https://user-images.githubusercontent.com/28144917/154026512-0208b422-8f41-4cda-a3e1-deff2b8eb9f4.png)|
 |![image](https://user-images.githubusercontent.com/28144917/154027005-12fd7e71-64d4-4a3b-b46e-58f95dabcef3.png)|![image](https://user-images.githubusercontent.com/28144917/154027025-0c376c84-1ab0-41a9-871d-d16b0bb7f1d3.png)|
 
-## Grid Panel Kullanımı ##
+## Grid Panel Kullanımı Örnek ##
 
 | Ekran Görüntüsü - 1  | Ekran Görüntüsü - 2  |
 |:--------:|:----------------------------:|
