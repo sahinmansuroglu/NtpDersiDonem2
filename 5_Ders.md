@@ -741,6 +741,9 @@ namespace WpfApp19
 </Window>
 
 ```
+**Not:** Eğer resimler tasarım ekranında gözüküyorken çalışma anında gözükmüyorsa "Solution Explorer" Penceresinden   resim dosyasının üzerindeyken sağ tuş ile properties  window açılıp aşağıdaki değişikliğin yapılması gerekir.
+
+![image](https://user-images.githubusercontent.com/28144917/154452804-8d52f3c5-575b-4a39-a781-551e5de721e2.png)
 
 
 **C# kodları**
