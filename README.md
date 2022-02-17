@@ -13,9 +13,9 @@
 1. [Border Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
 2. [Stack Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/StackPanel.md)
 3. [Grid Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/GridPanel.md)
-4. [Wrap Panel Kullanımı]()
-5. [Dock Panel Kullanımı]()
-6. [Canvas Panel Kullanımı]()
+4. [Wrap Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/WrapPanel.md)
+5. [Dock Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DockPanel.md)
+6. [Canvas Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/CanvasPanel.md)
 
 
 ### 2.  WPF Style işlemler ###
