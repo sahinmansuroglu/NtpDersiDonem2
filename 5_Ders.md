@@ -666,7 +666,8 @@ namespace WpfApp19
 
         private void btnSehirEkle_Click(object sender, RoutedEventArgs e)
         {
-            cbSehir.Items.Add(txtSehir.Text);
+            ComboBoxItem yeniSehir = new ComboBoxItem { Content = txtSehir.Text };
+            cbSehir.Items.Add(yeniSehir);
         }
 
         private void btnSehirSil_Click(object sender, RoutedEventArgs e)
