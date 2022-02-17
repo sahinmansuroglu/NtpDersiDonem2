@@ -20,67 +20,198 @@
 
 **XAML kodları**
 ```xaml
-<Window x:Class="WpfApp1.MainWindow"
+<Window x:Class="WpfApp23.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:local="clr-namespace:WpfApp23"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300">
+        Title="MainWindow" Height="450" Width="400">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="100*"/>
-        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*" />
+   
         </Grid.ColumnDefinitions>
-        <Label Content="Ad Soyad :"
-               Grid.Column="0" Grid.Row="0"
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Content="AdSoyad :"
+               FontWeight="Bold"
+               FontSize="14"
                VerticalAlignment="Center"
                HorizontalAlignment="Right"
-               FontWeight="bold"/>
-        <Label Content="Yas :"  
-               Grid.Column="0" Grid.Row="1"
+               Grid.Row="0"
+               Grid.Column="0"/>
+        <Label Content="Yas :"
+               FontWeight="Bold"
+               FontSize="14"
                VerticalAlignment="Center"
                HorizontalAlignment="Right"
-               FontWeight="bold"/>
-        <Label Content="Cinsiyet :" 
-               Grid.Column="0" Grid.Row="2"
+               Grid.Row="1"
+               Grid.Column="0"/>
+        <Label Content="Cinsiyet :"
+               FontWeight="Bold"
+               FontSize="14"
                VerticalAlignment="Center"
                HorizontalAlignment="Right"
-               FontWeight="bold"/>
+               Grid.Row="2"
+               Grid.Column="0"/>
+        <TextBox x:Name="txtAdSoyad" Margin="5"
+                 Grid.Row="0"
+                 Grid.Column="1"
+                
+            />
+        <TextBox x:Name="txtYas"
+            Margin="5"
+                 Grid.Row="1"
+                 Grid.Column="1"
+            />
 
-        <TextBox  Grid.Row="0" 
-                  Grid.Column="1"
-                  Margin="5"/>
-        <TextBox  Grid.Row="1" 
-                  Grid.Column="1"
-                  Margin="5"/>
-
-        <RadioButton VerticalAlignment="Center" Content="Bay" Grid.Column="1" Grid.Row="2"
+        <RadioButton Content="Bay" 
+                     Grid.Column="1" Grid.Row="2"
                      HorizontalAlignment="Left"
-                     Margin="10 0 0 0"
-                     Padding="5 -2 0 0"/>
+                     FontSize="14"
+                     FontWeight="Bold"
+                     VerticalAlignment="Center"
+                     Margin="20 0 0 0"
+                     x:Name="rbBay"
+                     VerticalContentAlignment="Center"/>
+        
+        <RadioButton Content="Bayan" 
+                     Grid.Column="1" Grid.Row="2"
+                     HorizontalAlignment="Right"
+                      FontSize="14"
+                     FontWeight="Bold"
+                     VerticalAlignment="Center"
+                     Margin="0 0 20 0"
+                     VerticalContentAlignment="Center"/>
 
-        <RadioButton Content="Bayan" Grid.Column="1" Grid.Row="2"
-                     HorizontalAlignment="Right" VerticalAlignment="Center"
-                     Margin="0 0 10 0"
-                     Padding="5 -2 0 0"/>
+        <Button x:Name="btnSil"
+            Content="Sil" 
+                Margin="5"
+                Grid.Column="0" Grid.Row="3"
+                FontWeight="Bold"
+                Click="btnSil_Click"
+              
+                 />
+        <Button Content="Ekle" 
+                Margin="5"
+                Grid.Column="1" Grid.Row="3"
+                FontWeight="Bold"
+                Click="Button_Click"   />
+        <ListBox
+            BorderBrush="PaleVioletRed"
+            Margin="5"
+            BorderThickness="2"
+            Grid.Column="0"
+            Grid.Row="4"
+            Grid.ColumnSpan="2"
+            Name="lstPersonels"
+            />
 
-        <Button Content="Ekle" Grid.Column="1" Grid.Row="3" Margin="5" Grid.RowSpan="1"/>
-        <Button Content="Sil" Grid.Column="0" Grid.Row="3" Margin="5"/>
-        <ListBox Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="5"
-                 BorderBrush="black" BorderThickness="2"/>
     </Grid>
-    
-    
 </Window>
+
+
+```
+
+**Personel.cs (Personel Class'ı)**
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WpfApp23
+{
+    class Personel
+    {
+        public string AdSoyad { get; set; }
+        public int Yas { get; set; }
+        public string Cinsiyet { get; set; }
+        public override string ToString()
+        {
+            return $"{AdSoyad} {Yas} {Cinsiyet}";
+        }
+    }
+}
+
+```
+
+**Ana Program**
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp23
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        ObservableCollection<Personel> personels = new ObservableCollection<Personel>();
+        public MainWindow()
+        {
+            
+            InitializeComponent();
+
+            personels.Add(new Personel { AdSoyad = "Ali Er", Yas = 45, Cinsiyet = "Bay" });
+            personels.Add(new Personel { AdSoyad = "Esra ESER", Yas = 34, Cinsiyet = "Bayan" });
+            personels.Add(new Personel { AdSoyad = "Ekin KORKMAZ", Yas = 21, Cinsiyet = "Bayan" });
+            lstPersonels.ItemsSource = personels;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Personel yeniPersonel = new Personel
+            {
+                AdSoyad = txtAdSoyad.Text,
+                Yas=Convert.ToInt32( txtYas.Text),
+                Cinsiyet=rbBay.IsChecked==true?"Bay":"Bayan"
+            };
+
+            personels.Add(yeniPersonel);
+             
+        }
+
+       
+
+        private void btnSil_Click(object sender, RoutedEventArgs e)
+        {
+            if (lstPersonels.SelectedItem==null)
+            {
+                MessageBox.Show("Lütfen Bir Personel Seçiniz.");
+            }
+            else
+            {
+                Personel silinecekPersonel =(Personel) lstPersonels.SelectedItem;
+                personels.Remove(silinecekPersonel);
+
+            }
+         
+        }
+    }
+}
 
 ```
