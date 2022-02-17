@@ -654,8 +654,12 @@ namespace WpfApp19
 
         private void cbSehir_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
-            lblSeciliSehir.Content = cbSehir.SelectedValue.ToString();
+        
+           if (cbSehir.SelectedIndex!=-1)
+            {
+                lblSeciliSehir.Content = cbSehir.SelectedValue.ToString();
+            }
+        
           
             
         }
