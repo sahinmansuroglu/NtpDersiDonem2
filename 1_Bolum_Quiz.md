@@ -10,12 +10,12 @@
 > **Aşağıda Verilenleri sırasıyla uygulayarak yukarıda görselleri verilen WPF uygulamasını   tasarlayınız.**
  
 1. Ana Window'un yüksekliğini 300px, genişliğini de 280px olarak ayarlayınız.
-2. Ana Window'un içerisinde "BorderEnDis" adında  olan bir border oluşturun. (özellikleri: CornerRadius="25" Background="#FF8000FF" Padding="20" )
+2. Ana Window'un içerisinde "BorderEnDis" adında   bir border oluşturun. (özellikleri: CornerRadius="25" Background="#FF8000FF" Padding="20" )
 3. "BorderEnDis" adlı border'in içerisinde  "Grid1" adında ve genişliği 250px olan bir grid oluşturun.
 4. "Grid1" adlı grid'in içerisinde  "StackPanelDikey" adında bir StackPanel oluşturunuz(özellikleri: Orientation="Vertical"  VerticalAlignment="Top" Margin="10")
 5. StackPanelDikey adlı StackPanel İçerisine "Border1","Border2","Border3", "Border4" ve "Border5" adlarında 5 adet Border nesnesi ekleyin.
-6. Beşinci adımda oluşturuluna 5 Adet Border nesnesinin Özellikleri:CornerRadius="10,10,10,10" Background="White" Margin="0 10 0 10"
-7. "Border1","Border2" ve "Border5" adlı Border nesnesilerinin herbirinin içerisine genişliği 200 olan Grid nesnesi oluşturun.
+6. Beşinci adımda oluşturulun 5 Adet Border nesnesinin Özellikleri:CornerRadius="10,10,10,10" Background="White" Margin="0 10 0 10"
+7. "Border1","Border2" ve "Border5" adlı Border nesnelerinin herbirinin içerisine genişliği 200 olan Grid nesnesi oluşturun.
 8. Border1 içerisindeki Grid'in içerisine 
    - Content'i "1. Sayı" olan aşağıdaki özelliklerde bir label nesnesi ekleyin
       -  VerticalContentAlignment="Center" Width="100" FontWeight="Bold" HorizontalAlignment="Left"
