@@ -547,6 +547,7 @@ namespace WpfApp18
 
 ![image](https://user-images.githubusercontent.com/28144917/153820903-46199105-492c-4f77-91b0-bcb4e0a0febb.png)
 
+**Not:** Aşağıdaki örnekte combobox'in selectedValue özelliği ile seçili Şehirin alınabilmesi için Combobox'a SelectedValuePath="Content" özelliği eklenmelidir.
 
 **XAML kodları**
 
