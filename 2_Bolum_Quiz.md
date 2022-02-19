@@ -8,7 +8,7 @@
 
 [Uygulamanın Tamamlanmış Hali için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8101714/WpfApp3.zip)
 
-> **Görselleri Verilen Uygulamın arayüzünü Grid yapısını kullanarak tasarılayınız.(20 Puan)**
+> **Görselleri Verilen Uygulamın arayüzünü Grid yapısını kullanarak tasarlayınız.(20 Puan)**
 
 > **Listbox'a öğrenci ekletebilmek ve listbox'dan Öğrenci silebilmek için gerekli kodları yazınız.(20 Puan)**
 
