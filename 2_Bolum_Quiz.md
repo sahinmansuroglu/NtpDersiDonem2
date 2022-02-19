@@ -1,9 +1,9 @@
 ##  Quiz Sorusu ##
 
 
-| Ekran Görüntüsü |Arayüzün Basit Anahat Yapısı|
+| Ekran Görüntüsü |Arayüzün  Anahat Yapısı|
 |:--------:|:----------------------------:|
-|![image](https://user-images.githubusercontent.com/28144917/154793185-33549936-0cef-44e8-8137-872ac84c7472.png)|![image](https://user-images.githubusercontent.com/28144917/154793211-8f3ac023-961c-4c93-b3a0-61b82937f81f.png)|
+|![image](https://user-images.githubusercontent.com/28144917/154793185-33549936-0cef-44e8-8137-872ac84c7472.png)|![image](https://user-images.githubusercontent.com/28144917/154801119-c1ea5354-a3e3-41f9-b26c-cb7ca0c4f802.png)|
 
 
 [Uygulamanın Tamamlanmış Hali için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8101714/WpfApp3.zip)
