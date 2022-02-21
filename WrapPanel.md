@@ -1,5 +1,5 @@
 ## Wrap Panel Kullanımı ##
-> Wrap panel, içerisinde yerleştirilmiş nesneleri (Child nesneler) yatay da veya dikeyde hizalamak için kullanılır.  Bu kullanımı ile StackPanel'e çok benzemektedir.Wrappanel'de stackPanel'den farklı olarak child nesnelerin  ekrana sığmadığı durumlarda nesnelere  bir alt satır'a veya bir yan sutuna kaydırılır.
+> Wrap panel, içerisinde yerleştirilmiş nesneleri (Child nesneler) yatay da veya dikeyde hizalamak için kullanılır.  Bu kullanımı ile StackPanel'e çok benzemektedir.Wrappanel'de stackPanel'den farklı olarak child nesnelerin  ekrana sığmadığı durumlarda nesneler  bir alt satır'a veya bir yan sütuna kaydırılır.
 
 
 
