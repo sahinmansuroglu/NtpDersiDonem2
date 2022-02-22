@@ -3,9 +3,6 @@
 > Resources, genellikle birden fazla kez kullanılması düşünülen  nesnelerin veya özelliklerin tanımlanmawsında kullanılır. Kullanıcı arayüzleri gibi  Resource Dictionary yapıları da XAML yapısında tanımlanmaktadır.
 > Bir Resource oluşturmak ve  onu ileride kullanabilmek için key(anahtar) verilir. Bu anahtar aynı zamanda onun adı gibi de düşünelebilir.  
 
-<table>
-<tr>
-<td>
 
       ```xaml
       <Window x:Class="WpfApp26.MainWindow"
@@ -34,14 +31,9 @@
 </Window>
 ```
 
+**Ekran Görüntüsü**
 
-</td>
-<td><pre>![image](https://user-images.githubusercontent.com/28144917/155069732-ed177fad-9703-473c-8c5a-fa3410241f9b.png)</pre></td>
-<td>
-  Variables defined with <code>def</code> cannot be changed once defined. This is similar to <code>readonly</code> or <code>const</code> in C# or <code>final</code> in Java. Most variables in Nemerle aren't explicitly typed like this.
-</td>
-</tr>
-</table>
+![image](https://user-images.githubusercontent.com/28144917/155069732-ed177fad-9703-473c-8c5a-fa3410241f9b.png)
 
 
 
