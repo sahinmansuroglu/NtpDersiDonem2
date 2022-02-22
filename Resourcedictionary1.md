@@ -6,9 +6,9 @@
 <table>
 <tr>
 <td>
-   <pre lang="xaml">
+  ```xaml
     
-    '<Window x:Class="WpfApp26.MainWindow"
+    <Window x:Class="WpfApp26.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -33,9 +33,9 @@
     </Grid>
 </Window>
 
-   </pre>
+  ```
 </td>
-<td>![image](https://user-images.githubusercontent.com/28144917/155068926-7983d130-368d-463f-b6bc-9d73d23960f1.png)</td>
+<td>![image](https://user-images.githubusercontent.com/28144917/155069732-ed177fad-9703-473c-8c5a-fa3410241f9b.png)</td>
 <td>
   Variables defined with <code>def</code> cannot be changed once defined. This is similar to <code>readonly</code> or <code>const</code> in C# or <code>final</code> in Java. Most variables in Nemerle aren't explicitly typed like this.
 </td>
