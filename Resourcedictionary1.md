@@ -10,6 +10,7 @@
       - <sys:String x:Key="Mesaj">Merhaba Dünya</sys:String> : string tipinde Mesaj adında bir resource oluşturur.
       - {StaticResource Mesaj}: Mesaj adındaki anahtarın değerini herhangi bir UI nesnesinde  kullanılabilmemize olanak sağlar.
 ```
+### Örnek-1 ###
 
 ```xaml
       <Window x:Class="WpfApp26.MainWindow"
@@ -43,6 +44,8 @@
 
 ![image](https://user-images.githubusercontent.com/28144917/155069732-ed177fad-9703-473c-8c5a-fa3410241f9b.png)
 
+
+### Örnek-2 ###
 
 ```xaml
 <Window x:Class="WpfApp26.MainWindow"
