@@ -97,31 +97,96 @@ namespace WpfApp27
 
 > Aşağıdaki Ekran Görüntüsünü tasarlayınız. Yeni Oyun butonuna tıklandığında canvas içerisinde yarım saniye aralıklarla yer değiştiren bir buton görüntülensin ve kullanıcı bu butona tıklamaya çalışsın. Eğer butona tıklayabilirse 1 puan kazansın eğer boşluğa tıklarsa 2 puan  kaybetsin. Skor bolümünde kullanıcının kazandığı puanlar gözüksün. Bitir butonuna tıklandığında oyun bitirlsin.
 
+![image](https://user-images.githubusercontent.com/28144917/155117093-4a875750-95c9-489e-b2be-a526ca3e99f4.png)
 
 
-<Window x:Class="WpfApp25.MainWindow"
+**Arayüz kodları**
+
+```xaml
+<Window x:Class="WpfApp27.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp25"
+        xmlns:local="clr-namespace:WpfApp27"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="400">
+        Title="MainWindow" Height="700" Width="600" ResizeMode="NoResize"
+        WindowStyle="None" AllowsTransparency="True" Background="Wheat">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="40*"/>
-
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="btnBasla" Margin="5" Content="Basla" Click="btnBasla_Click" />
-        <Canvas Background="Red"  Grid.Row="1" Grid.Column="0" Margin="10" Name="cnv" MouseLeftButtonDown="cnv_MouseLeftButtonDown" >
-            <Button x:Name="btnTikla" Content="Tıklayınız" Click="btnTikla_Click"   />
-        </Canvas>
+
+        <Border Grid.Row="0" Background="LightSalmon" CornerRadius="30" Margin="5">
+            <StackPanel Orientation="Horizontal" Margin="15">
+                <Button x:Name="btnYeniOyun" 
+                        Content="Yeni Oyun"
+                        Background="#FF930093"
+                        Foreground="Yellow"
+                        Padding="15"
+                        FontSize="15"
+                        FontWeight="Bold"
+                        Margin="5"
+                        Click="btnYeniOyun_Click"   />
+                <Button x:Name="btnSonlandır"
+                        Content="Oyunu sonlandır"
+                        Background="#FF5F3C3C"
+                        Foreground="Yellow"
+                        Padding="15"
+                        FontSize="15"
+                        FontWeight="Bold"
+                        Margin="5"
+                        Click="btnSonlandır_Click"/>
+                <Label Content="Skor :"
+                       FontSize="40"
+                       FontWeight="Bold"
+                       Padding="0 -5 0 0 "
+                       Margin="60 0 0 0"/>
+                <Label Name="lblSkor"
+                       Content="000"
+                       FontSize="40"
+                       FontWeight="Bold"
+                       Padding="0 0"
+                       HorizontalContentAlignment="Center"
+                       Margin="15 0 0 0"
+                       BorderBrush="Black"
+                       BorderThickness="2"
+                       Width="100"
+                      />
+            </StackPanel>
+            
+        </Border>
+
+        <Border Grid.Row="1" Background="#FFB9FFB9" CornerRadius="30" Margin="5">
+            <Canvas Margin="10"  
+                    Background="#FFB9FFB9" 
+                    Width="570"
+                    Height="554"
+                    MouseLeftButtonDown="Canvas_MouseLeftButtonDown"    >
+                <Button x:Name="btnTikla" 
+                        Content="Tıklayınız"
+                        Padding="5"
+                        Background="DarkBlue"
+                        Foreground="Wheat"
+                        FontWeight="Bold"
+                        BorderThickness="0"
+                        Click="btnTikla_Click"
+                        Visibility="Hidden"/>
+
+            </Canvas>
+
+        </Border>
+
     </Grid>
-    
+   
 </Window>
 
+```
 
+**C# kodları**
+
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -136,50 +201,59 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
-namespace WpfApp25
+namespace WpfApp27
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        int skor = 0;
+        DispatcherTimer zamanlayici = new DispatcherTimer();
         public MainWindow()
         {
             InitializeComponent();
         }
-        System.Windows.Threading.DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
-
-        private void cnv_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void btnYeniOyun_Click(object sender, RoutedEventArgs e)
         {
-            Point a= e.GetPosition(cnv);
-            MessageBox.Show($"{a.X} {a.Y}");
+            btnTikla.Visibility = Visibility.Visible;
+            zamanlayici.Interval= TimeSpan.FromSeconds(0.7);
+            zamanlayici.Tick += Zamanlayici_Tick;
+            zamanlayici.Start();
         }
-
-        private void btnBasla_Click(object sender, RoutedEventArgs e)
+        private void Zamanlayici_Tick(object sender, EventArgs e)
         {
-            dispatcherTimer.Tick += DispatcherTimer_Tick;
-            dispatcherTimer.IsEnabled = true;
-            dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
-
-        }
-
-        private void DispatcherTimer_Tick(object sender, EventArgs e)
-        {
-           // MessageBox.Show(cnv.Height.ToString());
-            Random rnd = new Random();
-
-            int x = rnd.Next(1,400);
-            int y = rnd.Next(1, 400);
+            Random random = new Random();
+            int x = random.Next(1, 500);
+            int y = random.Next(1, 500);
 
             Canvas.SetLeft(btnTikla, x);
             Canvas.SetTop(btnTikla, y);
         }
-
         private void btnTikla_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("okk");
+            skor += 5;
+            lblSkor.Content = skor.ToString();
+        }
+        private void Canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            skor -= 3;
+            if (skor<=0)
+            {
+                skor = 0;
+            }
+            lblSkor.Content = skor.ToString();
+        }
+        private void btnSonlandır_Click(object sender, RoutedEventArgs e)
+        {
+            zamanlayici.Stop();
+            btnTikla.Visibility = Visibility.Hidden;
+            lblSkor.Content = 0;
         }
     }
 }
 
+```
