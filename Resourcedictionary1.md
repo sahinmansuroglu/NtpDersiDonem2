@@ -6,33 +6,8 @@
 <table>
 <tr>
 <td>
-   <pre lang="csharp">
-   const int x = 3;
-   const string y = "foo";
-   readonly Object obj = getObject();
-   </pre>
-</td>
-<td>
-  <pre lang="nemerle">
-  def x : int = 3;
-  def y : string = "foo";
-  def obj : Object = getObject();
-  </pre>
-</td>
-<td>
-  Variables defined with <code>def</code> cannot be changed once defined. This is similar to <code>readonly</code> or <code>const</code> in C# or <code>final</code> in Java. Most variables in Nemerle aren't explicitly typed like this.
-</td>
-</tr>
-</table>
-
-| Örnek Kod |Ekran Görüntüsü|
-|:--------:|:----------------------------:|
-|```xaml<Window x:Class="WpfApp26.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"```|![image](https://user-images.githubusercontent.com/28144917/155068926-7983d130-368d-463f-b6bc-9d73d23960f1.png)|
-
-```xaml
-<Window x:Class="WpfApp26.MainWindow"
+   <pre lang="xaml">
+   <Window x:Class="WpfApp26.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -57,7 +32,17 @@
     </Grid>
 </Window>
 
-```
+   </pre>
+</td>
+<td>
+ ![image](https://user-images.githubusercontent.com/28144917/155068926-7983d130-368d-463f-b6bc-9d73d23960f1.png)
+</td>
+<td>
+  Variables defined with <code>def</code> cannot be changed once defined. This is similar to <code>readonly</code> or <code>const</code> in C# or <code>final</code> in Java. Most variables in Nemerle aren't explicitly typed like this.
+</td>
+</tr>
+</table>
+
 
 
 https://docs.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary
