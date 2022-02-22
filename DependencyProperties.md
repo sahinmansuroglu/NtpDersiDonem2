@@ -1,5 +1,6 @@
 ## WPF - Dependency Properties ##
 
+```xaml
  <Button  Height = "40" Width = "175" Margin = "10" Content = "Dependency Property">
             <Button.Style>
                 <Style TargetType = "{x:Type Button}">
@@ -14,3 +15,4 @@
                 </Style>
             </Button.Style>
         </Button>
+```
