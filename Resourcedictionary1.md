@@ -9,6 +9,8 @@
 
 https://docs.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary
 
+https://www.codeproject.com/Tips/1205642/WPF-Resource-Dictionary-Basics
+
 <Page.Resources>…</Page.Resources> - Defines the resource dictionary.
 <x:String> - Defines the resource with the key "greeting".
 {StaticResource greeting} - Looks up the resource with the key "greeting", which is assigned to the Text property of the TextBlock.
