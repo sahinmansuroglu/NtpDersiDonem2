@@ -21,7 +21,8 @@
 ### 3. Resource dictionary ###
 1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Resource dictionary İçerisinde Stil Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
-3. [Bölüm Cevaplar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
+3. [Uygulama Düzeyinde Resource Dictionary Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
+4. [Resource Dictionary Dosyları ile Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
 ### 3.  WPF User Control Library ###
 
 
