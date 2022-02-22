@@ -44,6 +44,48 @@
 ![image](https://user-images.githubusercontent.com/28144917/155069732-ed177fad-9703-473c-8c5a-fa3410241f9b.png)
 
 
+```xaml
+<Window x:Class="WpfApp26.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp26"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="arkaPlanRengi" Color="LightGreen"/>
+        <SolidColorBrush x:Key="yaziRengi" Color="DarkBlue"/>
+       
+        <sys:String x:Key="Mesaj">Merhaba Dünya</sys:String>
+ 
+    </Window.Resources>
+    
+    
+    <Grid>
+        <Label Content="{StaticResource Mesaj}" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Background="{StaticResource arkaPlanRengi}"
+               Foreground="{StaticResource yaziRengi}"
+               />
+
+        <Label Content="Metin 1" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Bottom"
+               Background="{StaticResource arkaPlanRengi}"
+               Foreground="{StaticResource yaziRengi}"
+               />
+    </Grid>
+</Window>
+
+```
+
+**Ekran Görüntüsü**
+
+![Uploading image.png…]()
 
 https://docs.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary
 
