@@ -9,7 +9,7 @@
 5. [Temel WPF nesneleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/5_Ders.md) 
 6. [Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/1_Bolum_Quiz.md) 
 
-### 2. Bölüm WPF Layout(Yerleşim) Kavramları (Henüz Hazdır Değil) ###
+### 2. Bölüm WPF Layout(Yerleşim) Kavramları ###
 1. [Border Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/borderKullanimi.md)
 2. [Stack Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/StackPanel.md)
 3. [Grid Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/GridPanel.md)
@@ -18,11 +18,12 @@
 6. [Canvas Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/CanvasPanel.md)
 7. [Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz.md) 
 
-### 3. Resource dictionary ###
+### 3. Bölüm Resource dictionary ###
 1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Resource dictionary İçerisinde Stil Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
 3. [Uygulama Düzeyinde Resource Dictionary Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
-4. [Resource Dictionary Dosyları ile Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
+4. [Resource Dictionary Dosyaları ile Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
+
 ### 3.  WPF User Control Library ###
 
 
