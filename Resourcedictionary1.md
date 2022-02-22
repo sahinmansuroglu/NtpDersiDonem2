@@ -1,10 +1,38 @@
 ## Resource dictionary  (Kaynak Sözlüğü )Nedir? ##
 
-> Resources, genellikle birden fazla kez kullanmayı düşündüğümüz bazı nesnelerin tanımlarıdır. Kullanıcı arayüzlerini gibi  Resource Dictionary yapıları da
-> XAML yapısında tanımlanamkatadır.
-> Bir Resource oluşturmak için ileri de onu çağırmak için kullanacağımız bir anahtar  seçilir. Bu anahtar aynı zamanda onun adı gibi de düşünelebilir.  
-> Daha sonra bir XAML kaynağına başvurmak için, adı gibi davranan bir kaynak için bir anahtar belirtirsiniz.
+> Resources, genellikle birden fazla kez kullanılması düşünülen  nesnelerin veya özelliklerin tanımlanmawsında kullanılır. Kullanıcı arayüzleri gibi  Resource Dictionary yapıları da XAML yapısında tanımlanmaktadır.
+> Bir Resource oluşturmak ve  onu ileride kullanabilmek için key(anahtar) verilir. Bu anahtar aynı zamanda onun adı gibi de düşünelebilir.  
 
+
+| Örnek Kod |Ekran Görüntüsü|
+|:--------:|:----------------------------:|
+|```xaml
+<Window x:Class="WpfApp26.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp26"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <sys:String x:Key="Mesaj">Merhaba Dünya</sys:String>
+        <sys:String x:Key="Takimadi">Galatasaray</sys:String>
+    </Window.Resources>
+    
+    
+    <Grid>
+        <Label Content="{StaticResource Mesaj}" HorizontalAlignment="Center"/>
+        <Label Content="{StaticResource Takimadi}"/>
+        <TextBox Text="{StaticResource Mesaj}" 
+                 VerticalAlignment="Bottom"
+                 Margin="10"/>
+    </Grid>
+</Window>
+
+```|![image](https://user-images.githubusercontent.com/28144917/155068926-7983d130-368d-463f-b6bc-9d73d23960f1.png)|
 
 
 https://docs.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary
