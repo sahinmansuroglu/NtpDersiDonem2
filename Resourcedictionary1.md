@@ -6,7 +6,11 @@
 
 | Örnek Kod |Ekran Görüntüsü|
 |:--------:|:----------------------------:|
-|```xaml
+|```xaml<Window x:Class="WpfApp26.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"```|![image](https://user-images.githubusercontent.com/28144917/155068926-7983d130-368d-463f-b6bc-9d73d23960f1.png)|
+
+```xaml
 <Window x:Class="WpfApp26.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -32,7 +36,7 @@
     </Grid>
 </Window>
 
-```|![image](https://user-images.githubusercontent.com/28144917/155068926-7983d130-368d-463f-b6bc-9d73d23960f1.png)|
+```
 
 
 https://docs.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary
