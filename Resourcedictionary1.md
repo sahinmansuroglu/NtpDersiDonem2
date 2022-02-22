@@ -10,6 +10,8 @@
       - <sys:String x:Key="Mesaj">Merhaba Dünya</sys:String> : string tipinde Mesaj adında bir resource oluşturur.
       - {StaticResource Mesaj}: Mesaj adındaki anahtarın değerini herhangi bir UI nesnesinde  kullanılabilmemize olanak sağlar.
 ```
+
+DENEME: <System:Double x:Key="ButtonWidth">80</System:Double>
 ### Örnek-1 ###
 
 ```xaml
