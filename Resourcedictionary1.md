@@ -7,7 +7,8 @@
 <tr>
 <td>
 <pre lang="xaml">
-      `<Window x:Class="WpfApp26.MainWindow"
+      ```xaml
+      <Window x:Class="WpfApp26.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -31,7 +32,7 @@
                  Margin="10"/>
     </Grid>
 </Window>
-
+```
 
 </pre>
 </td>
