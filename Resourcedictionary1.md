@@ -7,7 +7,7 @@
 ```xaml
 
       - <Window.Resources>…</Window.Resources> : Resource dictionary'nin tanımlanacağı yer
-      - <sys:String x:Key="Mesaj">Merhaba Dünya</sys:String> : string tipinde Mesaj adında bir resource oluşturur.
+      + <sys:String x:Key="Mesaj">Merhaba Dünya</sys:String> : string tipinde Mesaj adında bir resource oluşturur.
       - {StaticResource Mesaj}: Mesaj adındaki anahtarın değerini herhangi bir UI nesnesinde  kullanılabilmemize olanak sağlar.
 ```
 
