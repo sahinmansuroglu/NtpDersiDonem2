@@ -4,7 +4,7 @@
 > Bir Resource oluşturmak ve  onu ileride kullanabilmek için key(anahtar) verilir. Bu anahtar aynı zamanda onun adı gibi de düşünelebilir.  
 
 
-      ```xaml
+```xaml
       <Window x:Class="WpfApp26.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
