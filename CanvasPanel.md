@@ -93,6 +93,11 @@ namespace WpfApp27
 }
 
 ```
+### Örnek-2 ###
+
+> Aşağıdaki Ekran Görüntüsünü tasarlayınız. Yeni Oyun butonuna tıklandığında canvas içerisinde yarım saniye aralıklarla yer değiştiren bir buton görüntülensin ve kullanıcı bu butona tıklamaya çalışsın. Eğer butona tıklayabilirse 1 puan kazansın eğer boşluğa tıklarsa 2 puan  kaybetsin. Skor bolümünde kullanıcının kazandığı puanlar gözüksün. Bitir butonuna tıklandığında oyun bitirlsin.
+
+
 
 <Window x:Class="WpfApp25.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
