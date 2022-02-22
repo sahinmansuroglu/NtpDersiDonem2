@@ -6,7 +6,7 @@
 <table>
 <tr>
 <td>
-<pre>
+
       ```xaml
       <Window x:Class="WpfApp26.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -34,7 +34,7 @@
 </Window>
 ```
 
-</pre>
+
 </td>
 <td><pre>![image](https://user-images.githubusercontent.com/28144917/155069732-ed177fad-9703-473c-8c5a-fa3410241f9b.png)</pre></td>
 <td>
