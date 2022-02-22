@@ -85,7 +85,7 @@
 
 **Ekran Görüntüsü**
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/28144917/155074958-c0523ee3-0863-48ab-882e-585eb36f64e5.png)
 
 https://docs.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary
 
