@@ -16,7 +16,7 @@
  
 
 ### Örnek-1 ###
-> Aşağıdaki uygulamada Label nesneleri için bir Stil oluşturulmuştur. Oluşturulan bu stil Window içerisindeki tüm Label'lara etkilemiştir.
+> Aşağıdaki uygulamada Label nesneleri için bir Stil oluşturulmuştur. Oluşturulan bu stil Window içerisindeki tüm Label'ları etkilemiştir.
 
 ```xaml
 <Window x:Class="WpfApp26.MainWindow"
@@ -61,8 +61,7 @@
 
 
 
-> Yukarıdaki Örnekte window içerisindeki tüm Label'ler aynı stillendirmeyi kullanmıştır. Eğer Window içerisinde herhangi bir nesne tür için birden fazla Stil tanımlamak istersek 
-> Bunun için oluşturulan stile isim (key) verilebilir
+> Yukarıdaki Örnekte window içerisindeki tüm Label'ler aynı stillendirmeyi kullanmıştır. Eğer Window içerisinde herhangi bir nesne türü için birden fazla Stil tanımlamak istersek bunun için oluşturulan stile isim (key) verilebilir.
 
 ```xaml
         <Style TargetType="Button" x:Key="MaviButonStyle">
