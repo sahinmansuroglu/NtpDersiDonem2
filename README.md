@@ -18,8 +18,8 @@
 6. [Canvas Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/CanvasPanel.md)
 7. [Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz.md) 
 
-### 2.  WPF Style işlemler ###
-1. [WPF Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/1_Ders.md) 
+### 3. Resource dictionary ###
+1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Bölüm Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Ders.md)  
 3. [Bölüm Cevaplar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Ders.md) 
 ### 3.  WPF User Control Library ###
