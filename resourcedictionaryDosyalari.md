@@ -1,1 +1,16 @@
-## Resource Dictionary Dosyları ile Çalışma ##
+## Resource Dictionary Dosyaları ile Çalışma ##
+
+
+<Application x:Class="WpfApp28.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp28"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+    </Application.Resources>
+</Application>
