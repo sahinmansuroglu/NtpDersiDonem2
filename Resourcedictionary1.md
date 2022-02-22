@@ -37,7 +37,7 @@
     </Grid>
 </Window>
 ```
-**Not:** String Tipinde veya diğer veri tiplerinde anahtar oluşturabilmek için window'a  xmlns:sys="clr-namespace:System;assembly=mscorlib" ad uzayının eklenmesi gerekir.
+**Not:** String Tipinde veya diğer veri tiplerinde anahtar oluşturabilmek için window'a  **xmlns:sys="clr-namespace:System;assembly=mscorlib"** ad uzayının eklenmesi gerekir.
 
 **Ekran Görüntüsü**
 
