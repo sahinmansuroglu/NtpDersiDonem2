@@ -6,7 +6,7 @@
 <table>
 <tr>
 <td>
-<pre lang=xaml>
+<pre lang="xaml">
         ```
         <Window x:Class="WpfApp26.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
