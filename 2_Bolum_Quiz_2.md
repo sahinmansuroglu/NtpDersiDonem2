@@ -1,4 +1,4 @@
-### 2. Bölüm Quiz Sorusu-2###
+### 2. Bölüm Quiz Sorusu-2 ###
 
 > Canvas üzerinde  mouse ile tıklanan noktaya kenar uzunlukları 0 - 50 arası random sayı olan  dikdörtgen ekleyen uygulamayı tasarlayınız.
 
