@@ -16,8 +16,9 @@
 4. [Wrap Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/WrapPanel.md)
 5. [Dock Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DockPanel.md)
 6. [Canvas Panel Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/CanvasPanel.md)
-7. [Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz.md) 
-
+7. [Quiz Sorusu-1](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz.md) 
+7. [Quiz Sorusu-2](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz_2.md) 
+8. [Quiz Sorusu-3](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz_3.md) 
 ### 3. Bölüm Resource dictionary ###
 1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Resource dictionary İçerisinde Stil Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
