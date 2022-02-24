@@ -1,3 +1,10 @@
+[Uygulamanın tamamlanmış hali için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8130376/WpfApp4.zip)
+
+
+
+![image](https://user-images.githubusercontent.com/28144917/155475615-4f3c0406-21e6-45e0-860a-09df8c9325b5.png)
+
+
 ``` xaml
 <Window x:Class="WpfApp5.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
