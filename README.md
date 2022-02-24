@@ -31,5 +31,5 @@
 ### 4.  Karma ###
 
 1. [WPF - Dependency Properties](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DependencyProperties.md) 
-2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Dependencytimer.md) 
+2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
 3. Tooltip
