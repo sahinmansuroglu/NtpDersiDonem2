@@ -83,3 +83,23 @@ namespace WpfApp27
 }
 
 ```
+
+
+**Not:**
+> Eğer Dikdörtgen Değilde elipse oluşturulmak istenirse aşağıdakiş yapı kullanılabilir.
+
+```csharp
+Ellipse daire = new Ellipse
+            {
+                Height = 100,
+                Width = 100,
+                Fill = Brushes.Red,
+                ToolTip="kırmızı Daire"
+
+            };
+
+            Canva.Children.Add(daire);
+
+            Canvas.SetLeft(daire, tiklanilanKoordinat.X);
+            Canvas.SetTop(daire, tiklanilanKoordinat.Y);
+            ```
