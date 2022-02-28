@@ -25,6 +25,12 @@
 3. [Uygulama Düzeyinde Resource Dictionary Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
 4. [Resource Dictionary Dosyaları ile Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
 
+### 4. Bölüm Binding ###
+1. [Property Binding](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
+2. [Different Properties Different DataSource(s)](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
+3. [INotifyPropertyChanged Kullanımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
+4. [Element to Element Binding](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
+5. 
 ### 3.  WPF User Control Library ###
 
 
