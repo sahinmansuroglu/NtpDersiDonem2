@@ -25,22 +25,24 @@
 3. [Uygulama Düzeyinde Resource Dictionary Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
 4. [Resource Dictionary Dosyaları ile Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
 
-### 4. Bölüm Binding ###
-1. [Property Binding](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
-2. [Different Properties Different DataSource(s)](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
-3. [INotifyPropertyChanged Kullanımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
-4. [Element to Element Binding](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
+### 4. Bölüm Binding (Hazır Değil) ###
+1. [Property Binding]() 
+2. [Different Properties Different DataSource(s)]() 
+3. [INotifyPropertyChanged Kullanımı ]() 
+4. [Element to Element Binding]() 
 
 
-### 5. Bölüm Trigger ###
-1. [Property Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
-2. [Data Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
-3. [Event trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
+### 5. Bölüm Trigger  (Hazır Değil) ###
+1. [Property Trigger]() 
+2. [Data Trigger]()  
+3. [Event trigger]() 
 
-### 3.  WPF User Control Library ###
+### 6.  WPF User Control Library   (Hazır Değil) ###
+1. [Property Trigger]() 
+2. [Data Trigger]() 
+3. [Event trigger]() 
 
-
-### 4.  Karma ###
+### 7.  Karma ###
 
 1. [WPF - Dependency Properties](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DependencyProperties.md) 
 2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
