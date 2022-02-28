@@ -30,7 +30,13 @@
 2. [Different Properties Different DataSource(s)](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
 3. [INotifyPropertyChanged Kullanımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
 4. [Element to Element Binding](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
-5. 
+
+
+### 5. Bölüm Trigger ###
+1. [Property Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
+2. [Data Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
+3. [Event trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
+
 ### 3.  WPF User Control Library ###
 
 
