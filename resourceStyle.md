@@ -63,7 +63,7 @@
 
 
 ### Örnek-2 ###
-> Aşağıdaki Örnek Bir önceki bölümde yapılmıştı. Ancak o uygulamada nesnelerin her bir özelliği için bir anahtar oluşturulmuştu.Şuan yapılacak olan uygulamada aynı arayüzü label'lar için kullanacağınız bir stil yanımlayarak gerçekleştiriniz.
+> Aşağıdaki Örnek Bir önceki bölümde yapılmıştı. Ancak o uygulamada nesnelerin her bir özelliği için bir anahtar oluşturulmuştu.Şuan yapılacak olan uygulamada aynı arayüzü label'lar için kullanacağınız bir stil tanımlayarak gerçekleştiriniz.
 
 **Bir Önceki bölümdeki uygulamanın Kaynak Sözlüğü (Resource Dictionary)**
 
