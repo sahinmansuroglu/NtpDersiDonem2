@@ -192,13 +192,12 @@
 ### Örnek-4  ###
 > Aşağıdaki Görseli verilen arayüzü textbox Button ve Label ve Radio button için oluşturacağınız özel stilleri kullanarak tasarlayınız
 
-Not:En Dışta Group box olacaktır. Temel Kullanımı Aşağıdadır.
-
-![image](https://user-images.githubusercontent.com/28144917/156128605-8d333b7f-dce7-4934-b3f4-bc3c76b07578.png)
-
 
 ![image](https://user-images.githubusercontent.com/28144917/156149805-6ec5b622-1d4c-4d35-8170-a5776d0a6af0.png)
 
+Not:En Dışta Group box olacaktır. Temel Kullanımı Aşağıdadır.
+
+![image](https://user-images.githubusercontent.com/28144917/156128605-8d333b7f-dce7-4934-b3f4-bc3c76b07578.png)
 
 
 **Cevap**
