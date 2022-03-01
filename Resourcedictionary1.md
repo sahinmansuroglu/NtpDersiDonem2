@@ -93,3 +93,13 @@
 
 ![image](https://user-images.githubusercontent.com/28144917/155074958-c0523ee3-0863-48ab-882e-585eb36f64e5.png)
 
+
+### Örnek ###
+> Aşağıdaki kaynaklari kullanılarak görseli verilen arayüzü tasarlayınız.
+
+**Kaynak Sözlüğü (Resource Dictionary)**
+
+![image](https://user-images.githubusercontent.com/28144917/156116721-dbb93f97-7b0c-4d11-99db-afaad5688711.png)
+
+**Arayüz**
+![image](https://user-images.githubusercontent.com/28144917/156116752-73f08578-255f-4729-92f1-25b5ae96084f.png)
