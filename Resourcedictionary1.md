@@ -11,7 +11,7 @@
       - {StaticResource Mesaj}: Mesaj adındaki anahtarın değerini herhangi bir UI nesnesinde  kullanılabilmemize olanak sağlar.
 ```
 
-DENEME: <System:Double x:Key="ButtonWidth">80</System:Double>
+
 ### Örnek-1 ###
 
 ```xaml
@@ -21,7 +21,7 @@ DENEME: <System:Double x:Key="ButtonWidth">80</System:Double>
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp26"
-        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
@@ -40,7 +40,7 @@ DENEME: <System:Double x:Key="ButtonWidth">80</System:Double>
     </Grid>
 </Window>
 ```
-**Not:** String Tipinde veya diğer veri tiplerinde anahtar oluşturabilmek için window'a  **xmlns:sys="clr-namespace:System;assembly=mscorlib"** ad uzayının eklenmesi gerekir.
+**Not:** String Tipinde veya diğer veri tiplerinde anahtar oluşturabilmek için window'a  **  xmlns:sys="clr-namespace:System;assembly=System.Runtime""** ad uzayının eklenmesi gerekir.
 
 **Ekran Görüntüsü**
 
@@ -63,7 +63,7 @@ DENEME: <System:Double x:Key="ButtonWidth">80</System:Double>
     <Window.Resources>
         <SolidColorBrush x:Key="arkaPlanRengi" Color="LightGreen"/>
         <SolidColorBrush x:Key="yaziRengi" Color="DarkBlue"/>
-       
+        <System:Double x:Key="ButtonWidth">80</System:Double>
         <sys:String x:Key="Mesaj">Merhaba Dünya</sys:String>
  
     </Window.Resources>
@@ -75,6 +75,7 @@ DENEME: <System:Double x:Key="ButtonWidth">80</System:Double>
                VerticalAlignment="Top"
                Background="{StaticResource arkaPlanRengi}"
                Foreground="{StaticResource yaziRengi}"
+               Width="{StaticResource ButtonWidth}"
                />
 
         <Label Content="Metin 1" 
