@@ -102,4 +102,52 @@
 ![image](https://user-images.githubusercontent.com/28144917/156116721-dbb93f97-7b0c-4d11-99db-afaad5688711.png)
 
 **Arayüz**
+
 ![image](https://user-images.githubusercontent.com/28144917/156116752-73f08578-255f-4729-92f1-25b5ae96084f.png)
+
+
+**Çözüm**
+
+```xaml
+<Window x:Class="WpfApp29.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp29"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="550">
+    <Window.Resources>
+        <sys:String x:Key="Mesaj">Merhaba 11ATBA </sys:String>
+        <sys:Double x:Key="genislik">150</sys:Double>
+        <sys:Double x:Key="yukseklik">70</sys:Double>
+        <SolidColorBrush x:Key="arkaPlan" Color="DarkCyan"/>
+        <Thickness x:Key="kenarBosluklari">10  5 10 5</Thickness>
+    </Window.Resources>   
+    
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="{StaticResource Mesaj}"
+                   Width="{StaticResource genislik}"
+                   Height="{StaticResource yukseklik}"
+                   Background="{StaticResource arkaPlan}"
+                   Margin="{StaticResource kenarBosluklari}"
+                  
+                   />
+            <Label Content="{StaticResource Mesaj}"
+                   Width="{StaticResource genislik}"
+                   Background="{StaticResource arkaPlan}"
+                   Height="{StaticResource yukseklik}"
+                   Margin="{StaticResource kenarBosluklari}"/>
+            <Label Content="{StaticResource Mesaj}"
+                   Width="{StaticResource genislik}"
+                   Background="{StaticResource arkaPlan}"
+                   Height="{StaticResource yukseklik}"
+                   Margin="{StaticResource kenarBosluklari}"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
+
+```
