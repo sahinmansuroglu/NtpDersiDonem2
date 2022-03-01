@@ -40,7 +40,7 @@
     </Grid>
 </Window>
 ```
-**Not:** String Tipinde veya diğer veri tiplerinde anahtar oluşturabilmek için window'a  **  xmlns:sys="clr-namespace:System;assembly=System.Runtime""** ad uzayının eklenmesi gerekir.
+**Not:** String Tipinde veya diğer veri tiplerinde anahtar oluşturabilmek için window'a  **xmlns:sys="clr-namespace:System;assembly=System.Runtime""** ad uzayının eklenmesi gerekir.
 
 **Ekran Görüntüsü**
 
