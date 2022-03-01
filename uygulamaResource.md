@@ -67,13 +67,13 @@
 
 ### Harici Kaynak Sözlüğü Kullanmak ###
 
-> Oluşturulan harici kaynak sözlüğünü kullanabilmek için aşağıdaki yapı kullanılır.
+> Oluşturulan harici kaynak sözlüğünü kullanabilmek için kaynak sözlüğünün kullanılacağı yerde aşağıdaki çağrılması gerekir.
 
 ```xaml
-<ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Dictionary1.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-</ResourceDictionary>
+        <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="Dictionary1.xaml"/>
+                    </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
 ```
 
