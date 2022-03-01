@@ -138,7 +138,7 @@
 
 ### Örnek-3  ###
 
-> Aşağıdaki arayüzü label için 2 farklı arayüz oluşturarak tasarlayınız.
+> Aşağıdaki arayüzü label için 2 farklı Stil oluşturarak tasarlayınız.
 
 ![image](https://user-images.githubusercontent.com/28144917/156128956-9e981dc3-736f-4fbd-b985-09eea5365013.png)
 
