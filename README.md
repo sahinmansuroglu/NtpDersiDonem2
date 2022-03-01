@@ -32,8 +32,6 @@
 4. [Element to Element Binding]() 
 
 
-[materialUI](https://www.youtube.com/watch?v=qSP8v8Gi3XU)
-[handycontrols](https://ghost1372.github.io/handycontrol/quick_start/)
 
 ### 5. Bölüm Trigger  (Hazır Değil) ###
 1. [Property Trigger]() 
@@ -50,3 +48,6 @@
 1. [WPF - Dependency Properties](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DependencyProperties.md) 
 2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
 3. Tooltip
+
+[materialUI](https://www.youtube.com/watch?v=qSP8v8Gi3XU)
+[handycontrols](https://ghost1372.github.io/handycontrol/quick_start/)
