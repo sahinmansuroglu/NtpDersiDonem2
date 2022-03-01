@@ -197,4 +197,83 @@ Not:En Dışta Group box olacaktır. Temel Kullanımı Aşağıdadır.
 ![image](https://user-images.githubusercontent.com/28144917/156128605-8d333b7f-dce7-4934-b3f4-bc3c76b07578.png)
 
 
-![image](https://user-images.githubusercontent.com/28144917/156127697-bc903cc4-03d2-4e10-b8c2-756e722a9aa1.png)
+![image](https://user-images.githubusercontent.com/28144917/156149805-6ec5b622-1d4c-4d35-8170-a5776d0a6af0.png)
+
+
+
+**Cevap**
+```xaml
+<Window x:Class="WpfApp30.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp30"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="520">
+    <Window.Resources>
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderBrush" Value="DarkGreen"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="18 5 17 5"/>
+            
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Foreground" Value="DarkSlateGray"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Height" Value="35"/>
+        </Style>
+
+        <Style TargetType="RadioButton" x:Key="rbEvetStil">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="Red"/>
+        </Style>
+        <Style TargetType="RadioButton" x:Key="rbHayirStil">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+        </Style>
+    </Window.Resources>
+
+    <GroupBox Header="İşlem Bilgileri">
+        <StackPanel Margin="5" >
+            <Label Content="İşlem açıklaması"/>
+            <TextBox />
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Kullanılan Kağıt Sayısı Günlük toplama Eklensin mi?"/>
+                <RadioButton Content="Evet"
+                             Style="{StaticResource rbEvetStil}"/>
+                <RadioButton Content="Hayır" IsChecked="True"
+                             Style="{StaticResource rbHayirStil}"/>
+            </StackPanel>
+            <Label Content="Fişde Gözükecek Kısa Açıklama"/>
+            <TextBox/>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Yeni İşlem Ekle"/>
+                <Button Content="Seçili İşlemi Sil"/>
+                <Button Content="Güncelle"/>
+                <Button Content="Temizle"/>
+            </StackPanel>
+
+        </StackPanel>
+        
+        
+    </GroupBox>
+    
+</Window>
+
+```
