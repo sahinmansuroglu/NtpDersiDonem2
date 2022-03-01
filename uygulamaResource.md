@@ -79,3 +79,109 @@
   </(App/Window/Grid).Resources>
 ```
 
+
+### Örnek-1 ###
+> Aşağıda arayüzü ve xaml kodları verilen uygulamanın stillerini ayrı resource dictionary dosyasına ekleyiniz.  Ve bu dosyası Uygulama kapsamında projenize dahil ediniz.
+
+[Tamamlanmış Proje Dosyası için Tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8160994/WpfApp30.zip)
+
+**Arayüz**
+
+![image](https://user-images.githubusercontent.com/28144917/156149805-6ec5b622-1d4c-4d35-8170-a5776d0a6af0.png)
+
+**XAML Kodları**
+
+```xaml
+<Window x:Class="WpfApp30.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp30"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="520">
+    <Window.Resources>
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderBrush" Value="DarkGreen"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="18 5 17 5"/>
+            
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Foreground" Value="DarkSlateGray"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Height" Value="35"/>
+        </Style>
+
+        <Style TargetType="RadioButton" x:Key="rbEvetStil">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="Red"/>
+        </Style>
+        <Style TargetType="RadioButton" x:Key="rbHayirStil">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+        </Style>
+    </Window.Resources>
+
+    <GroupBox Header="İşlem Bilgileri">
+        <StackPanel Margin="5" >
+            <Label Content="İşlem açıklaması"/>
+            <TextBox />
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Kullanılan Kağıt Sayısı Günlük toplama Eklensin mi?"/>
+                <RadioButton Content="Evet"
+                             Style="{StaticResource rbEvetStil}"/>
+                <RadioButton Content="Hayır" IsChecked="True"
+                             Style="{StaticResource rbHayirStil}"/>
+            </StackPanel>
+            <Label Content="Fişde Gözükecek Kısa Açıklama"/>
+            <TextBox/>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Yeni İşlem Ekle"/>
+                <Button Content="Seçili İşlemi Sil"/>
+                <Button Content="Güncelle"/>
+                <Button Content="Temizle"/>
+            </StackPanel>
+
+        </StackPanel>
+        
+        
+    </GroupBox>
+    
+</Window>
+
+```
+
+
+**Çözüm**
+
+> **Dictionar1.xaml**
+
+![image](https://user-images.githubusercontent.com/28144917/156156111-0b352447-ccfd-4b56-b683-31bdc33d58ca.png)
+
+> **App.xaml**
+
+![image](https://user-images.githubusercontent.com/28144917/156156291-74209e46-ec5a-4f30-8481-bb6a11c0b005.png)
+
+> **MainWindow.xaml**
+
+![image](https://user-images.githubusercontent.com/28144917/156156415-e1f17f1a-ab17-41a8-ad67-da2c046fef6e.png)
+
+
+
+
