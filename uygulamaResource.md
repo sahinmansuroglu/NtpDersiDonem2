@@ -70,10 +70,12 @@
 > Oluşturulan harici kaynak sözlüğünü kullanabilmek için kaynak sözlüğünün kullanılacağı yerde aşağıdaki çağrılması gerekir.
 
 ```xaml
+ <(App/Window/Grid).Resources>
         <ResourceDictionary>
                     <ResourceDictionary.MergedDictionaries>
                         <ResourceDictionary Source="Dictionary1.xaml"/>
                     </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+  </(App/Window/Grid).Resources>
 ```
 
