@@ -128,3 +128,10 @@
             <Setter Property="Margin" Value="10 5 10 5"/>
         </Style>
 ```
+
+> Yukarıda LabelStil1 ve LabelStil2 adında iki tane stil oluşturulmuştur. Bu stillerden birini aşağıdaki gibi herhangi bir label'a verebiliriz.
+
+```xaml
+        <Label Content="Merhaba Dünya" Style="{StaticResource labelStil1}"/>
+        <Label Content="Merhaba 11 ATBA"  Style="{StaticResource labelStil2}"/>
+```
