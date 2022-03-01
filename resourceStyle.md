@@ -135,3 +135,10 @@
         <Label Content="Merhaba Dünya" Style="{StaticResource labelStil1}"/>
         <Label Content="Merhaba 11 ATBA"  Style="{StaticResource labelStil2}"/>
 ```
+
+Örnek-1
+> Aşağıdaki Görseli verilen arayüzü textbox Button ve Label ve Radio button için oluşturacağınız özel stilleri kullanarak tasarlayınız
+
+Not:En Dışta Group box olacaktır.
+
+![image](https://user-images.githubusercontent.com/28144917/156127697-bc903cc4-03d2-4e10-b8c2-756e722a9aa1.png)
