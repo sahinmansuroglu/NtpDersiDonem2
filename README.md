@@ -25,7 +25,13 @@
 3. [Uygulama Düzeyinde Resource Dictionary Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
 4. [Resource Dictionary Dosyaları ile Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourcedictionaryDosyalari.md) 
 
-### 4. Bölüm Binding (Hazır Değil) ###
+
+### 4. Bölüm Trigger  (Hazır Değil) ###
+1. [Property Trigger]() 
+2. [Data Trigger]()  
+3. [Event trigger]() 
+
+### 5. Bölüm Binding (Hazır Değil) ###
 1. [Property Binding]() 
 2. [Different Properties Different DataSource(s)]() 
 3. [INotifyPropertyChanged Kullanımı ]() 
@@ -33,10 +39,7 @@
 
 
 
-### 5. Bölüm Trigger  (Hazır Değil) ###
-1. [Property Trigger]() 
-2. [Data Trigger]()  
-3. [Event trigger]() 
+
 
 ### 6.  WPF User Control Library   (Hazır Değil) ###
 1. [Property Trigger]() 
