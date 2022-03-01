@@ -61,7 +61,7 @@
 
 
 
-> Yukarıdaki Örnekte window içerisindeki tüm Label'ler aynı stillendirmeyi kullanmıştır. Eğer Window içerisinde herhangi bir nesne türü için birden fazla Stil tanımlamak istersek bunun için oluşturulan stile isim (key) verilebilir.
+> Yukarıdaki Örnekte window içerisindeki tüm Label'ler aynı stillendirmeyi kullanmıştır. Eğer Window içerisinde herhangi bir nesne türü için birden fazla Stil tanımlamak istersek bunun için oluşturulan stile anahtar (key) verilebilir.
 
 ```xaml
         <Style TargetType="Button" x:Key="MaviButonStyle">
