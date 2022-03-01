@@ -22,7 +22,7 @@
 ### 3. Bölüm Resource dictionary ###
 1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Resource dictionary İçerisinde Stil Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
-3. [Resource Dictionary tanımlama Kapsamı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
+3. [Resource Dictionary Kapsamı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
 
 
 
