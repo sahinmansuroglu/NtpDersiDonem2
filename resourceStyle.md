@@ -188,8 +188,63 @@
 
 ```
 
-
 ### Örnek-4  ###
+> Aşağıdaki Görseli verilen arayüzü button için 2 farklı stil kullanarak tasarlayınız.
+
+![image](https://user-images.githubusercontent.com/28144917/156530868-8c007fe7-3f86-43f5-b1b1-c09547b0b8e2.png)
+
+```xaml
+<Window x:Class="WpfApp33.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp33"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="450">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="butonStil1">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Padding" Value="20 5 20 5"/>
+            <Setter Property="Margin" Value="10 5 10 5"/>
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="Foreground" Value="Yellow"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="Button" x:Key="butonStil2">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Padding" Value="20 5 20 5"/>
+            <Setter Property="Margin" Value="10 5 10 5"/>
+            <Setter Property="Background" Value="Yellow"/>
+            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+    </Window.Resources>
+    <WrapPanel Orientation="Horizontal">
+        <Button Content="Buton 1"
+                Style="{StaticResource butonStil1}"/>
+        <Button Content="Buton 2"
+                Style="{StaticResource butonStil2}"/>
+        <Button Content="Buton 3"
+                Style="{StaticResource butonStil2}"/>
+        <Button Content="Buton 4"
+                Style="{StaticResource butonStil1}"/>
+        <Button Content="Buton 1"
+                Style="{StaticResource butonStil1}"/>
+        <Button Content="Buton 2"
+                Style="{StaticResource butonStil2}"/>
+        <Button Content="Buton 3"
+                Style="{StaticResource butonStil2}"/>
+        <Button Content="Buton 4"
+                Style="{StaticResource butonStil1}"/>
+    </WrapPanel>
+</Window>
+
+```
+
+### Örnek-5  ###
 > Aşağıdaki Görseli verilen arayüzü textbox Button ve Label ve Radio button için oluşturacağınız özel stilleri kullanarak tasarlayınız
 
 
