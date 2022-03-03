@@ -331,3 +331,179 @@ Not:En Dışta Group box olacaktır. Temel Kullanımı Aşağıdadır.
 </Window>
 
 ```
+
+
+### Örnek-5  ###
+> Aşağıdaki Görseli verilen arayüzü   oluşturacağınız özel stilleri kullanarak tasarlayınız.
+
+
+![image](https://user-images.githubusercontent.com/28144917/156565639-ae444e50-98cc-4a21-a6c8-6ec2ac199925.png)
+
+
+```xaml
+<Window x:Class="WpfApp35.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp35"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Window.Resources>
+        <Style TargetType="Border" x:Key="disBorder">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="LightBlue"/>
+            <Setter Property="CornerRadius" Value="10"/>
+
+
+        </Style>
+        <Style TargetType="Border" x:Key="puanBorder">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="LightBlue"/>
+            <Setter Property="CornerRadius" Value="10"/>
+
+
+        </Style>
+        <Style TargetType="Border" x:Key="ListBoxBorder">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="LightBlue"/>
+            <Setter Property="CornerRadius" Value="10"/>
+       </Style>
+
+        <Style TargetType="Label" x:Key="labelBaslik">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="DarkSlateGray"/>
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="textBoxStil">
+         
+            <Setter Property="Margin" Value="5"/>
+            
+        </Style>
+
+
+        <Style TargetType="Label" x:Key="labelPuanlar">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="5 0 5 0"/>
+            <Setter Property="Width" Value="90"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="DarkSlateGray"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="textPuanlar">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="90"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="DarkSlateGray"/>
+            <Setter Property="Margin" Value="5 0 5 0"/>
+
+        </Style>
+
+        <Style TargetType="Button" x:Key="butonStil">
+            
+            
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="DarkSlateGray"/>
+            <Setter Property="Margin" Value="7"/>
+
+        </Style>
+
+    </Window.Resources>
+    <Border Style="{StaticResource disBorder}">
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Ad:" Grid.Row="0" Grid.Column="0"
+                   Style="{StaticResource labelBaslik}"/>
+            <Label Content="Soyad:" Grid.Row="0" Grid.Column="2"
+                    Style="{StaticResource labelBaslik}"/>
+            <Label Content="Yaş:" Grid.Row="1" Grid.Column="0"
+                    Style="{StaticResource labelBaslik}"/>
+            <Label Content="Okul No:" Grid.Row="1" Grid.Column="2"
+                    Style="{StaticResource labelBaslik}"/>
+            <Label Content="Puanlar:" Grid.Row="2" Grid.Column="0"
+                    Style="{StaticResource labelBaslik}"/>
+            <TextBox x:Name="txtAd" Grid.Row="0" Grid.Column="1"
+                      Style="{StaticResource textBoxStil}"/>
+            <TextBox x:Name="txtSoyad" Grid.Row="0" Grid.Column="3"
+                       Style="{StaticResource textBoxStil}"/>
+            <TextBox x:Name="txtYas" Grid.Row="1" Grid.Column="1"
+                       Style="{StaticResource textBoxStil}"/>
+            <TextBox x:Name="txtOkulNo" Grid.Row="1" Grid.Column="3"
+                       Style="{StaticResource textBoxStil}"/>
+
+            <Border Grid.Row="2" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="3"
+                    Style="{StaticResource puanBorder}">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="1. Yazılı"
+                               Style="{StaticResource labelPuanlar}"/>
+                        <Label Content="2. Yazılı"
+                               Style="{StaticResource labelPuanlar}"/>
+                        <Label Content="1. Perf"
+                               Style="{StaticResource labelPuanlar}"/>
+                        <Label Content="2. Perf"
+                               Style="{StaticResource labelPuanlar}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="txtYazili1"
+                                  Style="{StaticResource textPuanlar}"/>
+                        <TextBox x:Name="txtYazili2"
+                                  Style="{StaticResource textPuanlar}"/>
+                        <TextBox x:Name="txtPerf1"
+                                  Style="{StaticResource textPuanlar}"/>
+                        <TextBox x:Name="txtPerf2"
+                                 Style="{StaticResource textPuanlar}"/>
+                    </StackPanel>
+                </StackPanel>
+                
+            </Border>
+
+            <Button x:Name="btnEkle" Content="Ekle" Grid.Row="3" Grid.Column="0"
+                    Style="{StaticResource butonStil}"
+                    Click="btnEkle_Click"/>
+            <Button x:Name="btnSil" Content="Sil" Grid.Row="3" Grid.Column="1"
+                    Style="{StaticResource butonStil}"
+                    Click="btnSil_Click"/>
+            <Button x:Name="btnAra" Content="Ara" Grid.Row="3" Grid.Column="2"
+                    Style="{StaticResource butonStil}"/>
+            <Button x:Name="btnGuncelle" Content="Guncelle" Grid.Row="3" Grid.Column="3"
+                    Style="{StaticResource butonStil}"/>
+
+            <Border Style="{StaticResource ListBoxBorder}" 
+                    Grid.Column="0"
+                    Grid.Row="4"
+                    Grid.ColumnSpan="4">
+                <ListBox x:Name="lbOgrenciler" Margin="5" BorderThickness="0">
+                    
+                </ListBox>
+                
+                
+            </Border>
+        </Grid>
+        
+    </Border>
+</Window>
+
+```
