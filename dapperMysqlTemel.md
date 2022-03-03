@@ -51,7 +51,7 @@ namespace ConsoleApp1
 
         public void tumKayitlariListele()
         {
-            using (var connection = new MySqlConnection(ConnectionString1))
+            using (IDbConnection  connection = new MySqlConnection(ConnectionString1))
             {
                 var cars = connection.Query<Ogr>("SELECT * FROM tbl_ogr  ; ").ToList();
                                cars.ForEach(car => Console.WriteLine(car));
@@ -61,7 +61,7 @@ namespace ConsoleApp1
         public void yeniKAyitEkle()
         {
 
-            using (var connection = new MySqlConnection(ConnectionString1))
+            using (IDbConnection  connection = new MySqlConnection(ConnectionString1))
             {
 
                 Ogr yeniOgr = new Ogr
@@ -82,7 +82,7 @@ namespace ConsoleApp1
         public void KayitSil()
         {
          
-            using (var connection = new MySqlConnection(ConnectionString1))
+            using (IDbConnection  connection = new MySqlConnection(ConnectionString1))
             {
                 string sqlQuery = "DELETE FROM tbl_ogr WHERE Id = @Id;";
                 int rowsAffected = connection.Execute(sqlQuery, new { Id = 3 });
@@ -94,7 +94,7 @@ namespace ConsoleApp1
         public void KayitGuncelle()
         {
 
-            using (var connection = new MySqlConnection(ConnectionString1))
+            using (IDbConnection  connection = new MySqlConnection(ConnectionString1))
             {
                 string sqlQuery = "UPDATE tbl_ogr SET AdSoyad =  @AdSoyad WHERE Id = @Id;";
                 int rowsAffected = connection.Execute(sqlQuery, new { Id = 2, AdSoyad = "Şahin MANSUROĞLU" });
