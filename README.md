@@ -46,6 +46,10 @@
 2. [Data Trigger]() 
 3. [Event trigger]() 
 
+### 7. Veritabanı İşlemleri ###
+1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
+
+
 ### 7.  Karma ###
 
 1. [WPF - Dependency Properties](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DependencyProperties.md) 
