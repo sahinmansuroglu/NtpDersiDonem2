@@ -9,6 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/28144917/156490264-64cfc5eb-b6ec-4e5f-a67f-119773b640f5.png)
 
+[Projenin Tamamlanmış Hali İçin Tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8174746/CalisanPRoje.zip)
 
 ```csharp 
 using System;
