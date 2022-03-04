@@ -23,7 +23,7 @@
 1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Resource dictionary İçerisinde Stil Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
 3. [Resource Dictionary Kapsamı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
-
+4. [Quiz Sorusu-1](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Bolum_Quiz.md) 
 
 
 ### 4. Bölüm Trigger  (Hazır Değil) ###
