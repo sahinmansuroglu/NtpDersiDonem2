@@ -11,10 +11,13 @@
 |:--------:|
 |![image](https://user-images.githubusercontent.com/28144917/156755716-ba83467d-0d29-4e15-87a8-d3c7899a9aa0.png)|
 
+<table>
+        <tr>
+                <td>ddd</td>
+        </tr>
+        </table>
 
-| Ekran Görüntüsü |
-|:--------:|
-|```xaml
+```xaml
 <Window x:Class="WpfApp9.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -130,7 +133,7 @@
     </Border>
 </Window>
 
-```|
+```
 
 ```xaml
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
