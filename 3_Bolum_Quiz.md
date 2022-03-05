@@ -14,8 +14,7 @@
 <table>
 <tr>
 <th>
-               
-                        ssss
+Kullanıcı Arayüzün XAML kodları
 </th>
 </tr>
       <tr>
@@ -145,6 +144,14 @@
         </tr>
         </table>
 
+<table>
+<tr>
+<th>
+Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isimli Resource Dictionary dosyasının XAML kodları
+</th>
+</tr>
+      <tr>
+                <td>
 
 ```xaml
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -218,6 +225,9 @@
 </ResourceDictionary>
 ```
 
+                  </td>
+        </tr>
+        </table>
 
 ```csharp
 using System;
