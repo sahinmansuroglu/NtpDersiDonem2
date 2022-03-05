@@ -111,19 +111,18 @@ Kullanıcı Arayüzün XAML kodları
                         Content="Guncelle"
                         Style="{StaticResource butonStil}"
                         Click="btnGuncelle_Click"/>
+                  
                 <Button x:Name="btnTumunuListele" 
                         Content="Tümünü Listele"
                         Style="{StaticResource butonStil}"
                        Click="btnTumunuListele_Click"/>
+                  
                 <Button x:Name="btnTemizle" 
                         Content="Temizle"
                         Style="{StaticResource butonStil}"
                         Click="btnTemizle_Click" />
 
             </StackPanel>
-
-
-
 
             <ListBox x:Name="lbOgrenciler"
                      Style="{StaticResource ListBoxStil}"
@@ -222,6 +221,7 @@ Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isiml
             </Style>
         </Style.Resources>
     </Style>
+      
 </ResourceDictionary>
 ```
 
@@ -230,6 +230,15 @@ Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isiml
 </table>
 
 
+
+<table>
+<tr>
+<th>
+Ogrenci sınıfının bulunduğu Ogrenci.cs dosyası
+</th>
+</tr>
+<tr>
+<td>
 
 ```csharp
 using System;
@@ -270,7 +279,24 @@ namespace WpfApp9
 }
 
 ```
+                                    
+                                    
 
+</td>
+</tr>
+</table>
+
+
+
+
+<table>
+<tr>
+<th>
+Kullanıcı arayüzünün Arkaplanında  çalışan C# kodları
+</th>
+</tr>
+<tr>
+<td>
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -438,3 +464,8 @@ namespace WpfApp9
 }
 
 ```
+      
+      
+</td>
+</tr>
+</table>
