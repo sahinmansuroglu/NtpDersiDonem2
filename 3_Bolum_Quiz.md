@@ -19,11 +19,7 @@
 </th>
 </tr>
       <tr>
-                <td>ddd</td>
-        </tr>
-        </table>
-
-```xaml
+                <td>```xaml
 <Window x:Class="WpfApp9.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -140,6 +136,10 @@
 </Window>
 
 ```
+</td>
+        </tr>
+        </table>
+
 
 ```xaml
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
