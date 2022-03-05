@@ -2,10 +2,13 @@
 
 [Uygulamanın Tamamlanmış Halini indirmek için Tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8185503/WpfApp9.zip)
 
-![image](https://user-images.githubusercontent.com/28144917/156755894-638888bd-72bc-402c-b060-49a5c4ba8ef2.png)
+| Ekran Görüntüsü |Arayüzün Anahat Yapısı|
+|:--------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/156755894-638888bd-72bc-402c-b060-49a5c4ba8ef2.png)|![image](https://user-images.githubusercontent.com/28144917/156755716-ba83467d-0d29-4e15-87a8-d3c7899a9aa0.png)|
 
 
-![image](https://user-images.githubusercontent.com/28144917/156755716-ba83467d-0d29-4e15-87a8-d3c7899a9aa0.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/28144917/156755984-17a2de19-2285-4a04-9799-db27904e71e4.png)
 
