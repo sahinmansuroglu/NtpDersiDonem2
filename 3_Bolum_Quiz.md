@@ -19,7 +19,10 @@
 </th>
 </tr>
       <tr>
-                <td>```xaml
+                <td>
+                  
+                  
+                  ```xaml
 <Window x:Class="WpfApp9.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -136,6 +139,8 @@
 </Window>
 
 ```
+                  
+                  
 </td>
         </tr>
         </table>
