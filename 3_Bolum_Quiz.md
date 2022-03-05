@@ -7,10 +7,10 @@
 |![image](https://user-images.githubusercontent.com/28144917/156755894-638888bd-72bc-402c-b060-49a5c4ba8ef2.png)|![image](https://user-images.githubusercontent.com/28144917/156755984-17a2de19-2285-4a04-9799-db27904e71e4.png)|
 
 
+| Uygulamanın Çalışan Halinin Ekran Görüntüsü |
+|:--------:|
+|![image](https://user-images.githubusercontent.com/28144917/156755716-ba83467d-0d29-4e15-87a8-d3c7899a9aa0.png)|
 
-
-
-![image](https://user-images.githubusercontent.com/28144917/156755716-ba83467d-0d29-4e15-87a8-d3c7899a9aa0.png)
 
 ```xaml
 <Window x:Class="WpfApp9.MainWindow"
