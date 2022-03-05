@@ -141,8 +141,8 @@ Kullanıcı Arayüzün XAML kodları
                   
                   
 </td>
-        </tr>
-        </table>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -150,12 +150,14 @@ Kullanıcı Arayüzün XAML kodları
 Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isimli Resource Dictionary dosyasının XAML kodları
 </th>
 </tr>
-      <tr>
-                <td>
+<tr>
+<td>
 
+      
 ```xaml
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+      
     <Style TargetType="Border" x:Key="disBorderStil">
         <Setter Property="Margin" Value="10"/>
         <Setter Property="BorderThickness" Value="2"/>
@@ -194,8 +196,6 @@ Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isiml
         </Style.Resources>
     </Style>
 
-
-
     <Style TargetType="Button" x:Key="butonStil">
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="Foreground" Value="DarkSlateGray"/>
@@ -225,9 +225,11 @@ Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isiml
 </ResourceDictionary>
 ```
 
-                  </td>
-        </tr>
-        </table>
+</td>
+</tr>
+</table>
+
+
 
 ```csharp
 using System;
