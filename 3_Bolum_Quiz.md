@@ -1,6 +1,6 @@
 ## Quiz Sorusu ##
 
-> [Quiz Sorusu ile ilgili Açıklama Videosunu izlemek için Tıklayını](https://www.youtube.com/watch?v=JWziUf9XFw4)
+> [Quiz Sorusu ile ilgili Açıklama Videosunu izlemek için Tıklayınız](https://www.youtube.com/watch?v=JWziUf9XFw4)
 
 
 > [Uygulamanın Tamamlanmış Halini indirmek için Tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8185503/WpfApp9.zip)
