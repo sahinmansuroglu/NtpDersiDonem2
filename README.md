@@ -27,7 +27,7 @@
 
 
 ### 4. Bölüm Trigger  (Hazır Değil) ###
-1. [Property Trigger]() 
+1. [Property Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/trigger.md) 
 2. [Data Trigger]()  
 3. [Event trigger]() 
 
