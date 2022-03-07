@@ -87,11 +87,4 @@
 </Window>
 
 ```
-> Data-Binding tek yönlü veya iki yönlü olabilir.
 
-### Data-Binding Tipleri ###
-
-    1- OneWay
-    2- TwoWay
-    3- OneWayToSource
-    4- OneTime
