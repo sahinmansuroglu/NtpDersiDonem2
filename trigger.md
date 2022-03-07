@@ -375,7 +375,10 @@
 ```
     
 #### Örnek-1 ####
-> Yukarıdaki örnekte mouse butonun üzerine geldiğinde yazı boyutu 28 olmuştur ancak tekrar eski haline gelmemiştir. Yukarıdaki uygulamaya <EventTrigger RoutedEvent="MouseLeave"> triggeri ekleyerek butonun üzerinden ayrılındığında yazı boyutu animasyonlu bir şekilde tekrar eski haline gelsin
+> Yukarıdaki örnekte mouse ile butonun üzerine gelindiğinde yazı boyutu 28 olmuştur ancak tekrar eski haline dönmemiştir. Yukarıdaki uygulamaya <EventTrigger RoutedEvent="MouseLeave"> triggeri ekleyerek butonun üzerinden ayrılındığında yazı boyutu animasyonlu bir şekilde tekrar eski haline gelsin.
+ 
+    
+**Çözüm**
     
 ```xaml    
     
