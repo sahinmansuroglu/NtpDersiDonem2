@@ -106,3 +106,65 @@
 </Window>
 
 ```
+
+#### Örnek-1 ####
+> Aşağıdaki ekran görüntüsünü tasarlayınız. Seçili RadioButton'unun yazı rengini kırmız ve bold olarak ayarlayabilşmek için trigger oluşturunuz( Property = "IsChecked" Value = "True")
+
+![image](https://user-images.githubusercontent.com/28144917/156979650-931af916-f63b-4d38-bff6-e6dcbcc8cebe.png)
+
+**Çözüm**
+
+```xaml
+<Window x:Class="WpfApp35.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp35"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    
+    
+    <Window.Resources>
+
+        <Style TargetType = "RadioButton">
+            <Setter Property = "Foreground" Value = "DarkBlue" />
+            <Setter Property = "Margin" Value = "5" />
+            <Setter Property = "FontSize" Value = "15" />
+            <Style.Triggers>
+         
+                <Trigger Property = "IsChecked" Value = "True">
+
+                    <Setter Property = "Foreground" Value = "Red" />
+                    <Setter Property = "FontWeight" Value = "Bold" />
+                </Trigger>
+                
+            </Style.Triggers>
+            
+
+            
+        </Style>
+        <Style TargetType = "Label">
+            <Setter Property = "Foreground" Value = "DarkSlateGray" />
+            <Setter Property = "Margin" Value = "5" />
+            <Setter Property = "FontSize" Value = "20" />
+            <Setter Property = "FontWeight" Value = "Bold" />
+
+
+
+        </Style>
+    </Window.Resources>
+    
+    <StackPanel>
+        <Label Content="En sevdiğiniz Spor Branşı Nedir?"/>
+        <RadioButton  Content="Futbol"/>
+        <RadioButton  Content="Basketbol"/>
+        <RadioButton  Content="Voleybol"/>
+        <RadioButton  Content="Futsal"/>
+    </StackPanel>
+</Window>
+
+```
+
+
+
