@@ -4,7 +4,7 @@
 
 ### Basit Veri Bağlama Örneği ###
 
-> Aşağıdaki örnekte label nesnesinin content'i txtAd isimli Textbox'ın Text özelliğine bağlanmıştır. Yani Text kutusuna ne yazılırsa aynı anda label'a da yazacaktır.
+> Aşağıdaki örnekte label nesnesinin content'i txtAd isimli Textbox'ın Text özelliğine bağlanmıştır. Yani Text kutusuna ne yazılırsa aynı anda label'da da görüntülenecektir.
 
 ```xaml
     <Label Content="{Binding Path=Text, ElementName=txtAd}" />
@@ -22,9 +22,6 @@
         xmlns:local="clr-namespace:WpfApp7"
         mc:Ignorable="d"
         Title="MainWindow" Height="300" Width="300">
-
-
-
 
     
     <StackPanel Margin="10">
