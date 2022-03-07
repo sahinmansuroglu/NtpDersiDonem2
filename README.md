@@ -19,17 +19,18 @@
 7. [Quiz Sorusu-1](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz.md) 
 7. [Quiz Sorusu-2](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz_2.md) 
 8. [Quiz Sorusu-3](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/2_Bolum_Quiz_3.md) 
-### 3. Bölüm Resource dictionary ###
+
+### 3. Bölüm: Resource dictionary ###
 1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Resource dictionary İçerisinde Stil Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
 3. [Resource Dictionary Kapsamı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
 4. [Quiz Sorusu-1](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Bolum_Quiz.md) 
 
 
-### 4. Bölüm Trigger  (Hazır Değil) ###
-1. [Property Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/trigger.md) 
-2. [Data Trigger]()  
-3. [Event trigger]() 
+### 4. Bölüm:Trigger Tetikleyiciler ###
+1. [Trigger-Property Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/trigger.md) 
+2. [Data Trigger]((https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/datatrigger.md) )  
+3. [Event trigger]((https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/eventtrigger.md) ) 
 
 ### 5. Bölüm Binding (Hazır Değil) ###
 1. [Property Binding]() 
