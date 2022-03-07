@@ -428,3 +428,19 @@
     </StackPanel>
 </Window>
 ```
+#### Örnek-2 ####
+> Aşağıdaki örnekte bir textboxa odaklanıldığında odaklanılan textboxun arkaplan rengi animasyonlu bir şekilde "LightPink" rengine odak kaybeldiğinde ise tekrar eski hali olan "LightGray" rengine döndürelecektir. 
+    <table>
+        <tr>
+            <td>![image](https://user-images.githubusercontent.com/28144917/157028743-c16ee0c1-b1fc-402c-8a6c-80aa283aad95.png)</td>
+            <td>![image](https://user-images.githubusercontent.com/28144917/157028814-d6fbc9dc-5e5d-4e5a-b03e-c38eca625334.png)</td>
+        </tr>
+        </table>
+
+    1- Textbox'a odaklanıldığında çalışması gereken trigger: <EventTrigger RoutedEvent="GotFocus">
+    2- Textbox'daki odaklanma kaybolduğu zaman  çalışması gereken trigger: <EventTrigger RoutedEvent="LostFocus">
+    
+    
+```xaml    
+    
+```
