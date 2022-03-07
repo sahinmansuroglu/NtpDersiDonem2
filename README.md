@@ -29,7 +29,7 @@
 
 ### 4. Bölüm:Trigger Tetikleyiciler ###
 1. [Trigger-Property Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/trigger.md) 
-2. [Data Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/datatrigger.md) ) 
+2. [Data Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/datatrigger.md) 
 3. [Event trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/eventtrigger.md)  
 
 ### 5. Bölüm:  Data-Binding (Hazır Değil) ###
