@@ -107,7 +107,7 @@
 
 ```
 
-#### Örnek-1 ####
+#### Örnek-2 ####
 > Aşağıdaki ekran görüntüsünü tasarlayınız. Seçili RadioButton'unun yazı rengini kırmız ve bold olarak ayarlayabilşmek için trigger oluşturunuz. ( Property = "IsChecked" Value = "True")
 
 ![image](https://user-images.githubusercontent.com/28144917/156979650-931af916-f63b-4d38-bff6-e6dcbcc8cebe.png)
@@ -165,6 +165,86 @@
 </Window>
 
 ```
+ ### 2- Data Trigger ###
+> Bu tetikleyici türü <DataTrigger> etiketleri arasına yazılır. Seçilen herhangi bir UI nesnesinin istenilen bir özelliği değiştiğinde tetiklenir.
+
+
+**Örnek**
+    
+>   Aşağıdaki örnekte bir Buton Stil'i içerisinde DataTrigger oluşturulmuştur. Bu buton başlangıçta pasif halde iken DataTrigger sayesinde cbOnay isimli checkbox'in IsChecked özelliği true olduğu zaman bu buton aktif hale gelmektedir.
+    
+```xaml
+   <Style TargetType="Button">
+            <Setter Property="Width"  Value = "150"/>
+            <Setter Property="Margin"  Value = "10"/>
+            <Setter Property="IsEnabled"  Value = "False"/>
+            <Style.Triggers>
+                <DataTrigger Binding = "{Binding ElementName=cbOnay, Path = IsChecked}"    Value = "true">
+                    <Setter Property="IsEnabled"  Value = "True"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+```
+    
+> Uygulamanın Tamamlanmış Hali aşağıdadır.
+    
+ ![image](https://user-images.githubusercontent.com/28144917/157011761-12c68a25-5661-43cc-b7b8-e1fc1df83cef.png)
+
+```xaml    
+    <Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
 
 
 
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width"  Value = "150"/>
+            <Setter Property="Margin"  Value = "10"/>
+            <Setter Property="IsEnabled"  Value = "False"/>
+            <Style.Triggers>
+                <DataTrigger Binding = "{Binding ElementName=cbOnay, Path = IsChecked}"    Value = "true">
+                    <Setter Property="IsEnabled"  Value = "True"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style  TargetType="CheckBox">
+            <Setter Property = "Foreground" Value = "Red"/>
+            <Setter Property = "FontWeight" Value = "Bold" />
+        </Style>
+
+    </Window.Resources>
+    <StackPanel Margin="10">
+        <CheckBox x:Name="cbOnay" Content="Kimlik Bilgilerimin Doğruluğunu onaylıyorum"/>
+        <Button Content="Onayla"/>
+
+    </StackPanel>
+</Window>
+
+```
+    
+**Not:** Stil ve trigger tanımlaması istenildığı takdirde aşağıdaki gibi herhangi bir UI nesnesi içerisinde de tanımlanabilir
+    
+```xaml   
+<Button Content="Onayla">
+            <Button.Style>
+                <Style>
+                     <Style.Triggers>
+                        <DataTrigger Binding = "{Binding ElementName=cbOnay, Path = IsChecked}"    Value = "true">
+                            <Setter Property="Button.IsEnabled"  Value = "True"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                 </Style>
+            </Button.Style>
+        </Button>
+    
+```
+    
+    
