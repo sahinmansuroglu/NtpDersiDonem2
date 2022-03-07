@@ -32,11 +32,12 @@
 2. [Data Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/datatrigger.md) 
 3. [Event trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/eventtrigger.md)  
 
-### 5. Bölüm:  Data-Binding (Hazır Değil) ###
-1. [Property Binding]() 
-2. [Different Properties Different DataSource(s)]() 
-3. [INotifyPropertyChanged Kullanımı ]() 
-4. [Element to Element Binding]() 
+### 5. Bölüm:  Data-Binding (Veri Bağlama) ###
+1. [Data-Binding nedir?](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
+2. [Property Binding]() 
+3. [Different Properties Different DataSource(s)]() 
+4. [INotifyPropertyChanged Kullanımı ]() 
+5. [Element to Element Binding]() 
 
 
 
