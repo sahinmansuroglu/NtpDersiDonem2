@@ -32,7 +32,7 @@
 2. [Data Trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/datatrigger.md) ) 
 3. [Event trigger](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/eventtrigger.md)  
 
-### 5. Bölüm Binding (Hazır Değil) ###
+### 5. Bölüm:  Data-Binding (Hazır Değil) ###
 1. [Property Binding]() 
 2. [Different Properties Different DataSource(s)]() 
 3. [INotifyPropertyChanged Kullanımı ]() 
@@ -43,9 +43,9 @@
 
 
 ### 6.  WPF User Control Library   (Hazır Değil) ###
-1. [Property Trigger]() 
-2. [Data Trigger]() 
-3. [Event trigger]() 
+1. [.........]() 
+2. [.........]() 
+3. [.........]() 
 
 ### 7. Veritabanı İşlemleri ###
 1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
