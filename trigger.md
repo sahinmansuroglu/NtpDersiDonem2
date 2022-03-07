@@ -250,9 +250,9 @@
 #### Örnek-1 ####
 > Aşağıdaki Örnekte Evlilik durumu Evli ise Eşinin mesleğinin girileceği Texbox aktif, eğer Bekar ise bu Textbox pasif olacaktır. Bu işlem için dataTrigger kullanılacaktır.
     
-    ![image](https://user-images.githubusercontent.com/28144917/157016044-f9594cbd-8b84-4973-abcf-d7f5d8c1fc8a.png)
+![image](https://user-images.githubusercontent.com/28144917/157016044-f9594cbd-8b84-4973-abcf-d7f5d8c1fc8a.png)
     
-    ![image](https://user-images.githubusercontent.com/28144917/157016083-1aba1bb5-fccd-44dc-9c04-abe1e7d7a79c.png)
+![image](https://user-images.githubusercontent.com/28144917/157016083-1aba1bb5-fccd-44dc-9c04-abe1e7d7a79c.png)
 
     
 ```xaml
