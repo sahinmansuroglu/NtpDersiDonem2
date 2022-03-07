@@ -108,7 +108,7 @@
 ```
 
 #### Örnek-1 ####
-> Aşağıdaki ekran görüntüsünü tasarlayınız. Seçili RadioButton'unun yazı rengini kırmız ve bold olarak ayarlayabilşmek için trigger oluşturunuz( Property = "IsChecked" Value = "True")
+> Aşağıdaki ekran görüntüsünü tasarlayınız. Seçili RadioButton'unun yazı rengini kırmız ve bold olarak ayarlayabilşmek için trigger oluşturunuz. ( Property = "IsChecked" Value = "True")
 
 ![image](https://user-images.githubusercontent.com/28144917/156979650-931af916-f63b-4d38-bff6-e6dcbcc8cebe.png)
 
