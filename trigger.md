@@ -265,29 +265,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="112" Width="300">
 
-
-
-    <Window.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Width"  Value = "150"/>
-            <Setter Property="Margin"  Value = "10"/>
-            <Setter Property="IsEnabled"  Value = "False"/>
-            
-        </Style>
-
-        <Style  TargetType="CheckBox">
-            <Setter Property = "Foreground" Value = "Red"/>
-            <Setter Property = "FontWeight" Value = "Bold" />
-        </Style>
-
-    </Window.Resources>
     <StackPanel Margin="10">
         <StackPanel Orientation="Horizontal">
+
             <Label Content="Evlilik Durumu:" FontWeight="Bold"/>
             <RadioButton x:Name="rbEvli" Content="Evli :" FontWeight="Bold" IsChecked="True"/>
             <RadioButton x:Name="rbBekar" Content="Bekar :" FontWeight="Bold"/>
             
         </StackPanel>
+        
         <StackPanel Orientation="Horizontal" >
             <StackPanel.Style>
                 <Style>
@@ -319,4 +305,126 @@
 
 ```
 
+ ### 2- Event Trigger ###
+> Bu tetikleyici türü <EventTrigger> etiketleri arasına yazılır. Seçilen herhangi bir UI nesnesi üzerinde bir olay(event) gerçekleştiğinde meydana gelir. Genellikle bir animasyonlarla beraber kullanılır.
     
+> Aşağıdaki Örnekte  verilen stili kullanan bir butonun mouse ile üzerine gelindiğinde yazı boyutu animasyonlu bir şekilde  28 olmuştur.
+    
+```xaml    
+    <Style  TargetType="Button">
+            <Setter Property = "Foreground" Value = "Red"/>
+            <Setter Property = "FontWeight" Value = "Bold" />
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize" To="28" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+               
+            </Style.Triggers>
+        </Style>
+```
+    > Uygulamanın Tamamlanmış Hali aşağıdadır.
+    
+```xaml
+   <Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="112" Width="300">
+
+
+
+    <Window.Resources>
+       
+
+        <Style  TargetType="Button">
+            <Setter Property = "Foreground" Value = "Red"/>
+            <Setter Property = "FontWeight" Value = "Bold" />
+            <Setter Property = "FontSize" Value = "15" />
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize" To="28" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+               
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    <StackPanel Margin="10">
+        <Button Content="Tıklayınız">
+            
+        </Button>
+
+    </StackPanel>
+</Window>
+ 
+```
+    
+#### Örnek-1 ####
+> Yukarıdaki örnekte mouse butonun üzerine geldiğinde yazı boyutu 28 olmuştur ancak tekrar eski haline gelmemiştir. Yukarıdaki uygulamaya <EventTrigger RoutedEvent="MouseLeave"> triggeri ekleyerek butonun üzerinden ayrılındığında yazı boyutu animasyonlu bir şekilde tekrar eski haline gelsin
+    
+```xaml    
+    
+    <Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="112" Width="300">
+
+
+
+    <Window.Resources>
+       
+
+        <Style  TargetType="Button">
+            <Setter Property = "Foreground" Value = "Red"/>
+            <Setter Property = "FontWeight" Value = "Bold" />
+            <Setter Property = "FontSize" Value = "15" />
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize" To="28" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Duration="0:0:0.800" Storyboard.TargetProperty="FontSize" To="15" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    <StackPanel Margin="10">
+        <Button Content="Tıklayınız">
+            
+        </Button>
+
+    </StackPanel>
+</Window>
+```
