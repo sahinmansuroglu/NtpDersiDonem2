@@ -34,10 +34,11 @@
 
 ### 5. Bölüm:  Data-Binding (Veri Bağlama) ###
 1. [Data-Binding nedir?](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
-2. [Property Binding]() 
-3. [Different Properties Different DataSource(s)]() 
-4. [INotifyPropertyChanged Kullanımı ]() 
-5. [Element to Element Binding]() 
+2. [DataContext Kullanımı?](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding2.md) 
+3. [Property Binding]() 
+4. [Different Properties Different DataSource(s)]() 
+5. [INotifyPropertyChanged Kullanımı ]() 
+6. [Element to Element Binding]() 
 
 
 
