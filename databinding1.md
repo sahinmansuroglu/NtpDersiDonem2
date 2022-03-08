@@ -84,4 +84,38 @@
 </Window>
 
 ```
+### OneWay ve TwoWay Binding ###
+> OneWay (Tek Yönlü) binding ile  veri kaynağında bir değişim olduğunda  bu değişiklik verinin kullanıldığı yerde gözlenir. Ancak verinin kullanıldığı yerde veri üzerinde bir değişiklik yapılırsa bu veri kaynağındaki veri güncellenmez.
 
+> TwoWay (İki Yönlü) binding ile  veri kaynağında bir değişim olduğunda  bu değişiklik verinin kullanıldığı yerde gözlenir.Ayrıca OneWay'den farklı olarak   verinin kullanıldığı yerde  veri üzerinde bir değişiklik yapılırsa bu değişiklik veri kaynağındaki veriyide etkileyecektir.
+
+
+> Aşağıdaki Örnekte  txtMetin1'nin Text Özelliği txtMetin1'in Text zelliğine OneWay olarak bağlanmıştır. Yani txtMetin1 kutusuna bir metin yazıldığında aynı anda bu metin txtMetin2'de de görüntülenecektir. Ancak tersi durum söz konusu olmayacaktır.
+```xaml
+        <Label Content="Metin 1 " />
+        <TextBox Name="txtMetin1"  />
+        <Label Content="Metin 2 " />
+         <TextBox Name="txtMetin2" Text="{Binding Path=Text, ElementName=txtMetin1, Mode=OneWay}" />
+```
+
+> Aşağıdaki Örnekte  txtMetin1'nin Text Özelliği txtMetin1'in Text zelliğine TwoWay olarak bağlandığı için  txtMetin1 kutusuna girilen metin txtMetin2 kutusunda, txtMetin2 kutusuna girilen metin  ise txtMetin1 kutusunda görüntülenecektir. 
+
+```xaml
+        <Label Content="Metin 1 " />
+        <TextBox Name="txtMetin1"  />
+        <Label Content="Metin 2 " />
+         <TextBox Name="txtMetin2" Text="{Binding Path=Text, ElementName=txtMetin1, Mode=OneWay}" />
+```
+
+### OneWayToSource ve OneTime Binding ###
+> **OneWayToSource** ile OneWay yönünün tersi yönde bağlama sağlar. Yani OneWay'de kaynakta değişiklik olduğunda hedefte bu değişikli gözlenirken  OneWayToSource'de bunun teri yön gerçekleşir.
+
+> **OneTime** ile bağlama işlemi sadece uygulama ilk başlatıldığında gerçekleşir
+
+### UpdateSourceTrigger ###
+> **UpdateSourceTrigger** ile veri kaynağının ne zaman güncelleneceği belirlenir. 
+
+**UpdateSourceTrigger=PropertyChanged** olarak ayarlanırsa property'de herhangi bir değişiklik olduğunda bu değişiklik kaynağa iletilir.
+**UpdateSourceTrigger=LostFocus** olarak ayarlanırsa bağlama yapılan nesneden başka bir nesneye geçiş yapıldığında property'deki değişiklik  kaynağa iletilir.
+
+Bursada Slider Örneği Yap
