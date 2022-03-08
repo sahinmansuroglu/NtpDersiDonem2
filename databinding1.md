@@ -108,7 +108,7 @@
 ```
 
 ### OneWayToSource ve OneTime Binding ###
-> **OneWayToSource** ile OneWay yönünün tersi yönde bağlama sağlar. Yani OneWay'de kaynakta değişiklik olduğunda hedefte bu değişikli gözlenirken  OneWayToSource'de bunun teri yön gerçekleşir.
+> **OneWayToSource** ile OneWay yönünün tersi yönde bağlama sağlar. Yani OneWay'de kaynakta değişiklik olduğunda hedefte bu değişikli gözlenirken  OneWayToSource'de bunun tersi yönde gerçekleşir.
 
 > **OneTime** ile bağlama işlemi sadece uygulama ilk başlatıldığında gerçekleşir
 
