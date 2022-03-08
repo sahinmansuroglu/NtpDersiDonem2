@@ -4,7 +4,7 @@
 
 
 
->Örneğin elimizde aşağıdaki gibi bir Ogrenci sınıfı, bu sınıftan türetilen bir ogrenci nesnesi ve bu nesneyi bağlamak istediğimiz bir kullanıc arayüzü olsun. 
+>Örneğin elimizde aşağıdaki gibi bir Ogrenci sınıfı, bu sınıftan türetilen bir ogrenci nesnesi ve bu nesneyi bağlamak istediğimiz bir kullanıcı arayüzü olsun. 
 
 
 | Ogrenci Class'ı |Ogrenci Nesnesi|Kullanıcı Arayüzü|
