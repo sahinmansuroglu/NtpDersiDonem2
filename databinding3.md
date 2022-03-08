@@ -40,3 +40,8 @@
         public event PropertyChangedEventHandler PropertyChanged;
     }
 ```
+
+
+Puan Ortalama INotifyPropertyChanged
+
+[WpfApp11.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8209229/WpfApp11.zip)
