@@ -105,7 +105,7 @@ namespace WpfApp7
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"{ogrenci.Ad} {ogrenci.Soyad}")
+            MessageBox.Show($"{ogrenci.Ad} {ogrenci.Soyad}");
         }
 
        
