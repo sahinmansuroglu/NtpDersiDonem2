@@ -1,7 +1,13 @@
 ## DataContext Kullanımı ##
 
-> Datacontext özelliği, verileri kullanıcı arayüzüne bağlamak için kullanılır. Window'ın tamamında geçerli olabilecek bir datacontext atanabildiği gibi aynı zamanda StackPanel, Grid, Textbox Listbox
+> Datacontext özelliği, verileri kullanıcı arayüzüne bağlamak için kullanılır. 
 
+>Örneğin Elimizde Aşağıdaki gibi bir Ogrenci sınıfından türetilmiş bir nesnemiz olsun
+| Ogrenci Class'ı |Ogrenci Nesnesi|Kullanıcı Arayüzü|
+|:--------:|:----------------------------:|:----------------------------:|
+|![image](https://user-images.githubusercontent.com/28144917/157192461-da851809-58df-4a41-ae13-8cd35d717232.png)|![image](https://user-images.githubusercontent.com/28144917/157192574-c4746eb6-0b0d-4225-8efc-1df0ef761456.png)|![image](https://user-images.githubusercontent.com/28144917/157192248-3a1fb4f0-9d52-4c50-abe9-963edc1a1bd9.png)|
+
+    
 
 <Window x:Class="WpfApp7.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
