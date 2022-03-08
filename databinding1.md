@@ -113,9 +113,10 @@
 > **OneTime** ile bağlama işlemi sadece uygulama ilk başlatıldığında gerçekleşir
 
 ### UpdateSourceTrigger ###
-> **UpdateSourceTrigger** ile veri kaynağının ne zaman güncelleneceği belirlenir. 
+> **UpdateSourceTrigger** ile veri kaynağının henagi durumda güncelleneceği belirlenir. 
 
-    1- **UpdateSourceTrigger=PropertyChanged** olarak ayarlanırsa property'de herhangi bir değişiklik olduğunda bu değişiklik kaynağa iletilir.
-    2- **UpdateSourceTrigger=LostFocus** olarak ayarlanırsa bağlama yapılan nesneden başka bir nesneye geçiş yapıldığında property'deki değişiklik  kaynağa iletilir.
+> **UpdateSourceTrigger=PropertyChanged** olarak ayarlanırsa property'de herhangi bir değişiklik olduğunda bu değişiklik kaynağa iletilir.
+
+> **UpdateSourceTrigger=LostFocus** olarak ayarlanırsa bağlama yapılan nesneden başka bir nesneye geçiş yapıldığında property'deki değişiklik  kaynağa iletilir.
 
 Bursada Slider Örneği Yap
