@@ -1,5 +1,5 @@
  ### 2- Data Trigger ###
-> Bu tetikleyici türü <DataTrigger> etiketleri arasına yazılır. Seçilen herhangi bir UI nesnesinin istenilen bir özelliği değiştiğinde tetiklenir.
+> Bu tetikleyici türü ```<DataTrigger>``` etiketleri arasına yazılır. Seçilen herhangi bir UI nesnesinin istenilen bir özelliği değiştiğinde tetiklenir.
 
 
 **Örnek**
