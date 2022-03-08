@@ -137,3 +137,49 @@
 </Window>
 
 ```
+> Aynı uygulama istenirse aşağıdaki gibi stackPanel için ayrı bir stil tanımlayarak da gerçekleşitirilebilir.
+ 
+ ```xaml
+ <Window x:Class="WpfApp36.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp36"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Window.Resources>
+        <Style TargetType="StackPanel" x:Key="StackPanelStil">
+            <Setter  Property="IsEnabled" Value="False"/>
+            <Setter  Property="Background" Value="LightGray"/>
+            <Style.Triggers>
+                <DataTrigger   Binding = "{Binding ElementName=rbEvli, Path = IsChecked}"     Value = "true">
+                    <Setter  Property="IsEnabled" Value="True"/>
+                    <Setter  Property="Background" Value="Transparent"/>
+                </DataTrigger>
+
+                
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    <StackPanel Margin="10">
+        <StackPanel Orientation="Horizontal">
+
+            <Label Content="Evlilik Durumu:" FontWeight="Bold"/>
+            <RadioButton x:Name="rbEvli" Content="Evli :" FontWeight="Bold" IsChecked="True"/>
+            <RadioButton x:Name="rbBekar" Content="Bekar :" FontWeight="Bold"/>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Style="{StaticResource StackPanelStil}" >
+            <Label Content="Eşinin Mesleği" FontWeight="Bold"/>
+            <TextBox Width="100">
+            </TextBox>
+
+        </StackPanel>
+
+    </StackPanel>
+</Window>
+
+ ```
