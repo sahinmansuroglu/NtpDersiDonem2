@@ -125,4 +125,5 @@ namespace WpfApp7
 
 > Aşağıdaki çıktının nedenin açıklayınız..
 
+
 |![image](https://user-images.githubusercontent.com/28144917/157229731-ca1f7b90-69b0-4fca-a8fd-427d4a39c549.png)|![image](https://user-images.githubusercontent.com/28144917/157229659-a0a92f56-fb2e-4ff0-9b21-b8f7eb85e3c2.png)|
