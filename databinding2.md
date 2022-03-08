@@ -98,7 +98,7 @@ namespace WpfApp7
             InitializeComponent();
             
             this.DataContext = ogrenci;    
-            //stackPanel1.DataContext = ogrenci;
+            //stackPanel1.DataContext = ogrenci; // bu şekilde de atama yapılabilir
         }
 
       
