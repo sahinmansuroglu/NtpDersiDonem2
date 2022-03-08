@@ -123,5 +123,6 @@ namespace WpfApp7
 |![image](https://user-images.githubusercontent.com/28144917/157226044-7f1c7e22-afc5-43bb-8327-4d2114307e2e.png)|![image](https://user-images.githubusercontent.com/28144917/157226165-7ed4f2a6-295e-48de-823b-a20db4dd7ece.png)|
 
 
+> Aşağıdaki çıktının nedenin açıklayınız..
 
 |![image](https://user-images.githubusercontent.com/28144917/157229731-ca1f7b90-69b0-4fca-a8fd-427d4a39c549.png)|![image](https://user-images.githubusercontent.com/28144917/157229659-a0a92f56-fb2e-4ff0-9b21-b8f7eb85e3c2.png)|
