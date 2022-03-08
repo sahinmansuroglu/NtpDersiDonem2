@@ -1,6 +1,6 @@
 ## DataContext Kullanımı ##
 
-> Datacontext özelliği, verileri kullanıcı arayüzüne bağlamak için kullanılır.
+> Datacontext özelliği, verileri kullanıcı arayüzüne bağlamak için kullanılır. Window'ın tamamında geçerli olabilecek bir datacontext atanabildiği gibi aynı zamanda StackPanel, Grid, Textbox Listbox
 
 
 <Window x:Class="WpfApp7.MainWindow"
