@@ -1,6 +1,6 @@
 ## Data-Binding nedir? ##
 
-> Data-Binding, veriyi sağlayan  ile  veriyi kullanan kaynakları birbirine bağlayan ve bunları senkronize eden genel bir tekniktir.
+> Data-Binding, veri nesnelerini UI nesneleri içerisinde görüntülemeye ve bu verileri bir birleriyle senkronize olmasını sağlayan genel bir tekniktir.
 
 ### Basit Veri Bağlama Örneği ###
 
