@@ -11,10 +11,24 @@
 |:--------:|:----------------------------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/157192461-da851809-58df-4a41-ae13-8cd35d717232.png)|![image](https://user-images.githubusercontent.com/28144917/157192574-c4746eb6-0b0d-4225-8efc-1df0ef761456.png)|![image](https://user-images.githubusercontent.com/28144917/157192248-3a1fb4f0-9d52-4c50-abe9-963edc1a1bd9.png)|
 
- > Oluşturulan nesneyi kullanıcı arayüzüne bağlayabilmek için   DataContext özelliğinden faydalanılır. Bunun için ogrenci nesnesi kullanıcı arayuzunu içeren gridPanel, stackPanel veya Window gibi UI nesnelerinin dataContext özelliğine oluşturulan ogrenci nesnesi atanır. (Bu atamayı C# tarafında yapacağız)
+ > Oluşturulan nesneyi kullanıcı arayüzüne bağlayabilmek için   DataContext özelliğinden faydalanılır. Bunun için ogrenci nesnesi, kullanıcı arayuzunu içeren gridPanel, stackPanel veya Window gibi UI nesnelerinin dataContext özelliğine  atanır. (Bu atamayı C# tarafında yapacağız)
 
 
+> Xaml kodları verilen Kullanıcı arayüzü ile ogrenci nesnemizi bağlayabilmek için MainWindow'umuz oluşturulurken aşağıdaki gibi bağlama işlemi sağlayabiliriz.
+```csharp
+       public MainWindow()
+        {
+            InitializeComponent();
+            
+            this.DataContext = ogrenci; //(Burada this Window'u işaret eder)
+                     yada
+            stackPanel1.DataContext = ogrenci;
 
+        }
+```
+
+
+```xaml
 <Window x:Class="WpfApp7.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -30,10 +44,7 @@
         </Style>
     </Window.Resources>
     
-
-```xaml
-    
-    <StackPanel Margin="1" >
+  <StackPanel Margin="1" >
         
             <Label Content="Ad " />
             <TextBox Name="txtAd" Text="{Binding Path=Ad}" />
@@ -79,8 +90,8 @@ namespace WpfApp7
 
         Ogrenci ogrenci = new Ogrenci
         {
-            Ad = "arda",
-            Soyad = "Aydın"
+            Ad = "Ayhan",
+            Soyad = "AŞKIN"
         };
         public MainWindow()
         {
@@ -90,10 +101,7 @@ namespace WpfApp7
             
         }
 
-        private void TextBox_IsEnabledChanged(object sender, DependencyPropertyChangedEventArgs e)
-        {
-
-        }
+      
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
