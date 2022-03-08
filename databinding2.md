@@ -11,7 +11,9 @@
 |:--------:|:----------------------------:|:----------------------------:|
 |![image](https://user-images.githubusercontent.com/28144917/157192461-da851809-58df-4a41-ae13-8cd35d717232.png)|![image](https://user-images.githubusercontent.com/28144917/157192574-c4746eb6-0b0d-4225-8efc-1df0ef761456.png)|![image](https://user-images.githubusercontent.com/28144917/157192248-3a1fb4f0-9d52-4c50-abe9-963edc1a1bd9.png)|
 
-    
+ > Oluşturulan nesneyi kullanıcı arayüzüne bağlayabilmek için   DataContext özelliğinden faydalanılır. Bunun için ogrenci nesnesi kullanıcı arayuzunu içeren gridPanel, stackPanel veya Window gibi UI nesnelerinin dataContext özelliğine oluşturulan ogrenci nesnesi atanır. (Bu atamayı C# tarafında yapacağız)
+
+
 
 <Window x:Class="WpfApp7.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
