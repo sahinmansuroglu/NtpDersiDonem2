@@ -104,7 +104,7 @@
         <Label Content="Metin 1 " />
         <TextBox Name="txtMetin1"  />
         <Label Content="Metin 2 " />
-         <TextBox Name="txtMetin2" Text="{Binding Path=Text, ElementName=txtMetin1, Mode=OneWay}" />
+         <TextBox Name="txtMetin2" Text="{Binding Path=Text, ElementName=txtMetin1, Mode=TwoWay}" />
 ```
 
 ### OneWayToSource ve OneTime Binding ###
