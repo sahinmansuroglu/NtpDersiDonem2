@@ -44,7 +44,7 @@
         </Style>
     </Window.Resources>
     
-  <StackPanel Margin="1" >
+  <StackPanel Margin="1" Name="stackPanel1" >
         
             <Label Content="Ad " />
             <TextBox Name="txtAd" Text="{Binding Path=Ad}" />
@@ -98,7 +98,7 @@ namespace WpfApp7
             InitializeComponent();
             
             this.DataContext = ogrenci;    
-            
+            //stackPanel1.DataContext = ogrenci;
         }
 
       
