@@ -2,7 +2,9 @@
 
 > Datacontext özelliği, verileri kullanıcı arayüzüne bağlamak için kullanılır. 
 
->Örneğin Elimizde Aşağıdaki gibi bir Ogrenci sınıfından türetilmiş bir nesnemiz olsun
+
+
+>Örneğin elimizde aşağıdaki gibi bir Ogrenci sınıfı, bu sınıftan türetilen bir ogrenci nesnesi ve bu nesneyi bağlamak istediğimiz bir kullanıc arayüzü olsun. 
 
 
 | Ogrenci Class'ı |Ogrenci Nesnesi|Kullanıcı Arayüzü|
