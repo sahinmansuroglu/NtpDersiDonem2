@@ -85,9 +85,9 @@
 
 ```
 ### OneWay ve TwoWay Binding ###
-> OneWay (Tek Yönlü) binding ile  veri kaynağında bir değişim olduğunda  bu değişiklik verinin kullanıldığı yerde gözlenir. Ancak verinin kullanıldığı yerde veri üzerinde bir değişiklik yapılırsa bu veri kaynağındaki veri güncellenmez.
+> **OneWay (Tek Yönlü)** binding ile  veri kaynağında bir değişim olduğunda  bu değişiklik verinin kullanıldığı yerde gözlenir. Ancak verinin kullanıldığı yerde veri üzerinde bir değişiklik yapılırsa bu veri kaynağındaki veri güncellenmez.
 
-> TwoWay (İki Yönlü) binding ile  veri kaynağında bir değişim olduğunda  bu değişiklik verinin kullanıldığı yerde gözlenir.Ayrıca OneWay'den farklı olarak   verinin kullanıldığı yerde  veri üzerinde bir değişiklik yapılırsa bu değişiklik veri kaynağındaki veriyide etkileyecektir.
+> **TwoWay (İki Yönlü**) binding ile  veri kaynağında bir değişim olduğunda  bu değişiklik verinin kullanıldığı yerde gözlenir.Ayrıca OneWay'den farklı olarak   verinin kullanıldığı yerde  veri üzerinde bir değişiklik yapılırsa bu değişiklik veri kaynağındaki veriyide etkileyecektir.
 
 
 > Aşağıdaki Örnekte  txtMetin1'nin Text Özelliği txtMetin1'in Text zelliğine OneWay olarak bağlanmıştır. Yani txtMetin1 kutusuna bir metin yazıldığında aynı anda bu metin txtMetin2'de de görüntülenecektir. Ancak tersi durum söz konusu olmayacaktır.
@@ -115,7 +115,7 @@
 ### UpdateSourceTrigger ###
 > **UpdateSourceTrigger** ile veri kaynağının ne zaman güncelleneceği belirlenir. 
 
-**UpdateSourceTrigger=PropertyChanged** olarak ayarlanırsa property'de herhangi bir değişiklik olduğunda bu değişiklik kaynağa iletilir.
-**UpdateSourceTrigger=LostFocus** olarak ayarlanırsa bağlama yapılan nesneden başka bir nesneye geçiş yapıldığında property'deki değişiklik  kaynağa iletilir.
+    1- **UpdateSourceTrigger=PropertyChanged** olarak ayarlanırsa property'de herhangi bir değişiklik olduğunda bu değişiklik kaynağa iletilir.
+    2- **UpdateSourceTrigger=LostFocus** olarak ayarlanırsa bağlama yapılan nesneden başka bir nesneye geçiş yapıldığında property'deki değişiklik  kaynağa iletilir.
 
 Bursada Slider Örneği Yap
