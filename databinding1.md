@@ -120,3 +120,38 @@
 > **UpdateSourceTrigger=LostFocus** olarak ayarlanırsa bağlama yapılan nesneden başka bir nesneye geçiş yapıldığında property'deki değişiklik  kaynağa iletilir.
 
 Bursada Slider Örneği Yap
+
+![image](https://user-images.githubusercontent.com/28144917/157219991-2517ad38-56e0-40b4-aa46-afa2c7b9fb20.png)
+
+
+```xaml
+<Window x:Class="WpfApp37.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp37"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Window.Resources>
+
+    <StackPanel Margin="10" Name="stackPanel1" >
+        <Slider x:Name="sldr1" Minimum="0" Maximum="200" Value="100"
+                
+                IsSnapToTickEnabled="True"/>
+        <TextBox Text="{Binding ElementName=sldr1, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <Rectangle Width="{Binding ElementName=sldr1, Path=Value}"
+                   Height="{Binding ElementName=sldr1, Path=Value}"
+                   Fill="Purple"/>
+       
+
+
+
+    </StackPanel>
+</Window>
+
+```
