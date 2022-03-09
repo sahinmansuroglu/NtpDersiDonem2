@@ -38,6 +38,7 @@
 3. [INotifyPropertyChanged Arayüzünün Kullanımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
 
 
+```stacktrace
 
 ### 6. Bölüm:  Dialog Kutuları ###
 1. [MessageBox](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
@@ -45,7 +46,6 @@
 3. [SaveFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
 
 
-<hzrdgl>
 
 ### 7. Bölüm:  Dialog Kutuları (Hazır Değil)  ###
 Common interface controls
@@ -66,13 +66,13 @@ Advanced FlowDocument content
 The RichTextBox control
 How-to: Creating a Rich Text Editor
 
-</hzrdgl>
 
 ### 6.  WPF User Control Library   (Hazır Değil) ###
 1. [.........]() 
 2. [.........]() 
 3. [.........]() 
 
+```
 
 ### 7. Veritabanı İşlemleri ###
 1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
