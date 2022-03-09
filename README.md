@@ -39,6 +39,39 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 6. Bölüm:  Dialog Kutuları  (Hazır Değil) ###
 1. [MessageBox](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
 2. [OpenFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding2.md) 
