@@ -38,9 +38,8 @@
 3. [INotifyPropertyChanged Arayüzünün Kullanımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
 
 
-```stacktrace
 
-### 6. Bölüm:  Dialog Kutuları ###
+### 6. Bölüm:  Dialog Kutuları  (Hazır Değil) ###
 1. [MessageBox](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
 2. [OpenFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding2.md) 
 3. [SaveFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
@@ -55,7 +54,7 @@ The WPF ToolBar control
 The WPF StatusBar control
 The Ribbon control
 
-### 8. Bölüm:  Rich Tezt ###
+### 8. Bölüm:  Rich Text (Hazır Değil)  ###
 Rich Text controls
 Introduction to WPF Rich Text controls
 The FlowDocumentScrollViewer control
@@ -72,7 +71,7 @@ How-to: Creating a Rich Text Editor
 2. [.........]() 
 3. [.........]() 
 
-```
+
 
 ### 7. Veritabanı İşlemleri ###
 1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
