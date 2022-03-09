@@ -45,7 +45,7 @@
 3. [SaveFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
 
 
-<hazır Degil>
+<hzrdgl>
 
 ### 7. Bölüm:  Dialog Kutuları (Hazır Değil)  ###
 Common interface controls
@@ -66,7 +66,7 @@ Advanced FlowDocument content
 The RichTextBox control
 How-to: Creating a Rich Text Editor
 
-</hazır Degil>
+</hzrdgl>
 
 ### 6.  WPF User Control Library   (Hazır Değil) ###
 1. [.........]() 
