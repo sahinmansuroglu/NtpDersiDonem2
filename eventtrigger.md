@@ -7,12 +7,15 @@
     <Style  TargetType="Button">
             <Setter Property = "Foreground" Value = "Red"/>
             <Setter Property = "FontWeight" Value = "Bold" />
+            <Setter Property = "FontSize" Value = "15" />
+            <Setter Property = "Width" Value = "100" />
             <Style.Triggers>
                 <EventTrigger RoutedEvent="MouseEnter">
                     <EventTrigger.Actions>
                         <BeginStoryboard>
                             <Storyboard>
                                 <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize" To="28" />
+                                <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="Width" To="200" />
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger.Actions>
@@ -41,13 +44,15 @@
         <Style  TargetType="Button">
             <Setter Property = "Foreground" Value = "Red"/>
             <Setter Property = "FontWeight" Value = "Bold" />
-            <Setter Property = "FontSize" Value = "15" />
+             <Setter Property = "FontSize" Value = "15" />
+            <Setter Property = "Width" Value = "100" />
             <Style.Triggers>
                 <EventTrigger RoutedEvent="MouseEnter">
                     <EventTrigger.Actions>
                         <BeginStoryboard>
                             <Storyboard>
                                 <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize" To="28" />
+                                   <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="Width" To="200" />
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger.Actions>
