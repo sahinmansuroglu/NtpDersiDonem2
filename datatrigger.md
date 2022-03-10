@@ -98,42 +98,46 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="112" Width="300">
 
+       <Window.Resources>
+      
+            <Style TargetType="StackPanel" x:Key="stackPanelStil">
+            <Setter Property="IsEnabled"  Value = "True"/>
+            <Style.Triggers>
+               
+                    
+                <DataTrigger Binding = "{Binding ElementName=rbBekar, Path = IsChecked}"    Value = "true">
+                        <Setter Property="IsEnabled"  Value = "False"/>
+                        <Setter Property="Background"  Value = "LightGray"/>
+                    </DataTrigger>
+
+                </Style.Triggers>
+            </Style>
+
+      
+
+    </Window.Resources>
+
     <StackPanel Margin="10">
         <StackPanel Orientation="Horizontal">
 
             <Label Content="Evlilik Durumu:" FontWeight="Bold"/>
             <RadioButton x:Name="rbEvli" Content="Evli :" FontWeight="Bold" IsChecked="True"/>
             <RadioButton x:Name="rbBekar" Content="Bekar :" FontWeight="Bold"/>
-            
+
         </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" >
-            <StackPanel.Style>
-                <Style>
-                    <Style.Triggers>
-                        <DataTrigger Binding = "{Binding ElementName=rbEvli, Path = IsChecked}"    Value = "true">
-                            <Setter Property="StackPanel.IsEnabled"  Value = "True"/>
 
-                        </DataTrigger>
-
-                        <DataTrigger Binding = "{Binding ElementName=rbBekar, Path = IsChecked}"    Value = "true">
-                            <Setter Property="StackPanel.IsEnabled"  Value = "False"/>
-                            <Setter Property="StackPanel.Background"  Value = "LightGray"/>
-                        </DataTrigger>
-
-                    </Style.Triggers>
-                </Style>
-
-            </StackPanel.Style>
+        <StackPanel Orientation="Horizontal" Style="{StaticResource stackPanelStil}" >
+           
             <Label Content="Eşinin Mesleği" FontWeight="Bold"/>
             <TextBox Width="100">
-               
-                
+
+
             </TextBox>
 
         </StackPanel>
 
     </StackPanel>
+    
 </Window>
 
 ```
