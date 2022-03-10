@@ -42,12 +42,11 @@
 ```
 
 
-Puan Ortalama INotifyPropertyChanged
-
-[WpfApp11.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8209229/WpfApp11.zip)
+### Puan Ortalama INotifyPropertyChanged ###
 
 
-### Ogrenci Class'lı ###
+[WpfApp40.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8223476/WpfApp40.zip)
+
 
 ![image](https://user-images.githubusercontent.com/28144917/157664857-82e6d6e9-2ea3-452b-af88-63f27efa1a32.png)
 
