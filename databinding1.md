@@ -119,7 +119,7 @@
 
 > **UpdateSourceTrigger=LostFocus** olarak ayarlanırsa bağlama yapılan nesneden başka bir nesneye geçiş yapıldığında property'deki değişiklik  kaynağa iletilir.
 
-Bursada Slider Örneği Yap
+### Slider  ile TwoWay binding Örneği ###
 
 ![image](https://user-images.githubusercontent.com/28144917/157219991-2517ad38-56e0-40b4-aa46-afa2c7b9fb20.png)
 
