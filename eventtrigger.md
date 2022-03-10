@@ -221,3 +221,73 @@
 </Window>
   
 ```
+    
+**Örnek Ekstra**
+
+    ```xaml
+    <Window x:Class="WpfApp39.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp39"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="200">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="yananSonenStil">
+            <Style.Triggers>
+                <DataTrigger Binding='{Binding ElementName=cbOnay,Path=IsChecked}' Value='true'>
+                    <DataTrigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty='Opacity' From='0' To='1' Duration='0:0:1' AutoReverse='True' RepeatBehavior='Forever' />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </DataTrigger.EnterActions>
+                    <DataTrigger.ExitActions>
+                        <BeginStoryboard>
+                            <Storyboard FillBehavior='Stop'>
+                                <DoubleAnimation Storyboard.TargetProperty='Opacity' To='1' Duration='0:0:1' />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </DataTrigger.ExitActions>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    
+    <StackPanel>
+
+
+
+
+
+        <TextBlock Text='WPF Application' 
+               Name='tb1' Foreground='Blue'
+               FontSize='28'
+               TextAlignment='Center'
+               Height='50' 
+               VerticalAlignment='Top'
+                   Style="{StaticResource yananSonenStil}"/>
+        <TextBlock Text='WPF Application' 
+               Name='tb2' Foreground='Blue'
+               FontSize='28'
+               TextAlignment='Center'
+               Height='50' 
+               VerticalAlignment='Top'/>
+        <TextBlock Text='WPF Application' 
+               Name='tb3' Foreground='Blue'
+               FontSize='28'
+               TextAlignment='Center'
+               Height='50' 
+               VerticalAlignment='Top'/>
+
+
+        <CheckBox Name='cbOnay' Content='Animasyonu Göster'
+              IsChecked='True' Height='30' 
+              HorizontalAlignment='Center' />
+    </StackPanel>
+</Window>
+
+    ```
