@@ -8,7 +8,7 @@
     3-Event trigger 
  
  ### 1- Property Trigger ###
- > En yaygın kullanılan tetikleyici türü Property Trigger'dır ve ```<Trigger>``` tagları arasına tanımlanırlar.  Bu tetikleyici türü ile her hangi bir UI nesnesinin istenilen bir özelliğinini değişmesini yine aynı nesnenin başka bir özelliğinin istenilen bir değere ulaşmasına göre sağlıyabilirz.
+ > En yaygın kullanılan tetikleyici türü Property Trigger'dır ve ```<Trigger>``` tagları arasına tanımlanırlar.  Bu tetikleyici türü ile Her hangi bir UI nesnesinin istenilen bir özelliğinin değişmesi için bir trigger oluşturabilir. Bu trigger nesnenin belirlenen bir özelliğinin istenilen bir değere ulaştığında tetiklenir.
     
 
 > Aşağıda tanımlanan stil içerisinden bir trigger tanımlanmıştır. Bu trigger "IsMouseOver" property'si "true" olduğunda tetiklenerek "foregorund" property'sini red yapmıştır. Yani  bu stile sahip bir butonun üzerine mouse ikonunu getirdiğimizde yazı rengi kırmızı olmuştur.
