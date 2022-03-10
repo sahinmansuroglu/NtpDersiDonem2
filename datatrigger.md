@@ -101,39 +101,27 @@
        <Window.Resources>
       
             <Style TargetType="StackPanel" x:Key="stackPanelStil">
-            <Setter Property="IsEnabled"  Value = "True"/>
-            <Style.Triggers>
-               
-                    
-                <DataTrigger Binding = "{Binding ElementName=rbBekar, Path = IsChecked}"    Value = "true">
-                        <Setter Property="IsEnabled"  Value = "False"/>
-                        <Setter Property="Background"  Value = "LightGray"/>
-                    </DataTrigger>
-
-                </Style.Triggers>
+                 <Setter Property="IsEnabled"  Value = "True"/>
+                 <Style.Triggers>
+                     <DataTrigger Binding = "{Binding ElementName=rbBekar, Path = IsChecked}"    Value = "true">
+                             <Setter Property="IsEnabled"  Value = "False"/>
+                             <Setter Property="Background"  Value = "LightGray"/>
+                 </Style.Triggers>
             </Style>
-
-      
 
     </Window.Resources>
 
     <StackPanel Margin="10">
-        <StackPanel Orientation="Horizontal">
-
+        
+       <StackPanel Orientation="Horizontal">
             <Label Content="Evlilik Durumu:" FontWeight="Bold"/>
             <RadioButton x:Name="rbEvli" Content="Evli :" FontWeight="Bold" IsChecked="True"/>
             <RadioButton x:Name="rbBekar" Content="Bekar :" FontWeight="Bold"/>
-
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" Style="{StaticResource stackPanelStil}" >
-           
             <Label Content="Eşinin Mesleği" FontWeight="Bold"/>
-            <TextBox Width="100">
-
-
-            </TextBox>
-
+            <TextBox Width="100" />
         </StackPanel>
 
     </StackPanel>
