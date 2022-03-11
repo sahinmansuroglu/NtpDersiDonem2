@@ -148,7 +148,7 @@ Kullanıcı Arayüzü
 </td>
   <td>
 
-![image](https://user-images.githubusercontent.com/28144917/157975874-2e8a33a5-f6eb-447b-be7d-7f3d5c0f2f30.png)
+![image](https://user-images.githubusercontent.com/28144917/157976153-bb02d425-16c6-45b6-ac47-21a92e2c0edb.png)
 
 </td>
 </tr>
