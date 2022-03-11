@@ -1,10 +1,10 @@
 ## INotifyPropertyChanged Arayüzünün Kullanımı ##
 
-> Bir nesnenin property'sinin değeri değiştiğinde bu değişikliğin kullanıcı arayüzüne yansıtılabilmesi arayüze bildirim yapılması gerekir. Bu bildirim için INotifyPropertyChanged arayüzü(Interface) kullanılır.
+> Bir nesnenin property'sinin değeri değiştiğinde bu değişikliğin kullanıcı arayüzüne yansıtılabilmesi değişiklik yapıldığına dair bildirim yapılması gerekir. Bu bildirim için INotifyPropertyChanged arayüzü(Interface) kullanılır.
 
 > Aşağıdaki örnekte  bir Ogrenci Class'ı tanımlanmıştır. Bu class INotifyPropertyChanged Arayüzünden türetilmiştir. Bu arayüz sayesinde oluşturulan OnPropertyChanged metodu ile değeri değişen property'lerin  WPF formuna bildirimi yapılmıştır.
 
->   "Ad" ve "Soyad" property'lerinin set metodlarına dikkat edersek değer ataması yapılırken   OnPropertyChanged("Ad") ve  OnPropertyChanged("soyad") kodları sayesinde WPF arayüzüne değerin değiştiği ile ilgili bildirim yapılmıştır.
+>   "Ad" ve "Soyad" property'lerinin set metodlarına dikkat edersek değer ataması yapılırken   OnPropertyChanged("Ad") ve  OnPropertyChanged("soyad") metotları sayesinde WPF arayüzüne değerin değiştiği ile ilgili bildirim yapılmıştır.
 
 ```csharp
 
@@ -48,10 +48,8 @@
 ```
 
 
-### Puan Ortalama INotifyPropertyChanged ###
-> Aşağıdaki uygulamada 1 yazılı ve 2 yazılı da bir değişim olduğunda Ortalama ve Durum kutucuklarının otomatik olarak güncellenebilmesi için yukarıdaki örnekte olduğu gibi Ogrenci class'ının INotifyPropertyChanged Arayüzünden türetilmesi gerekir.Yazılı notları değiştiğinde  OnPropertyChanged("Ortalama") ve  OnPropertyChanged("Durum") ile WPF formuna Ortalama ve Durumun değiştiği ile ilgili bildirimin yapılması gerekir.
-
-
+### Puan Ortalama bilgilerinin  INotifyPropertyChanged  arayüzü kullanılarak güncellenmesi ###
+> Aşağıdaki uygulamada 1 yazılı ve 2 yazılı da bir değişim olduğunda Ortalama ve Durum kutucuklarının otomatik olarak güncellenebilmesi için yukarıdaki örnekte olduğu gibi Ogrenci class'ının INotifyPropertyChanged Arayüzünden türetilmesi gerekir.Yazılı notları değiştiğinde  OnPropertyChanged("Ortalama") ve  OnPropertyChanged("Durum") metotları ile WPF formuna Ortalama ve Durumun değiştiği ile ilgili bildirimin yapılması gerekir.
 
 
 ![image](https://user-images.githubusercontent.com/28144917/157664857-82e6d6e9-2ea3-452b-af88-63f27efa1a32.png)
