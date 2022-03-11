@@ -24,7 +24,7 @@
 1. [Resource dictionary Nedir](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/Resourcedictionary1.md) 
 2. [Resource dictionary İçerisinde Stil Oluşturma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/resourceStyle.md)  
 3. [Resource Dictionary Kapsamı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/uygulamaResource.md) 
-4. [Quiz Sorusu-1](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Bolum_Quiz.md) 
+4. [3. Bölüm Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/3_Bolum_Quiz.md) 
 
 
 ### 4. Bölüm:Trigger Tetikleyiciler ###
@@ -37,7 +37,7 @@
 2. [DataContext Kullanımı?](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding2.md) 
 3. [INotifyPropertyChanged Arayüzünün Kullanımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
 3. [Liste ile Combobox-listbox Bağlantısı Yapma](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
-
+4. [4-5. Bölüm Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/4_5_Bolum_Quiz.md) 
 
 
 
