@@ -1,5 +1,11 @@
 ## INotifyPropertyChanged Arayüzünün Kullanımı ##
 
+> Bir nesnenin property'sinin değeri değiştiğinde bu değişikliğin kullanıcı arayüzüne yansıtılabilmesi arayüze bildirim yapılması gerekir. Bu bildirim için INotifyPropertyChanged arayüzü(Interface) kullanılır.
+
+> Aşağıdaki örnekte  bir Ogrenci Class'ı tanımlanmıştır. Bu class INotifyPropertyChanged Arayüzünden türetilmiştir. Bu arayüz sayesinde oluşturulan OnPropertyChanged metodu ile değeri değişen property'lerin  WPF formuna bildirimi yapılmıştır.
+
+>   "Ad" ve "Soyad" property'lerinin set metodlarına dikkat edersek değer ataması yapılırken   OnPropertyChanged("Ad") ve  OnPropertyChanged("soyad") kodları sayesinde WPF arayüzüne değerin değiştiği ile ilgili bildirim yapılmıştır.
+
 ```csharp
 
   class Ogrenci: INotifyPropertyChanged
