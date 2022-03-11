@@ -6,7 +6,7 @@
 <table>
 <tr>
 <th>
-Sehir Class'ı
+Arayüz Kodları
 </th>
   <th>
 C# kodları 
@@ -82,7 +82,7 @@ public MainWindow()
   <table>
 <tr>
 <th>
-Arayüz Kodları
+Sehir Class'ı
 </th>
   <th>
 C# kodları 
