@@ -103,7 +103,182 @@ Kullanıcı Arayüzün XAML kodları
 </tr>
 </table>
 
+
+
+
 <table>
+<tr>
+<th>
+Dikdorgen sınıfının bulunduğu Dikdortgen.cs dosyası
+</th>
+</tr>
+<tr>
+<td>
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Text;
+
+namespace WpfApp12
+{
+    class Dikdortgen:INotifyPropertyChanged
+    {
+        private int genislik;
+
+        public int Genislik
+        {
+            get { return genislik; }
+            set { 
+                genislik = value;
+                OnPropertyChanged("Genislik");
+                OnPropertyChanged("GozukecekMetin");
+            }
+        }
+        private int yukseklik;
+
+        public int Yukseklik
+        {
+            get { return yukseklik; }
+            set {
+                yukseklik = value;
+                OnPropertyChanged("Yukseliklik");
+                OnPropertyChanged("GozukecekMetin");
+
+            }
+        }
+
+        private string dolguRengi;
+
+        public string DolguRengi
+        {
+            get { return dolguRengi; }
+            set {
+                dolguRengi = value;
+                OnPropertyChanged("DolguRengi");
+                OnPropertyChanged("GozukecekMetin");
+            }
+        }
+       
+
+        public string GozukecekMetin 
+        {  
+            get { return $"G:{genislik,-5}   Y:{yukseklik,-5}   R:{DolguRengi}"; }
+            
+        }
+
+
+        protected internal virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+    }
+}
+
+
+```
+                                    
+                                    
+
+</td>
+</tr>
+</table>
+
+
+
+
+<table>
+<tr>
+<th>
+Kullanıcı arayüzünün Arkaplanında  çalışan C# kodları
+</th>
+</tr>
+<tr>
+<td>
+      
+      
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WpfApp12
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        Dikdortgen dikdortgen;
+        ObservableCollection<Dikdortgen> dikdortgenler = new ObservableCollection<Dikdortgen>();
+        public MainWindow()
+        {
+            InitializeComponent();
+          
+           
+
+            dikdortgenler.Add(new Dikdortgen
+            {
+                Genislik = 100,
+                Yukseklik = 100,
+                DolguRengi = "Red"
+            });
+            dikdortgenler.Add(new Dikdortgen
+            {
+                Genislik = 80,
+                Yukseklik = 70,
+                DolguRengi = "Blue"
+            });
+            dikdortgenler.Add(new Dikdortgen
+            {
+                Genislik = 100,
+                Yukseklik = 100,
+                DolguRengi = "Brown"
+            });
+            dikdortgenler.Add(new Dikdortgen
+            {
+                Genislik = 40,
+                Yukseklik = 60,
+                DolguRengi = "Green"
+            });
+
+            listBoxDikdortgenler.ItemsSource= dikdortgenler;
+            listBoxDikdortgenler.DisplayMemberPath = "GozukecekMetin";
+        }
+
+        private void listBoxDikdortgenler_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+            stkPanel1.DataContext = (Dikdortgen)listBoxDikdortgenler.SelectedItem;
+        }
+    }
+}
+
+```
+      
+      
+</td>
+</tr>
+</table>
+
+      
+      <table>
 <tr>
 <th>
 Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isimli Resource Dictionary dosyasının XAML kodları
@@ -287,179 +462,6 @@ Kullanıcı Arayüzünde kullanılan Stillerin bulunduğu Dictionary1.xaml isiml
 </ResourceDictionary>
 ```
 
-</td>
-</tr>
-</table>
-
-
-
-<table>
-<tr>
-<th>
-Dikdorgen sınıfının bulunduğu Dikdortgen.cs dosyası
-</th>
-</tr>
-<tr>
-<td>
-
-```csharp
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
-
-namespace WpfApp12
-{
-    class Dikdortgen:INotifyPropertyChanged
-    {
-        private int genislik;
-
-        public int Genislik
-        {
-            get { return genislik; }
-            set { 
-                genislik = value;
-                OnPropertyChanged("Genislik");
-                OnPropertyChanged("GozukecekMetin");
-            }
-        }
-        private int yukseklik;
-
-        public int Yukseklik
-        {
-            get { return yukseklik; }
-            set {
-                yukseklik = value;
-                OnPropertyChanged("Yukseliklik");
-                OnPropertyChanged("GozukecekMetin");
-
-            }
-        }
-
-        private string dolguRengi;
-
-        public string DolguRengi
-        {
-            get { return dolguRengi; }
-            set {
-                dolguRengi = value;
-                OnPropertyChanged("DolguRengi");
-                OnPropertyChanged("GozukecekMetin");
-            }
-        }
-       
-
-        public string GozukecekMetin 
-        {  
-            get { return $"G:{genislik,-5}   Y:{yukseklik,-5}   R:{DolguRengi}"; }
-            
-        }
-
-
-        protected internal virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-    }
-}
-
-
-```
-                                    
-                                    
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<th>
-Kullanıcı arayüzünün Arkaplanında  çalışan C# kodları
-</th>
-</tr>
-<tr>
-<td>
-      
-      
-```csharp
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-
-namespace WpfApp12
-{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        Dikdortgen dikdortgen;
-        ObservableCollection<Dikdortgen> dikdortgenler = new ObservableCollection<Dikdortgen>();
-        public MainWindow()
-        {
-            InitializeComponent();
-          
-           
-
-            dikdortgenler.Add(new Dikdortgen
-            {
-                Genislik = 100,
-                Yukseklik = 100,
-                DolguRengi = "Red"
-            });
-            dikdortgenler.Add(new Dikdortgen
-            {
-                Genislik = 80,
-                Yukseklik = 70,
-                DolguRengi = "Blue"
-            });
-            dikdortgenler.Add(new Dikdortgen
-            {
-                Genislik = 100,
-                Yukseklik = 100,
-                DolguRengi = "Brown"
-            });
-            dikdortgenler.Add(new Dikdortgen
-            {
-                Genislik = 40,
-                Yukseklik = 60,
-                DolguRengi = "Green"
-            });
-
-            listBoxDikdortgenler.ItemsSource= dikdortgenler;
-            listBoxDikdortgenler.DisplayMemberPath = "GozukecekMetin";
-        }
-
-        private void listBoxDikdortgenler_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
-            stkPanel1.DataContext = (Dikdortgen)listBoxDikdortgenler.SelectedItem;
-        }
-    }
-}
-
-```
-      
-      
 </td>
 </tr>
 </table>
