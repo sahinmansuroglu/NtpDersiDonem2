@@ -1,9 +1,10 @@
 ## 4. - 5. Bölüm Quiz Sorusu ##
 
 **Arayüz:** 20 Puan
+
 **C# Kodları:** 20 Puan
 
-> [**Quiz Sorusu ile ilgili Açıklama Videosunu izlemek için Tıklayınız**])
+> [**Quiz Sorusu ile ilgili Açıklama Videosunu izlemek için Tıklayınız**](https://www.youtube.com/watch?v=2d9kE8nBmwA)
 
 
 > [Uygulamanın Tamamlanmış Halini indirmek için Tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8234500/WpfApp12.zip)
