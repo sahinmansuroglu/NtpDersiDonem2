@@ -7,7 +7,7 @@
 
 
 | Ekran Görüntüsü |
-|:--------:|:----------------------------:|
+|:--------:|
 |![image](https://user-images.githubusercontent.com/28144917/157929535-6290584e-8c09-4855-bcbc-957b61267aec.png)|
 
 
