@@ -6,7 +6,7 @@
 <table>
 <tr>
 <th>
-Arayüz Kodları
+Sehir Class'ı
 </th>
   <th>
 C# kodları 
@@ -95,12 +95,19 @@ Kullanıcı Arayüzü
 <td>
 
       
-```xaml
- <StackPanel Margin="10">
-        <ComboBox Name="comboBox1" 
-                  Width="100" 
-                  SelectedIndex="0"/>
-    </StackPanel>
+```csharp
+  class Sehir
+    {
+        public int PlakaKodu { get; set; }
+        public string SehirAdi { get; set; }
+        public string PlakaVeSehir
+        {
+            get
+            {
+                return $"{PlakaKodu} - {SehirAdi}";
+            }
+        }
+    }
 ```
 
 </td>
@@ -135,18 +142,7 @@ Kullanıcı Arayüzü
 
     }
 
-    class Sehir
-    {
-        public int PlakaKodu { get; set; }
-        public string SehirAdi { get; set; }
-        public string PlakaVeSehir
-        {
-            get
-            {
-                return $"{PlakaKodu} - {SehirAdi}";
-            }
-        }
-    }
+  
 ```
 
 </td>
