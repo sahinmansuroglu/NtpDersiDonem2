@@ -98,13 +98,19 @@ Kullanıcı Arayüzü
 ```csharp
 class Sehir
 {
-    public int PlakaKodu { get; set; }
-    public string SehirAdi { get; set; }
+    public int PlakaKodu { 
+      get; 
+      set;
+    }
+    public string SehirAdi { 
+      get; 
+      set;
+    }
     public string PlakaVeSehir
     {
        get
         {
-         return $"{PlakaKodu} - {SehirAdi}";
+         return $"{PlakaKodu}-{SehirAdi}";
         }
     }
 }
