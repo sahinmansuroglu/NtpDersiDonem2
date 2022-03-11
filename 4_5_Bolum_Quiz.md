@@ -1,5 +1,8 @@
 ## 4. - 5. Bölüm Quiz Sorusu ##
 
+**Arayüz:** 20 Puan
+**C# Kodları:** 20 Puan
+
 > [**Quiz Sorusu ile ilgili Açıklama Videosunu izlemek için Tıklayınız**])
 
 
