@@ -51,30 +51,7 @@ public MainWindow()
 </td>
 </tr>
   
-  <tr>
-<td>
-
-      
-```xaml
-
-```
-
-</td>
-  <td>
-
-      
-```xaml
-
-```
-
-</td>
-  <td>
-
-
-
-
-</td>
-</tr>
+  
 </table>
 
 ## Combobox ile bir nesne  listenin bağlanıtısı ##
