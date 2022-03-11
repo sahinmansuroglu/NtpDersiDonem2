@@ -127,3 +127,5 @@ namespace WpfApp7
 
 
 |![image](https://user-images.githubusercontent.com/28144917/157229731-ca1f7b90-69b0-4fca-a8fd-427d4a39c549.png)|![image](https://user-images.githubusercontent.com/28144917/157229659-a0a92f56-fb2e-4ff0-9b21-b8f7eb85e3c2.png)|
+
+> Yukarıdaki Uygulamada button'a tıklandığında Form'a bağlı olan ogrenci nesnesinin ad'i "Esra" ve soyadı'da "EKİN" olarak değiştirilmiştir. Beklenti bu değişikliğin Form'daki textBox'larda da gerçekleşmesidir. Ancak WPF uygulamalarında bir nesnesinin herhangi bir  property'sinde değişiklik olduğu zaman bu değişiklik performans problemi yaratabileceğeinden dolayı otomatik olarak arayüze yansıtılmaz. Çözüm İçin Bir sonraki Bölümde anlatılacak olan INotifyPropertyChanged Arayüzü kullanılarak içeriği değişen property'lerin arayüzde güncellenmeleri sağlanır.
