@@ -1,4 +1,4 @@
-## 4. - 5. Bölüm Quiz Sorusu ##
+## 4. ve  5. Bölüm Quiz Sorusu ##
 
 **Arayüz:** 20 Puan
 
