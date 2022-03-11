@@ -49,59 +49,16 @@
 
 
 ### Puan Ortalama INotifyPropertyChanged ###
+> Aşağıdaki uygulamada 1 yazılı ve 2 yazılı da bir değişim olduğunda Ortalama ve Durum kutucuklarının otomatik olarak güncellenebilmesi için yukarıdaki örnekte olduğu gibi Ogrenci class'ının INotifyPropertyChanged Arayüzünden türetilmesi gerekir.Yazılı notları değiştiğinde  OnPropertyChanged("Ortalama") ve  OnPropertyChanged("Durum") ile WPF formuna Ortalama ve Durumun değiştiği ile ilgili bildirimin yapılması gerekir.
 
 
-[WpfApp40.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8223476/WpfApp40.zip)
 
 
 ![image](https://user-images.githubusercontent.com/28144917/157664857-82e6d6e9-2ea3-452b-af88-63f27efa1a32.png)
 
-**Arayüz**
+[Uygulamanın tamamlanmış hali için tıklayınız.](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8223476/WpfApp40.zip)
 
-```xaml
-<Window x:Class="WpfApp40.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp40"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="250">
-    <Window.Resources>
-        <Style TargetType="TextBox">
-            <Setter Property="Margin" Value="2"/>
-        </Style>
-    </Window.Resources>
-    <StackPanel Margin="10" Name="stck1">
-        <Label Content="Ad " />
-        <TextBox Name="txtAd" Text="{Binding Path=Ad}" />
-        <Label Content="Soyad "  />
-
-        <TextBox Name="txtSoyad" Text="{Binding Path=Soyad}" />
-
-        <Label Content="1. Yazılı "  />
-
-        <TextBox  Text="{Binding Path=Yazili1, UpdateSourceTrigger=PropertyChanged}" />
-        
-        <Label Content="2. Yazılı "  />
-
-        <TextBox  Text="{Binding Path=Yazili2, UpdateSourceTrigger=PropertyChanged}" />
-        
-        <Label Content="Ortalama "  />
-
-        <TextBox  Text="{Binding Path=Ortalama, Mode=OneWay}" IsEnabled="False" />
-       
-        <Label Content="Durum "  />
-
-        <TextBox  Text="{Binding Path=Durum, Mode=OneWay}"  IsEnabled="False" />
-
-
-
-    </StackPanel>
-</Window>
-
-```
-
+**Ogrenci Class'ı***
 
 ```csharp
 using System;
@@ -193,6 +150,55 @@ namespace WpfApp40
 }
 
 ```
+
+
+
+**Arayüz**
+
+```xaml
+<Window x:Class="WpfApp40.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp40"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="250">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="2"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel Margin="10" Name="stck1">
+        <Label Content="Ad " />
+        <TextBox Name="txtAd" Text="{Binding Path=Ad}" />
+        <Label Content="Soyad "  />
+
+        <TextBox Name="txtSoyad" Text="{Binding Path=Soyad}" />
+
+        <Label Content="1. Yazılı "  />
+
+        <TextBox  Text="{Binding Path=Yazili1, UpdateSourceTrigger=PropertyChanged}" />
+        
+        <Label Content="2. Yazılı "  />
+
+        <TextBox  Text="{Binding Path=Yazili2, UpdateSourceTrigger=PropertyChanged}" />
+        
+        <Label Content="Ortalama "  />
+
+        <TextBox  Text="{Binding Path=Ortalama, Mode=OneWay}" IsEnabled="False" />
+       
+        <Label Content="Durum "  />
+
+        <TextBox  Text="{Binding Path=Durum, Mode=OneWay}"  IsEnabled="False" />
+
+
+
+    </StackPanel>
+</Window>
+
+```
+
 
 ```csharp
 using System;
