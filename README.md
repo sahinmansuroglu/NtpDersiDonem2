@@ -36,7 +36,7 @@
 1. [Data-Binding nedir?](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
 2. [DataContext Kullanımı?](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding2.md) 
 3. [INotifyPropertyChanged Arayüzünün Kullanımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
-4. [Combobox ve listbox, DataGrid ile veri bağlama](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/comboBaglama.md) 
+4. [Combobox ve listbox ile veri bağlama](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/comboBaglama.md) 
 5. [DataGrid ile veri bağlama](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/datagrid.md) 
 6. [4-5. Bölüm Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/4_5_Bolum_Quiz.md) 
 
