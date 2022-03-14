@@ -199,3 +199,42 @@ Arayüz Kodları/Kullanıcı Arayüzü
   
   
 </table>
+    
+## DataGrid Özellikleri ##
+    
+    <table>
+<tr>
+<th>
+Arayüz Kodları/Kullanıcı Arayüzü
+</th>
+</tr>
+<tr>
+<td>
+
+```xaml
+    
+     <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" 
+                  Background="LightGray" 
+                  RowBackground="LightYellow" 
+                  AlternatingRowBackground="LightBlue"
+                  BorderBrush="Purple" BorderThickness="5" 
+                  >
+            
+        </DataGrid>
+    
+```
+      
+
+
+</td>
+    </tr>
+    <tr>
+<td>
+
+![image](https://user-images.githubusercontent.com/28144917/158173867-c1b78d2a-a0e9-495b-b7fd-3c8ec059fd33.png)    
+    
+</td>
+</tr>
+  
+  
+</table>
