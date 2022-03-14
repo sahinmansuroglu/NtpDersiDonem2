@@ -141,7 +141,8 @@ public partial class MainWindow : Window
     
 ```xaml
     <Grid Margin="20">
-        <DataGrid x:Name="dataGrid1" />
+        <DataGrid x:Name="dataGrid1"
+                  AutoGenerateColumns="False"/>
 
     </Grid>
 ```
