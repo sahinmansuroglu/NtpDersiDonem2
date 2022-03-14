@@ -40,53 +40,21 @@
 5. [DataGrid ile veri bağlama](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/datagrid.md) 
 6. [4-5. Bölüm Quiz Sorusu](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/4_5_Bolum_Quiz.md) 
 
+### 6. Bölüm:  Menu (Hazır Değil)  ###
+1. [Menu Kontrolü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu1.md) 
+1. [ContextMenu Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu2.md) 
+1. [ToolBar Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu3.md) 
+1. [StatusBar Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu4.md) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 6. Bölüm:  Dialog Kutuları  (Hazır Değil) ###
+### 7. Bölüm:  Dialog Kutuları  (Hazır Değil) ###
 1. [MessageBox](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
 2. [OpenFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding2.md) 
 3. [SaveFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding3.md) 
 
 
 
-### 7. Bölüm:  Dialog Kutuları (Hazır Değil)  ###
-Common interface controls
-The WPF Menu control
-The WPF ContextMenu
-The WPF ToolBar control
-The WPF StatusBar control
-The Ribbon control
+
 
 ### 8. Bölüm:  Rich Text (Hazır Değil)  ###
 Rich Text controls
