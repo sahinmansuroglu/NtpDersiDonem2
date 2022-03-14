@@ -264,7 +264,8 @@ Kullanıcı Arayüzü
     4. VerticalScrollBarVisibility: Dikey kaydırma çubuğunu görüntülemek için kullanılır 
     
     
-    <table>
+
+<table>
 <tr>
 <th>
 Arayüz Kodları
