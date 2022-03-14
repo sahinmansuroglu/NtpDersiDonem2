@@ -138,9 +138,7 @@ public partial class MainWindow : Window
 
 </td>
   <td>
-    <p>
-      <font  color="red">  <i>AutoGenerateColumns Özelliği ile bağlanan nesnedeki property'lere göre otomatik olarak sutunlar ve sütün başlıkları oluşturulur</i> </font>
-      </p>
+
         
       
 ```xaml
