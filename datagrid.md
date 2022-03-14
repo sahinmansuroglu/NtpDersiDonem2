@@ -1,5 +1,5 @@
 ## DataGrid ile veri bağlama ##
-> DataGrid adında verileri tablo halinde gösterebilmek için kullanılan bir kontroldür. Listeleri ve koleksiyonlari tablo halinde görüntülemek isteğimizde DataGrid'ten faydalabiliriz.
+> DataGrid verileri tablo halinde gösterebilmek için kullanılan bir kontroldür. Listeleri ve koleksiyonlari tablo halinde görüntülemek isteğimizde DataGrid'ten faydalabiliriz.
 
 Verilen DataGrid Örneklerinde Aşağıdaki Ogrenci sınıfı kullanılacaktır.
 
