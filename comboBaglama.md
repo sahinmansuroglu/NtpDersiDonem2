@@ -204,3 +204,155 @@ class Sehir
 </td>
 </tr>
 </table>
+    
+## Listbox ile  bir nesne listesinin(koleksiyonunun) bağlantısı bağlanıtısı ##
+    
+<table>
+<tr>
+<th>
+Sehir Class'ı
+</th>
+  <th>
+C# kodları 
+</th>
+  <th>
+Kullanıcı Arayüzü
+</th>
+</tr>
+<tr>
+<td>
+
+      
+```csharp
+class Sehir
+{
+    public int PlakaKodu { 
+      get; 
+      set;
+    }
+    public string SehirAdi { 
+      get; 
+      set;
+    }
+    public string PlakaVeSehir
+    {
+       get
+        {
+         return $"{PlakaKodu}-{SehirAdi}";
+        }
+    }
+}
+```
+
+</td>
+  <td>
+
+      
+```csharp
+ public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            List<Sehir> sehirler = new List<Sehir>();
+            sehirler.Add(new Sehir { 
+                SehirAdi="Mersin",
+                PlakaKodu=33,
+            });
+            sehirler.Add(new Sehir
+            {
+                SehirAdi = "İstanbul",
+                PlakaKodu = 34,
+            });
+            sehirler.Add(new Sehir
+            {
+                SehirAdi = "İzmir",
+                PlakaKodu = 35,
+            });
+         
+            listBox1.ItemsSource = sehirler;
+            listBox1.DisplayMemberPath = "SehirAdi";
+        }
+
+    }
+
+  
+```
+
+</td>
+  <td>
+
+![image](https://user-images.githubusercontent.com/28144917/158157849-362ef48d-ad59-48ca-96c8-549e14c0ac72.png)
+
+</td>
+</tr>
+  
+ <tr>
+<td>
+
+      
+```csharp
+class Sehir
+{
+    public int PlakaKodu { 
+      get; 
+      set;
+    }
+    public string SehirAdi { 
+      get; 
+      set;
+    }
+    public string PlakaVeSehir
+    {
+       get
+        {
+         return $"{PlakaKodu}-{SehirAdi}";
+        }
+    }
+}
+```
+
+</td>
+  <td>
+
+      
+```csharp
+ public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            List<Sehir> sehirler = new List<Sehir>();
+            sehirler.Add(new Sehir { 
+                SehirAdi="Mersin",
+                PlakaKodu=33,
+            });
+            sehirler.Add(new Sehir
+            {
+                SehirAdi = "İstanbul",
+                PlakaKodu = 34,
+            });
+            sehirler.Add(new Sehir
+            {
+                SehirAdi = "İzmir",
+                PlakaKodu = 35,
+            });
+         
+            comboBox1.ItemsSource = sehirler;
+            comboBox1.DisplayMemberPath = "PlakaVeSehir";
+        }
+
+    }
+
+  
+```
+
+</td>
+  <td>
+
+![image](https://user-images.githubusercontent.com/28144917/157976399-f4c050f9-3a4f-4edd-bb96-e8f882b0b1be.png)
+
+</td>
+</tr>
+</table>
+
