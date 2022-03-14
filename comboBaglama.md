@@ -54,7 +54,7 @@ public MainWindow()
   
 </table>
 
-## Combobox ile bir nesne  listenin bağlanıtısı ##
+## Combobox ile bir nesne  listensinin(koleksiyonunun) bağlantısı ##
 
   <table>
 <tr>
