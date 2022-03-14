@@ -161,7 +161,10 @@ public partial class MainWindow : Window
 <table>
 <tr>
 <th>
-Arayüz Kodları/Kullanıcı Arayüzü
+Arayüz Kodları
+</th>
+<th>
+Kullanıcı Arayüzü
 </th>
 </tr>
 <tr>
@@ -172,12 +175,18 @@ Arayüz Kodları/Kullanıcı Arayüzü
     <Grid Margin="20">
         <DataGrid x:Name="dataGrid1" AutoGenerateColumns="False" >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Öğrenci Adı" Binding="{Binding Ad}"/>
-                <DataGridTextColumn Header="Öğrenci Soyadı" Binding="{Binding Soyad}"/>
-                <DataGridTextColumn Header="1. Yazılı" Binding="{Binding Yazili1}"/>
-                <DataGridTextColumn Header="2. Yazılı" Binding="{Binding Yazili2}"/>
-                <DataGridTextColumn Header="Ortalama" Binding="{Binding Ortalama}"/>
-                <DataGridTextColumn Header="Durum" Binding="{Binding Durum}"/>
+                <DataGridTextColumn Header="Öğrenci Adı" 
+                                    Binding="{Binding Ad}"/>
+                <DataGridTextColumn Header="Öğrenci Soyadı" 
+                                    Binding="{Binding Soyad}"/>
+                <DataGridTextColumn Header="1. Yazılı" 
+                                    Binding="{Binding Yazili1}"/>
+                <DataGridTextColumn Header="2. Yazılı" 
+                                    Binding="{Binding Yazili2}"/>
+                <DataGridTextColumn Header="Ortalama" 
+                                    Binding="{Binding Ortalama}"/>
+                <DataGridTextColumn Header="Durum" 
+                                    Binding="{Binding Durum}"/>
             </DataGrid.Columns>
         </DataGrid>
 
@@ -188,8 +197,6 @@ Arayüz Kodları/Kullanıcı Arayüzü
 
 
 </td>
-    </tr>
-    <tr>
 <td>
 
 ![image](https://user-images.githubusercontent.com/28144917/158172593-6c9eb2ec-2820-4fe9-ba96-f4fbe5db06d4.png)    
@@ -205,7 +212,10 @@ Arayüz Kodları/Kullanıcı Arayüzü
 <table>
 <tr>
 <th>
-Arayüz Kodları/Kullanıcı Arayüzü
+Arayüz Kodları
+</th>
+<th>
+Kullanıcı Arayüzü
 </th>
 </tr>
 <tr>
@@ -227,8 +237,7 @@ Arayüz Kodları/Kullanıcı Arayüzü
 
 
 </td>
-</tr>
-<tr>
+
 <td>
 
 ![image](https://user-images.githubusercontent.com/28144917/158173867-c1b78d2a-a0e9-495b-b7fd-3c8ec059fd33.png)    
