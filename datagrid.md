@@ -157,3 +157,48 @@ public partial class MainWindow : Window
 </table>
 
 
+    
+    <table>
+<tr>
+
+  <th>
+C# kodları 
+</th>
+  <th>
+Arayüz Kodları/Kullanıcı Arayüzü
+</th>
+</tr>
+<tr>
+  <td>
+
+      ```xaml
+    <Grid Margin="20">
+        <DataGrid x:Name="dataGrid1" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Öğrenci Adı" Binding="{Binding Ad}"/>
+                <DataGridTextColumn Header="Öğrenci Soyadı" Binding="{Binding Soyad}"/>
+                <DataGridTextColumn Header="1. Yazılı" Binding="{Binding Yazili1}"/>
+                <DataGridTextColumn Header="2. Yazılı" Binding="{Binding Yazili2}"/>
+                <DataGridTextColumn Header="Ortalama" Binding="{Binding Ortalama}"/>
+                <DataGridTextColumn Header="Durum" Binding="{Binding Durum}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+```
+      
+
+
+</td>
+  <td>
+    
+
+    
+![image](https://user-images.githubusercontent.com/28144917/158171987-e0badf06-1c76-4b38-a58a-09da1d63c85f.png)
+
+
+</td>
+</tr>
+  
+  
+</table>
