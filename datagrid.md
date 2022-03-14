@@ -138,11 +138,15 @@ public partial class MainWindow : Window
 
 </td>
   <td>
-    
+    <p>
+        <b>AutoGenerateColumns Özelliği ile bağlana nesnedeki property'lere göre otomatik olarak sutunlar ve sütün başlıkları oluşturulur</b>
+      </p>
+        
+      
 ```xaml
     <Grid Margin="20">
         <DataGrid x:Name="dataGrid1"
-                  AutoGenerateColumns="False"/>
+                  AutoGenerateColumns="True"/>
 
     </Grid>
 ```
