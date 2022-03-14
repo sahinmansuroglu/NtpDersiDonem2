@@ -170,7 +170,7 @@ Arayüz Kodları/Kullanıcı Arayüzü
 <tr>
   <td>
 
-      ```xaml
+```xaml
     <Grid Margin="20">
         <DataGrid x:Name="dataGrid1" AutoGenerateColumns="False" >
             <DataGrid.Columns>
