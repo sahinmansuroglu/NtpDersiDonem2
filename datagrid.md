@@ -1,7 +1,7 @@
 ## DataGrid ile veri bağlama ##
-> DataGrid verileri tablo halinde gösterebilmek için kullanılan bir kontroldür. Listeleri ve koleksiyonlari tablo halinde görüntülemek isteğimizde DataGrid'ten faydalabiliriz.
+> DataGrid verileri tablo halinde gösterebilmek için kullanılan bir kontroldür. Listeler veya koleksiyonlar tablo halinde görüntülenmek istendiğinde DataGrid'ten faydalınabilir
 
-Verilen DataGrid Örneklerinde Aşağıdaki Ogrenci sınıfı kullanılacaktır.
+>Verilen DataGrid Örneklerinde Aşağıdaki Ogrenci sınıfı kullanılacaktır.
 
 ```csharp
 class Ogrenci : INotifyPropertyChanged
@@ -85,6 +85,9 @@ class Ogrenci : INotifyPropertyChanged
     }
 ```
 
+
+>    **AutoGenerateColumns=True"** özelliği ile sutunlar ve sütün başlıkları bağlanan nesnedeki property'lere göre otomatik olarak oluşturulur .
+
 <table>
 <tr>
 
@@ -158,6 +161,7 @@ public partial class MainWindow : Window
   
 </table>
 
+>    **AutoGenerateColumns=False"** özelliği ile sutunların bağlı oldukları property'ler ve sütün başlıkları aşağıdaki gibi manuel olarak oluşturulabilir.
 
     
 <table>
@@ -210,6 +214,7 @@ Kullanıcı Arayüzü
 </table>
     
 ## DataGrid Özellikleri ##
+    
     
 <table>
 <tr>
