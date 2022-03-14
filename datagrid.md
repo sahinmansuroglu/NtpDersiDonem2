@@ -258,7 +258,7 @@ Kullanıcı Arayüzü
     
  ### DataGrid Diğer özellikler ###
 
-    1. IsReadOnly: Sadece okunabilir sutunlar oluşturubailmek için bu özellik kullanılır. 
+    1. **IsReadOnly:** Sadece okunabilir sutunlar oluşturubailmek için bu özellik kullanılır. 
     2. CanUserSortColumns: Kullanıcının sütün başlıklarına dokunarak sıralama yapabilmesine olanak sağlar
     3. HorizantalScrollBarVisibility: Yatay kaydırma çubuğunu görüntülemek için kullanılır 
     4. VerticalScrollBarVisibility: Dikey kaydırma çubuğunu görüntülemek için kullanılır 
