@@ -247,3 +247,49 @@ Kullanıcı Arayüzü
   
   
 </table>
+
+    
+ ### DataGrid Diğer özellikler ###
+
+    1. IsReadOnly: Sadece okunabilir sutunlar oluşturubailmek için bu özellik kullanılır. 
+    2. CanUserSortColumns: Kullanıcının sütün başlıklarına dokunarak sıralama yapabilmesine olanak sağlar
+    3. HorizantalScrollBarVisibility: Yatay kaydırma çubuğunu görüntülemek için kullanılır 
+    4. VerticalScrollBarVisibility: Dikey kaydırma çubuğunu görüntülemek için kullanılır 
+    
+    
+    <table>
+<tr>
+<th>
+Arayüz Kodları
+</th>
+<th>
+Kullanıcı Arayüzü
+</th>
+</tr>
+<tr>
+<td>
+
+```xaml
+    
+      <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" 
+                  CanUserSortColumns="True"
+                  HorizontalScrollBarVisibility="Disabled"
+                  
+                  >
+            
+        </DataGrid>
+```
+      
+
+
+</td>
+
+<td>
+
+![image](https://user-images.githubusercontent.com/28144917/158175676-39283d05-504d-4036-96dd-70a7bc1cd799.png)   
+    
+</td>
+</tr>
+  
+  
+</table>
