@@ -249,33 +249,29 @@ class Sehir
 
       
 ```csharp
- public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-            List<Sehir> sehirler = new List<Sehir>();
-            sehirler.Add(new Sehir { 
-                SehirAdi="Mersin",
-                PlakaKodu=33,
-            });
-            sehirler.Add(new Sehir
-            {
-                SehirAdi = "İstanbul",
-                PlakaKodu = 34,
-            });
-            sehirler.Add(new Sehir
-            {
-                SehirAdi = "İzmir",
-                PlakaKodu = 35,
-            });
-         
-            listBox1.ItemsSource = sehirler;
-            listBox1.DisplayMemberPath = "SehirAdi";
-        }
+ public MainWindow()
+ {
+     InitializeComponent();
+     List<Sehir> sehirler = new List<Sehir>();
+     sehirler.Add(new Sehir
+     {
+         SehirAdi = "Mersin",
+         PlakaKodu = 33,
+     });
+     sehirler.Add(new Sehir
+     {
+         SehirAdi = "İstanbul",
+         PlakaKodu = 34,
+     });
+     sehirler.Add(new Sehir
+     {
+         SehirAdi = "İzmir",
+         PlakaKodu = 35,
+     });
 
-    }
-
+     listBox1.ItemsSource = sehirler;
+     listBox1.DisplayMemberPath = "PlakaVeSehir";
+ }
   
 ```
 
