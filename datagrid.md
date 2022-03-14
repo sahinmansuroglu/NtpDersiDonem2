@@ -161,16 +161,14 @@ public partial class MainWindow : Window
 <table>
 <tr>
 <th>
-C# kodları 
-</th>
-<th>
 Arayüz Kodları/Kullanıcı Arayüzü
 </th>
 </tr>
 <tr>
-  <td>
+<td>
 
 ```xaml
+    
     <Grid Margin="20">
         <DataGrid x:Name="dataGrid1" AutoGenerateColumns="False" >
             <DataGrid.Columns>
@@ -184,11 +182,14 @@ Arayüz Kodları/Kullanıcı Arayüzü
         </DataGrid>
 
     </Grid>
+    
 ```
       
 
 
 </td>
+    </tr>
+    <tr>
   <td>
     ![image](https://user-images.githubusercontent.com/28144917/158171987-e0badf06-1c76-4b38-a58a-09da1d63c85f.png)
 </td>
