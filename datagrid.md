@@ -190,8 +190,10 @@ Arayüz Kodları/Kullanıcı Arayüzü
 </td>
     </tr>
     <tr>
-  <td>
-    ![image](https://user-images.githubusercontent.com/28144917/158171987-e0badf06-1c76-4b38-a58a-09da1d63c85f.png)
+<td>
+
+![image](https://user-images.githubusercontent.com/28144917/158172593-6c9eb2ec-2820-4fe9-ba96-f4fbe5db06d4.png)    
+    
 </td>
 </tr>
   
