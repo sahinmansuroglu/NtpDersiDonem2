@@ -202,7 +202,7 @@ Arayüz Kodları/Kullanıcı Arayüzü
     
 ## DataGrid Özellikleri ##
     
-    <table>
+<table>
 <tr>
 <th>
 Arayüz Kodları/Kullanıcı Arayüzü
@@ -227,8 +227,8 @@ Arayüz Kodları/Kullanıcı Arayüzü
 
 
 </td>
-    </tr>
-    <tr>
+</tr>
+<tr>
 <td>
 
 ![image](https://user-images.githubusercontent.com/28144917/158173867-c1b78d2a-a0e9-495b-b7fd-3c8ec059fd33.png)    
