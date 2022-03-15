@@ -282,10 +282,9 @@ class Sehir
     
 ```xaml
     
- <StackPanel Margin="10">
-        <ListBox Name="listBox1" 
-                  Width="100"/>
-    </StackPanel>
+<StackPanel Margin="10">
+   <ListBox Name="listBox1"/>
+</StackPanel>
     
 ```
 
