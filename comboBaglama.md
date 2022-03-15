@@ -280,11 +280,13 @@ class Sehir
 </td>
   <td>
     
-    ```xaml
+```xaml
+    
  <StackPanel Margin="10">
         <ListBox Name="listBox1" 
                   Width="100"/>
     </StackPanel>
+    
 ```
 
 ![image](https://user-images.githubusercontent.com/28144917/158157849-362ef48d-ad59-48ca-96c8-549e14c0ac72.png)
