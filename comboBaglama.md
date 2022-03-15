@@ -20,11 +20,13 @@ Kullanıcı Arayüzü
 
       
 ```xaml
+  
  <StackPanel Margin="10">
         <ComboBox Name="comboBox1" 
                   Width="100" 
                   SelectedIndex="0"/>
     </StackPanel>
+  
 ```
 
 </td>
@@ -277,6 +279,7 @@ class Sehir
 
 </td>
   <td>
+    
     ```xaml
  <StackPanel Margin="10">
         <ListBox Name="listBox1" 
