@@ -87,3 +87,4 @@ How-to: Creating a Rich Text Editor
 
 [materialUI](https://www.youtube.com/watch?v=qSP8v8Gi3XU)
 [handycontrols](https://ghost1372.github.io/handycontrol/quick_start/)
+Icon İçin flatIcon:https://www.flaticon.com/
