@@ -1,16 +1,5 @@
 ## 4. ve  5. Bölüm Quiz Sorusu ##
 
-Quiz ile ilgili Sorularınız İçin  12.03.2022 Cumartesi Saat 20:30 da zoom toplantısı yapacağız. Aşağıdaki linki Kullanabilirsiniz.
-
-Şahin Mansuroğlu sizi planlanmış Zoom toplantısına davet ediyor.
-
-Konu: Şahin Mansuroğlu's Personal Meeting Room
-
-Zoom Toplantısına Katılın
-https://us04web.zoom.us/j/3691187014?pwd=Rk84Z3ZoMkNQc2tEbFpzbGVXUkRzQT09
-
-Toplantı Kimliği: 369 118 7014
-Parola: MTAL0033
 
 
 
