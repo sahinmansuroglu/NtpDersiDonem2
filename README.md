@@ -79,6 +79,7 @@ How-to: Creating a Rich Text Editor
 1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
 
 
+
 ### 7.  Karma ###
 
 1. [WPF - Dependency Properties](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DependencyProperties.md) 
@@ -86,5 +87,5 @@ How-to: Creating a Rich Text Editor
 3. Tooltip
 
 [materialUI](https://www.youtube.com/watch?v=qSP8v8Gi3XU)
-[handycontrols](https://ghost1372.github.io/handycontrol/quick_start/)
 Icon İçin flatIcon:https://www.flaticon.com/
+[Material Design Template](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8259443/WpfApp13.zip)
