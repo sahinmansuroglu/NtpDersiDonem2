@@ -45,7 +45,7 @@
 1. [ContextMenu Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu2.md) 
 1. [ToolBar Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu3.md) 
 1. [StatusBar Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu4.md) 
-1. [Ribbon Menü Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu4.md) 
+
 
 ### 7. Bölüm:  Dialog Kutuları  (Hazır Değil) ###
 1. [MessageBox](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/databinding1.md) 
