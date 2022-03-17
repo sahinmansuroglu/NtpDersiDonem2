@@ -42,3 +42,35 @@ public partial class MainWindow : Window
         }
     }
 ```
+
+
+```csharp
+private void OpenFileButton_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            //TODO: Step 2: Show students how they can set the InitialDirectory
+            //by making use of "SpecialFolders" such as MyDocuments, Desktop, etc
+            //They don't need to specify the speicif folder path since it's defined in
+            //the Environment class 
+            //openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            //openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            //TODO: Step 3: Show that they can use absolute paths
+            //openFileDialog.InitialDirectory = @"C:\";
+
+            //TODO: Step 4: Show that they can use relative paths
+            //In this example we go 3 levels up the folder hierachy
+            openFileDialog.InitialDirectory = Path.GetFullPath(Environment.CurrentDirectory + @"\..\..\..");
+
+            //TODO: Step 5: Add an openFileDialog.Filter
+            //Show student that they can filter the dialog box to only use images
+            //Text files and so on
+            //Custom file (*.cus)|*.cus
+            //Text files (*.txt)|*.txt
+            //"Image files (*.png;*.jpeg)|*.png;*.jpeg|All files (*.*)|*.*"
+            openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                TextEditor.Text = File.ReadAllText(openFileDialog.FileName);
+            }
+```
