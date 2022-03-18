@@ -46,15 +46,10 @@
 1. [ToolBar Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu3.md) 
 1. [StatusBar Kontrolü](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/menu4.md) 
 
-
 ### 7. Bölüm:  Dialog Kutuları  (Hazır Değil) ###
 1. [MessageBox](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog1.md) 
 2. [OpenFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog2.md) 
 3. [SaveFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog3.md) 
-
-
-
-
 
 ### 8. Bölüm:  Rich Text (Hazır Değil)  ###
 Rich Text controls
@@ -68,19 +63,19 @@ The RichTextBox control
 How-to: Creating a Rich Text Editor
 
 
-### 6.  WPF User Control Library   (Hazır Değil) ###
+### 9.  WPF User Control Library   (Hazır Değil) ###
 1. [.........]() 
 2. [.........]() 
 3. [.........]() 
 
 
 
-### 7. Veritabanı İşlemleri ###
+### 10. Veritabanı İşlemleri ###
 1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
 
 
 
-### 7.  Karma ###
+### 11.  Karma ###
 
 1. [WPF - Dependency Properties](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/DependencyProperties.md) 
 2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
