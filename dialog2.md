@@ -33,10 +33,11 @@ public partial class MainWindow : Window
         
         private void btnDosyaAc_Click(object sender, RoutedEventArgs e)
         {
+           //using Microsoft.Win32; ad uzayı eklenmeli
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
             {
-
+                //using System.IO; ad uzayı eklenmeli
                 TextEditor.Text = File.ReadAllText(openFileDialog.FileName);
             }
         }
