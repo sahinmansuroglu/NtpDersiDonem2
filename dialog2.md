@@ -49,26 +49,21 @@ public partial class MainWindow : Window
 private void OpenFileButton_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            //TODO: Step 2: Show students how they can set the InitialDirectory
-            //by making use of "SpecialFolders" such as MyDocuments, Desktop, etc
-            //They don't need to specify the speicif folder path since it's defined in
-            //the Environment class 
+         
+            //Varsayılan olarak belgelerim klasörünü gösterebilmek için aşağıdaki kod kullanılır
             //openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            //Varsayılan olarak masaüstünü klasörünü gösterebilmek için aşağıdaki kod kullanılır
             //openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-            //TODO: Step 3: Show that they can use absolute paths
+            ///Varsayılan olarak diskin C Bölümünügösterebilmek için aşağıdaki kod kullanılır
             //openFileDialog.InitialDirectory = @"C:\";
 
-            //TODO: Step 4: Show that they can use relative paths
-            //In this example we go 3 levels up the folder hierachy
+           // Bulunulan Klasörden 3 Aşama Yukarıdaki klasörü gösterebilmek için kullanılır
             openFileDialog.InitialDirectory = Path.GetFullPath(Environment.CurrentDirectory + @"\..\..\..");
 
-            //TODO: Step 5: Add an openFileDialog.Filter
-            //Show student that they can filter the dialog box to only use images
-            //Text files and so on
-            //Custom file (*.cus)|*.cus
-            //Text files (*.txt)|*.txt
-            //"Image files (*.png;*.jpeg)|*.png;*.jpeg|All files (*.*)|*.*"
+            // Dosya aç menüsü ile açılabilecek dosya uzantılarını istenilirse ayalanabilir.
+            //Text Dosyaları(*.txt)|*.txt
+            //Resim Dosyaları (*.png;*.jpeg)|*.png;*.jpeg|All files (*.*)|*.*"
             openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
             if (openFileDialog.ShowDialog() == true)
             {
