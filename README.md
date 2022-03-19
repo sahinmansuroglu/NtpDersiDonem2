@@ -50,6 +50,7 @@
 1. [MessageBox](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog1.md) 
 2. [OpenFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog2.md) 
 3. [SaveFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog3.md) 
+3. [PrintDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog4.md) 
 
 ### 8. Bölüm:  Rich Text (Hazır Değil)  ###
 Rich Text controls
