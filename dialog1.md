@@ -68,40 +68,52 @@ Kullanıcı Arayüzü
 </tr>
   
   
-  <tr>
-
-  <td>
-
-      
-```csharp
-
-```
-
-</td>
-  <td>
-
-
-</td>
-</tr>
-  
-  <tr>
-
-  <td>
-
-      
-```csharp
-
-```
-
-</td>
-  <td>
-
-
-</td>
-</tr>
-  
   
 </table>
 
+> MessageBox için kullanılacak Buton Türleri
+
+   1. OK
+   2. OKCancel
+   3. YesNoCancel
+   4. YesNo
 
 
+
+> Verilen Cevaba Göre farklı işlemler yapmak için aşağıdaki kodu inceleyebilirsiniz.
+
+```csharp
+
+ MessageBoxResult cevap = MessageBox.Show("Kaydı Silmek İstediğinizden Emin Misiniz",
+                            "Kayıt Uygulaması",
+                            MessageBoxButton.YesNoCancel,
+                            MessageBoxImage.Question);
+
+            switch (cevap)
+            {
+                case MessageBoxResult.Yes:
+                    MessageBox.Show("Kayıt Siliniyor", "Kayıt Uygulaması");
+                    break;
+                case MessageBoxResult.No:
+                    MessageBox.Show("Kayıt Silinmedi", "Kayıt Uygulaması");
+                    break;
+                case MessageBoxResult.Cancel:
+                    MessageBox.Show("İşlem İptal Edildi", "Kayıt Uygulaması");
+                    break;
+            }
+```
+
+![image](https://user-images.githubusercontent.com/28144917/159108641-03a13262-3157-4ad6-84c4-50d7d3948693.png)
+
+
+> MessageBox için kullanılacak ICON Türleri
+
+    Asterisk
+    Error
+    Exclamation
+    Hand
+    Information
+    None
+    Question
+    Stop
+    Warning
