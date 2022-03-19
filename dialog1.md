@@ -125,7 +125,7 @@ Kullanıcı Arayüzü
 ![image](https://user-images.githubusercontent.com/28144917/159108934-585b147e-b2e1-4cb3-a6d4-f3bbab06872a.png)
 
 
-**XAML kodları **
+**XAML kodları**
 
 
 ```xaml
@@ -152,7 +152,7 @@ Kullanıcı Arayüzü
     </StackPanel>
 ```
 
-**C# kodları **
+**C# kodları**
 
 
 ```csharp
