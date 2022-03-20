@@ -27,8 +27,8 @@ https://www.youtube.com/watch?v=-n5yeEOsbCk
 
 > wpf tool kit için aşağıdaki gerekli
   
-      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
       
 > Nuget Package
 
-      .[nugpack.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8311958/nugpack.zip)
+[nugpack.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8311958/nugpack.zip)
