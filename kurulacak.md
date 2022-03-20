@@ -4,7 +4,7 @@
       Mysql
 
 ### Eklentiler ###
-      https://github.com/xceedsoftware/wpftoolkit
+      https://github.com/xceedsoftware/wpftoolkit (ekstra Kontroller için)
       dapper
       mysql.data
       materialUI
