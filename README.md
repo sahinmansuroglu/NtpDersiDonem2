@@ -87,3 +87,6 @@ How-to: Creating a Rich Text Editor
 Icon İçin flatIcon:https://www.flaticon.com/
 
 [Material Design Template](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8259443/WpfApp13.zip)
+
+
+[Kurulacaklar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/kurulacak.md)
