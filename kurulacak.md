@@ -1,15 +1,15 @@
 ## Kurulacaklar ##
 
 ### Programlar ###
-  Mysql
+      Mysql
 
 ### Eklentiler ###
-  https://github.com/xceedsoftware/wpftoolkit
-  dapper
-  mysql.data
-  materialUI
+      https://github.com/xceedsoftware/wpftoolkit
+      dapper
+      mysql.data
+      materialUI
   
 ### İkonlar ###
-https://www.flaticon.com/
+      https://www.flaticon.com/
   
   
