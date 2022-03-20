@@ -19,4 +19,6 @@
         [MaterialDesignInXaml.Examples-master.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8311914/MaterialDesignInXaml.Examples-master.zip)
         [DemoApp.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8311915/DemoApp.zip)
 
+  > wpf tool kit için aşağıdaki gerekli
   
+xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
