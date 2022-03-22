@@ -1,5 +1,44 @@
 
-### Ornek-1 ###
+### Ornek ###
+
+![image](https://user-images.githubusercontent.com/28144917/159241066-38cfbd0a-4c1c-41e5-bdb4-b9f1fbd77ba0.png)
+
+
+```xaml
+<UserControl x:Class="WpfApp10.UserControls.KarakterSinirlandirmaliTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp10.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Label Content="{Binding Baslik}" />
+        <Label Grid.Column="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding ElementName=textBox1, Path=Text.Length}" />
+                <TextBlock Text="/" />
+                <TextBlock Text="{Binding MaxKarakterSayisi}" />
+            </StackPanel>
+        </Label>
+        <TextBox MaxLength="{Binding MaxKarakterSayisi}" 
+                 Grid.Row="1" Grid.ColumnSpan="2" 
+                 Name="textBox1" 
+                 TextWrapping="Wrap"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</UserControl>
+
+```
 
 ```csharp
  public partial class KarakterSinirlandirmaliTextBox : UserControl
