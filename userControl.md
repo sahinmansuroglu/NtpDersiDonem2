@@ -8,6 +8,7 @@ user controller birden fazla UI nesnesinin bir isim altında tanımlanarak  tekr
 
 
 **Klasör Yapısı**
+
 ![image](https://user-images.githubusercontent.com/28144917/159414654-7e748c99-b394-49b7-80c1-5dfbc2e55213.png)
 
 
