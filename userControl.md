@@ -33,8 +33,15 @@ user controller birden fazla UI nesnesinin bir isim altında tanımlanarak  tekr
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <Label Name="lblEtiket" Margin="5" Content="Ad Soyad" VerticalAlignment="Center" BorderBrush="#FF382380" BorderThickness="0,0,0,2"/>
-        <TextBox Grid.Column="1" x:Name="txtAd" BorderBrush="#FF38446A" Margin="5"/>
+        <Label Name="lblEtiket" Margin="5" 
+                Content="Ad Soyad" 
+                VerticalAlignment="Center" 
+                BorderBrush="#FF382380" 
+                BorderThickness="0,0,0,2"/>
+                
+        <TextBox Grid.Column="1" x:Name="txtAd" 
+                  BorderBrush="#FF38446A"
+                  Margin="5"/>
 
 
     </Grid>
@@ -135,8 +142,16 @@ Yukarıdaki Örnekte label Content'leri "Ad Soyad" olarak kalmıştır. Mainwind
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <Label Content="{Binding Baslik}" Margin="5"  VerticalAlignment="Center" BorderBrush="#FF382380" BorderThickness="0,0,0,2"/>
-        <TextBox Grid.Column="1" x:Name="txtAd" Text="{Binding Veri}" BorderBrush="#FF38446A" Margin="5"/>
+        <Label Content="{Binding Baslik}" 
+              Margin="5"  
+              VerticalAlignment="Center" 
+              BorderBrush="#FF382380" 
+              BorderThickness="0,0,0,2"/>
+              
+        <TextBox Grid.Column="1" x:Name="txtAd" 
+              Text="{Binding Veri}" 
+              BorderBrush="#FF38446A" 
+              Margin="5"/>
         
 
 
@@ -192,6 +207,7 @@ namespace WpfApp50.UserControls
         xmlns:kulKont="clr-namespace:WpfApp50.UserControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="300">
+        
     <StackPanel>
         <kulKont:LabelTexBox x:Name="kutuAd" Baslik="Ad Soyad" Veri="Şahin" />
         <kulKont:LabelTexBox  x:Name="kutuYas" Baslik="Yaş"  Veri="40" />
@@ -254,9 +270,19 @@ public partial class MainWindow : Window
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="350">
     <StackPanel>
-        <uc:KarakterSinirlandirmaliTextBox Baslik="Ad Soyad" MaxKarakterSayisi="50" Height="70" Margin="10"/>
-        <uc:KarakterSinirlandirmaliTextBox Baslik="Doğum Yeri" MaxKarakterSayisi="20" Height="70" Margin="10"/>
-        <uc:KarakterSinirlandirmaliTextBox Baslik="Son Mezuniyet" MaxKarakterSayisi="30" Height="70" Margin="10"/>
+        <uc:KarakterSinirlandirmaliTextBox Baslik="Ad Soyad" 
+              MaxKarakterSayisi="50" 
+              Height="70" Margin="10"/>
+              
+        <uc:KarakterSinirlandirmaliTextBox 
+                  Baslik="Doğum Yeri" 
+                  MaxKarakterSayisi="20"
+                  Height="70" Margin="10"/>
+                  
+        <uc:KarakterSinirlandirmaliTextBox 
+                    Baslik="Son Mezuniyet" 
+                    MaxKarakterSayisi="30" 
+                    Height="70" Margin="10"/>
     </StackPanel>
 </Window>
 
