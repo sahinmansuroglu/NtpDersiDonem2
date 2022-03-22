@@ -1,13 +1,56 @@
 
 ### Ornek ###
 
-![image](https://user-images.githubusercontent.com/28144917/159444268-fa48fa50-f73a-40d5-bc87-42d04c3d497f.png)
+![image](https://user-images.githubusercontent.com/28144917/159467553-673df5d8-ccee-4e5e-b4a7-fe34cf7cf0a5.png)
+
 
 
 **Klasör Yapısı**
 
-![image](https://user-images.githubusercontent.com/28144917/159444287-67f9bfa6-9a7b-4cfe-ba33-50c01c3ec92f.png)
+![image](https://user-images.githubusercontent.com/28144917/159467568-b71a49d1-7bbe-46f0-8f49-c9d4326109ec.png)
 
+
+
+
+**UserControl dosyası**
+
+```xaml
+
+<UserControl x:Class="WpfApp53.UserControls.LikeDislike"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp53.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="200">
+    
+    <StackPanel Orientation="Horizontal">
+        
+        <Image x:Name="imgLike" Source="like.png" 
+               Width="25" Height="25"
+               Margin="0 -6 0 0" 
+               MouseLeftButtonDown="imgLike_MouseLeftButtonDown"   />
+        
+        <Label Content="{Binding LikeSayisi}" 
+               VerticalContentAlignment="Center" 
+               Margin="5 0 0 0 "/>
+        
+        <Image x:Name="imgDislike" Source="dislike.png" 
+               Width="25" Height="25" 
+               Margin="20 10 0 0" 
+               MouseLeftButtonDown="imgDislike_MouseLeftButtonDown"   />
+        
+        <Label Content="{Binding DislikeSayisi}"
+               VerticalContentAlignment="Center" 
+               Margin="5 0 0 0 "/>
+
+    </StackPanel>
+    
+</UserControl>
+
+
+```
 
 
 **UserControl C# dosyası**
@@ -27,55 +70,58 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp50.UserControls
+namespace WpfApp53.UserControls
 {
     /// <summary>
-    /// Interaction logic for LikeDislikeKontrol.xaml
+    /// Interaction logic for LikeDislike.xaml
     /// </summary>
-    public partial class LikeDislikeKontrol : UserControl, INotifyPropertyChanged
+    public partial class LikeDislike : UserControl, INotifyPropertyChanged
     {
-        public LikeDislikeKontrol()
+        public LikeDislike()
         {
             InitializeComponent();
             this.DataContext = this;
         }
 
-    
-
-        private int likeCount;
-
-        public int LikeCount
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            get { return likeCount; }
-            set
-            {
-                likeCount = value;
-                OnPropertyChanged("LikeCount");
+            MessageBox.Show("Ok");
+
+        }
+
+        private int likeSayisi=0;
+
+        public int LikeSayisi
+        {
+            get { return likeSayisi; }
+            set {
+                
+                likeSayisi = value;
+                OnPropertyChanged("LikeSayisi");
+            }
+        }
+        private int dislikeSayisi=0;
+
+        public int DislikeSayisi
+        {
+            get { return dislikeSayisi; }
+            set { dislikeSayisi = value;
+                OnPropertyChanged("DislikeSayisi");
             }
         }
 
-        private int dislikeCount;
-
-        public int DislikeCount
+        private void imgLike_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            get { return dislikeCount; }
-            set { dislikeCount = value;
-                OnPropertyChanged("DislikeCount");
-            }
+            LikeSayisi++;
         }
 
-
-
-        private void btnLike_Click(object sender, RoutedEventArgs e)
+        private void imgDislike_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            LikeCount++;
+            DislikeSayisi++;
+         //   MessageBox.Show(DislikeSayisi.ToString());
+
         }
 
-        private void btnDislike_Click(object sender, RoutedEventArgs e)
-        {
-            DislikeCount++;
-            
-        }
         protected internal virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
@@ -87,80 +133,38 @@ namespace WpfApp50.UserControls
 
 ```
 
-
-**UserControl dosyası**
-
-```xaml
-<UserControl x:Class="WpfApp50.UserControls.LikeDislikeKontrol"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfApp50.UserControls"
-             mc:Ignorable="d" 
-             d:DesignHeight="50" d:DesignWidth="150"
-             Height="50" Width="250">
-
-    <UserControl.Resources>
-        <Style TargetType="Label">
-
-            <Setter Property="FontSize" Value="14"/>
-
-            <Setter Property="FontWeight" Value="Bold"/>
-
-        </Style>
-        
-    </UserControl.Resources>
-    <Border BorderBrush="LightGray" BorderThickness="1" Margin="5">
-        
-   
-    <StackPanel Orientation="Horizontal">
-        <Button x:Name="btnLike" Background="Transparent" BorderThickness="0" Click="btnLike_Click" >
-            <Image Height="30" Width="30" Source="like.png" Margin="0 -8 0 0" ></Image>
-        </Button>
-
-        <Label Content="{Binding LikeCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalContentAlignment="Center"/>
-        <Button Margin="20 0 0 0" x:Name="btnDislike" Background="Transparent" BorderThickness="0" Click="btnDislike_Click" >
-            <Image Height="30" Width="30" Source="dislike.png" Margin="0 10 0 0" ></Image>
-        </Button>
-
-        <Label Content="{Binding DislikeCount}" VerticalContentAlignment="Center"/>
-    </StackPanel>
-    </Border>
-</UserControl>
-
-```
-
 **MainWindow dosyası**
 
 ```xaml
-<Window x:Class="WpfApp50.MainWindow"
+
+<Window x:Class="WpfApp53.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp50"
-        xmlns:kulKont="clr-namespace:WpfApp50.UserControls"
+        xmlns:local="clr-namespace:WpfApp53"
+        xmlns:userKont="clr-namespace:WpfApp53.UserControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="300">
     <StackPanel>
-
-        <kulKont:LikeDislikeKontrol x:Name="kont1" />
-        <kulKont:LikeDislikeKontrol />
-        <kulKont:LikeDislikeKontrol />
-        <kulKont:LikeDislikeKontrol />
-        <kulKont:LikeDislikeKontrol />
-        <DatePicker />
-
-        <Button Content="Tıklayınız" Click="Button_Click_1" ></Button>
+        <userKont:LikeDislike  Margin="10"/>
+        <userKont:LikeDislike  Margin="10"/>
+        <userKont:LikeDislike x:Name="likeDislike3"  Margin="10"/>
+        <userKont:LikeDislike  Margin="10"/>
+        <Button x:Name="button" Content="Tıklayınız" 
+                Margin="10" 
+                Padding="10"
+                Click="button_Click"/>
     </StackPanel>
 </Window>
+
 
 ```
 
 **MainWindow C# dosyası**
 
 ```csharp
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -176,7 +180,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp50
+namespace WpfApp53
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -186,15 +190,15 @@ namespace WpfApp50
         public MainWindow()
         {
             InitializeComponent();
-           
         }
 
-   
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(kont1.DislikeCount.ToString());
-        }
+            MessageBox.Show($"{likeDislike3.LikeSayisi}  {likeDislike3.DislikeSayisi}");
+                
+                }
     }
 }
+
 
 ```
