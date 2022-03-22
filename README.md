@@ -52,6 +52,11 @@
 3. [SaveFileDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog3.md) 
 3. [PrintDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog4.md) 
 
+
+### 9.  WPF User Control Library    ###
+1. [Ornek - 1 ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl.md) 
+2. [Ornek - 2 ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl2.md) 
+3. [Ornek - 3 ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl3.md) 
 ### 8. Bölüm:  Rich Text (Hazır Değil)  ###
 Rich Text controls
 Introduction to WPF Rich Text controls
@@ -64,10 +69,7 @@ The RichTextBox control
 How-to: Creating a Rich Text Editor
 
 
-### 9.  WPF User Control Library   (Hazır Değil) ###
-1. [User Control](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl.md) 
-2. [.........]() 
-3. [.........]() 
+
 
 
 
