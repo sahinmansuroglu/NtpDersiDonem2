@@ -4,7 +4,15 @@
       FluentValidation
       [Örnek Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8340895/WpfApp55.zip)
       https://fluentvalidation.net/
-      
+ 
+ 
+  if(!decimal.TryParse(Account.Text, out decimal accountBalance))
+            {
+                errors.Add("Account Balance: Invalid amount ! ");
+                return;
+            }
+            
+            
 ### Programlar ###
       Mysql
 
