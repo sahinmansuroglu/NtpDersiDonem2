@@ -2,6 +2,8 @@
 
 ### Doğrulama İçin ###
       FluentValidation
+      [Örnek Çalışma](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8340895/WpfApp55.zip)
+      https://fluentvalidation.net/
       
 ### Programlar ###
       Mysql
