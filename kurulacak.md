@@ -1,5 +1,8 @@
 ## Kurulacaklar ##
 
+### Doğrulama İçin ###
+      FluentValidation
+      
 ### Programlar ###
       Mysql
 
