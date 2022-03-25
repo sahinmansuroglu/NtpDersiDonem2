@@ -98,3 +98,5 @@ Icon İçin flatIcon:https://www.flaticon.com/
 
 
 [Kurulacaklar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/kurulacak.md)
+
+[Hazırlık Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8350570/WpfApp40.zip)
