@@ -106,7 +106,10 @@ namespace WpfApp40
 
 ```
 
-> Veri Doğrulama Sınıfı (OgrenciDogrulama.cs)
+**Veri Doğrulama Sınıfı (OgrenciDogrulama.cs)**
+> Veri doğrulama amaçlı kullanılacak kuralların tümü bu class içerisinde tanımlanacaktır.
+
+
 
 ```csharp
  class OgrenciDogrulama: AbstractValidator<Ogrenci>
