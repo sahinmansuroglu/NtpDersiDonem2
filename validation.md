@@ -2,6 +2,17 @@
 
 > Veri Doğrulama için [FluentValidation](https://fluentvalidation.net/) paketi kullanılmıştır.
 
+> [Uygulamanın tamamlanmış Hali İçin Tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8348724/WpfApp40.zip)
+
+> Uygulama Arayüzü
+
+![image](https://user-images.githubusercontent.com/28144917/160082789-85867e7b-0dbb-4d07-9c41-c5900b672cfb.png)
+
+> Uygulamanın klasör yapısı
+
+![image](https://user-images.githubusercontent.com/28144917/160083234-dad73c63-1852-452c-87b3-ae751903d45c.png)
+
+
 > Uygulamada kullanılan Ogrenci Sınıfı
 
 ```csharp
