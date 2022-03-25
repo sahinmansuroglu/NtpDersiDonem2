@@ -53,10 +53,16 @@
 3. [PrintDialog](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dialog4.md) 
 
 
-### 9.  WPF User Control Library    ###
+### 8.  WPF User Control Library    ###
 1. [Ornek - 1 ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl.md) 
 2. [Ornek - 2 ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl2.md) 
 3. [Ornek - 3 ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl3.md) 
+
+### 9.  Veri Doğrulama (FluentValidation Kullanımı)  ###
+
+1. [Veri Doğrulama ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation.md) 
+
+
 ### 8. Bölüm:  Rich Text (Hazır Değil)  ###
 Rich Text controls
 Introduction to WPF Rich Text controls
