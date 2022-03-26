@@ -39,7 +39,7 @@
   <li><b>( 5 Puan )</b> Oluşturulan listeyi DataGrid Nesnesine Bağlayabilme </li>
   <li><b>( 5 Puan )</b> Listeye kullancı arayüzüne ait sınıfın kurucu metodu içerisinde iki öğrenci ekleyebilme</li>
   
-  <li><b>( 15 Puan )</b> Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme.
+  <li><b>( 20 Puan )</b> Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme.
      <ol type="a">
       <li> Önceden Eklenmiş Bir Okul No eklenmeye çalışırsa "Girilen Öğrenci No daha önce kaydedildi...." uyarısı verilecek. </li>
       <li> Öğrenci Adı Boş Geçilirse "Öğrenci Adı Gereklidir." uyarısı verilecek </li>
@@ -59,7 +59,7 @@
    <li><b>( 5 Puan )</b> DataGrid'de seçili olan öğrencinin bilgilerini ilgili Texbox'larda gösterebilme </li>
    <li><b>( 5 Puan )</b> TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
    
-   <li><b>( 10 Puan )</b> Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirebilme
+   <li><b>( 15 Puan )</b> Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirebilme
      <ol type="a">
       <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verdirilecek</li>
       <li>Sil Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açtırılacak</li>
@@ -68,7 +68,7 @@
      </ol>
     </li>
   
-  <li><b>( 10 Puan )</b> Güncelleme butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi güncelleyebilme
+  <li><b>( 15 Puan )</b> Güncelleme butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi güncelleyebilme
      <ol type="a">
       <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verdirilecek</li>
       <li>Güncelle Butonuna Tıklandığında Ekleme işleminde verilen doğrulamalar sağlandıktan sonra güncelleme yapılacak aksi durumda hata verdirilecek. </li>
