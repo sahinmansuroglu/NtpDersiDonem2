@@ -77,7 +77,7 @@
     </li>
   
    <li><b>( 5 Puan )</b> Temizle butonuna tıklandığında tüm text kutuları ve hata listesi temizlenecek </li>
-   <li><b>( 5 Puan )</b> Yazdır butonuna tıklandığından Tüm arayüz yazdırılacak </li>
+   <li><b>( 5 Puan )</b> Yazdır butonuna tıklandığında tüm arayüz yazdırılacak </li>
 </ol>
 
 
