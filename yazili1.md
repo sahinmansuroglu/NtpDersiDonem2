@@ -41,6 +41,7 @@
   
   <li>Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme. 
      <ol type="a">
+      <li> Önceden Eklenmiş Bir Okul No eklenmeye çalışırsa "Girilen Öğrenci No daha önce kaydedildi...." uyarısı verilecek. </li>
       <li> Öğrenci Adı Boş Geçilirse "Öğrenci Adı Gereklidir." uyarısı verilecek </li>
       <li> Öğrenci Adı 3 Karakterden az ise   "Öğrenci Adı En az 3 karakter olmalı" uyarısı verilecek </li>
       <li> Öğrenci Soyadı Boş Geçilirse "Öğrenci Soyadı Gereklidir." uyarısı verilecek </li>
@@ -58,15 +59,29 @@
    <li>DataGrid'de seçili olan öğrencinin bilgilerini ilgili Texbox'larda gösterebilme </li>
    <li>TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
    
-   <li>Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirilme
+   <li>Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirebilme
      <ol type="a">
-      <li> Seçili bir öğrenci olup </li>
-      <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
-      <li>Hata Listesi GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak</li>
-      <li>İçerisinde arayüzde görüldüğü şekilde sütünlara sahip DataGrid Bulunacak</li>
-      <li>Arayüzün altında işlem yapılan Öğrencinin Adı ve Soyadı ile DataGrid içerisinde kayıtlı öğrenci sayısının görülebildiği StatusBar bulunacak</li>
+      <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verilecek</li>
+      <li>Sil Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açılacak</li>
+      <li>Mesaj'a evet cevabı verilirse öğrenci listeden sildirilecek ve textBox'lar temizletilecek</li>
+      <li>Mesaj'a hayır cevabı verilirse sildirme yapılmayacak</li>
+   
     </ol>
     </li>
+  
+  <li>Güncelleme butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi güncelleyebilme
+     <ol type="a">
+      <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verilecek</li>
+      <li>Güncelle Butonuna Tıklandığında Ekleme işleminde verilen doğrulamalar sağlandıktan sonra güncelleme yapılacak aksi durumda hata verilecek. </li>
+      <li>Güncelle Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açılacak</li>
+      <li>Mesaj'a evet cevabı verilirse öğrenci bilgisi listede güncellenecek ve textBox'lar temizletilecek</li>
+      <li>Mesaj'a hayır cevabı verilirse güncelleme yapılmayacak</li>
+   
+    </ol>
+    </li>
+  
+   <li>Temizle butonuna tıklandığında tüm text kutuları ve hata listesi temizlenecek </li>
+   <li>Yazdır butonuna tıklandığından Tüm arayüz yadırılacak </li>
 </ol>
 
 
