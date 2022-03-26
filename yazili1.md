@@ -45,7 +45,7 @@
       <li> Öğrenci Soyadı Boş Geçilirse "Öğrenci Soyadı Gereklidir." uyarısı verilecek </li>
       <li> Öğrenci Soyadı 3 Karakterden az ise   "Öğrenci Soyadı En az 3 karakter olmalı" uyarısı verilecek </li>
       <li> OkulNo Boş Geçilirse "Okul No Gereklidir." uyarısı verilecek </li>
-      <li> OkulNo 4 basamaktan fazla ise  "Okul No No En fazla 4 Rakamlı olmalı" uyarısı verilecek </li>
+      <li> OkulNo 4 basamaktan fazla ise  "Okul  No En fazla 4 Rakamlı olmalı" uyarısı verilecek </li>
       <li> 1. Yazılı Boş Geçilirse "1. Yazılı Gereklidir" uyarısı verilecek </li>
       <li> 1. Yazılı 0-100 arası değilse "1. Yazılı 0-100 arası olmalı" uyarısı verilecek </li>
       <li> 2. Yazılı Boş Geçilirse "2. Yazılı Gereklidir" uyarısı verilecek </li>
