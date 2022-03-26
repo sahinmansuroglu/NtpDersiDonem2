@@ -5,9 +5,15 @@
 [Uygulamanın Tamamlanmış Halini indirmek için tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8354576/2.Donem1.Yazili.zip)
 
 
-### Uygulamanın Ekran Görüntüsü ###
+### Uygulamanın Çalışan Halinin Ekran Görüntüsü ###
 
 ![image](https://user-images.githubusercontent.com/28144917/160221900-74e9b6be-4b10-43b1-a233-e114ccdc8b35.png)
+
+
+### Uygulamada Kullanılan Nesnelerin Ekran Görüntüsü ###
+
+![image](https://user-images.githubusercontent.com/28144917/160252324-c96e7e08-c6e0-4fcf-9e69-1859ea9ee430.png)
+
 
 ### Uygulamanın Dosya Yapısı ###
 
