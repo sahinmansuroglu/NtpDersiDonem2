@@ -25,7 +25,7 @@
 
 
 <ol>
-  <li>Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme __10P__
+  <li>( 10P ) Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme 
      <ol type="a">
       <li> Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak</li>
       <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
@@ -35,11 +35,11 @@
     </ol>
     </li>
     
-  <li> ObservableCollection türünde ogrenciList adında içerisinde Ogrenci nesnelerinin bulunduğu bir koleksiyon listesini tasarlayabilme </li>
-  <li>Oluşturulan listeyi DataGrid Nesnesine Bağlayabilme </li>
-  <li>Listeye kullancı arayüzün ait sınıfın kurucu metodu içerisinde ik öğrenci ekleyebilme</li>
+  <li> ObservableCollection türünde ogrenciList adında içerisinde Ogrenci nesnelerinin bulunduğu bir koleksiyon listesini tasarlayabilme ( 5P )</li> 
+  <li>Oluşturulan listeyi DataGrid Nesnesine Bağlayabilme ( 5P )</li>
+  <li>Listeye kullancı arayüzüne ait sınıfın kurucu metodu içerisinde iki öğrenci ekleyebilme( 5P )</li>
   
-  <li>Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme. 
+  <li>Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme. ( 15P )
      <ol type="a">
       <li> Önceden Eklenmiş Bir Okul No eklenmeye çalışırsa "Girilen Öğrenci No daha önce kaydedildi...." uyarısı verilecek. </li>
       <li> Öğrenci Adı Boş Geçilirse "Öğrenci Adı Gereklidir." uyarısı verilecek </li>
