@@ -12,7 +12,8 @@
 
 ### Uygulamada Kullanılan Nesnelerin Ekran Görüntüsü ###
 
-![image](https://user-images.githubusercontent.com/28144917/160252324-c96e7e08-c6e0-4fcf-9e69-1859ea9ee430.png)
+![tempsnip](https://user-images.githubusercontent.com/28144917/160252354-ce137fcd-14ea-4278-a846-eeb4a41acd23.png)
+
 
 
 ### Uygulamanın Dosya Yapısı ###
