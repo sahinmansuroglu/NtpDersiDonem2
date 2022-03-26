@@ -65,7 +65,7 @@
 
 ### 10.  2. Dönem 1. Yazılı  (Yayın Tarihi: 26.03.2022 06:20) ###
 
-1. [2. Dönem 1. Yazılı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
+ [2. Dönem 1. Yazılı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
 
 
 
