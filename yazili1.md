@@ -40,7 +40,7 @@
   <li>Listeye kullancı arayüzün ait sınıfın kurucu metodu içerisinde ik öğrenci ekleyebilme</li>
   
   <li>Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme. 
-     <ol>
+     <ol type="a">
       <li> Öğrenci Adı Boş Geçilirse "Öğrenci Adı Gereklidir." uyarısı verilecek </li>
       <li> Öğrenci Adı 3 Karakterden az ise   "Öğrenci Adı En az 3 karakter olmalı" uyarısı verilecek </li>
       <li> Öğrenci Soyadı Boş Geçilirse "Öğrenci Soyadı Gereklidir." uyarısı verilecek </li>
@@ -54,6 +54,19 @@
     </ol>
     </li>
   
+   <li>TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
+   <li>DataGrid'de seçili olan öğrencinin bilgilerini ilgili Texbox'larda gösterebilme </li>
+   <li>TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
+   
+   <li>Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirilme
+     <ol type="a">
+      <li> Seçili bir öğrenci olup </li>
+      <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
+      <li>Hata Listesi GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak</li>
+      <li>İçerisinde arayüzde görüldüğü şekilde sütünlara sahip DataGrid Bulunacak</li>
+      <li>Arayüzün altında işlem yapılan Öğrencinin Adı ve Soyadı ile DataGrid içerisinde kayıtlı öğrenci sayısının görülebildiği StatusBar bulunacak</li>
+    </ol>
+    </li>
 </ol>
 
 
