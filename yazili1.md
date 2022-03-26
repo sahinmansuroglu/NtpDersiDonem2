@@ -25,7 +25,7 @@
 
 
 <ol>
-  <li>Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme **10P**
+  <li>Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme __10P__
      <ol type="a">
       <li> Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak</li>
       <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
