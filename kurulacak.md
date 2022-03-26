@@ -6,12 +6,7 @@
       https://fluentvalidation.net/
  
  
-  if(!decimal.TryParse(Account.Text, out decimal accountBalance))
-            {
-                errors.Add("Account Balance: Invalid amount ! ");
-                return;
-            }
-            
+             
             
 ### Programlar ###
       Mysql
