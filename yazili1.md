@@ -25,7 +25,7 @@
 
 
 <ol>
-  <li><b>( 10P )</b> Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme 
+  <li><b>( 10 Puan )</b> Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme 
      <ol type="a">
       <li> Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak</li>
       <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
@@ -35,11 +35,11 @@
     </ol>
     </li>
     
-  <li><b>( 10P )</b> ObservableCollection türünde ogrenciList adında içerisinde Ogrenci nesnelerinin bulunduğu bir koleksiyon listesini tasarlayabilme ( 5P )</li> 
-  <li>Oluşturulan listeyi DataGrid Nesnesine Bağlayabilme ( 5P )</li>
-  <li>Listeye kullancı arayüzüne ait sınıfın kurucu metodu içerisinde iki öğrenci ekleyebilme( 5P )</li>
+  <li><b>( 5 Puan )</b> ObservableCollection türünde ogrenciList adında içerisinde Ogrenci nesnelerinin bulunduğu bir koleksiyon listesini tasarlayabilme </li> 
+  <li><b>( 5 Puan )</b> Oluşturulan listeyi DataGrid Nesnesine Bağlayabilme </li>
+  <li><b>( 5 Puan )</b> Listeye kullancı arayüzüne ait sınıfın kurucu metodu içerisinde iki öğrenci ekleyebilme</li>
   
-  <li>Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme. ( 15P )
+  <li><b>( 15 Puan )</b> Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme.
      <ol type="a">
       <li> Önceden Eklenmiş Bir Okul No eklenmeye çalışırsa "Girilen Öğrenci No daha önce kaydedildi...." uyarısı verilecek. </li>
       <li> Öğrenci Adı Boş Geçilirse "Öğrenci Adı Gereklidir." uyarısı verilecek </li>
@@ -55,11 +55,11 @@
     </ol>
     </li>
   
-   <li>TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
-   <li>DataGrid'de seçili olan öğrencinin bilgilerini ilgili Texbox'larda gösterebilme </li>
-   <li>TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
+   <li><b>( 5 Puan )</b> TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
+   <li><b>( 5 Puan )</b> DataGrid'de seçili olan öğrencinin bilgilerini ilgili Texbox'larda gösterebilme </li>
+   <li><b>( 5 Puan )</b> TextBox'lardaki öğrenci adı ve soyadı ile datagrid'de bulunan öğrenci sayılarını StatusBar'a bağlıyabilme</li>
    
-   <li>Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirebilme
+   <li><b>( 10 Puan )</b> Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirebilme
      <ol type="a">
       <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verdirilecek</li>
       <li>Sil Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açtırılacak</li>
@@ -68,7 +68,7 @@
      </ol>
     </li>
   
-  <li>Güncelleme butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi güncelleyebilme
+  <li><b>( 10 Puan )</b> Güncelleme butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi güncelleyebilme
      <ol type="a">
       <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verdirilecek</li>
       <li>Güncelle Butonuna Tıklandığında Ekleme işleminde verilen doğrulamalar sağlandıktan sonra güncelleme yapılacak aksi durumda hata verdirilecek. </li>
@@ -78,8 +78,8 @@
     </ol>
     </li>
   
-   <li>Temizle butonuna tıklandığında tüm text kutuları ve hata listesi temizlenecek </li>
-   <li>Yazdır butonuna tıklandığından Tüm arayüz yazdırılacak </li>
+   <li><b>( 5 Puan )</b> Temizle butonuna tıklandığında tüm text kutuları ve hata listesi temizlenecek </li>
+   <li><b>( 5 Puan )</b> Yazdır butonuna tıklandığından Tüm arayüz yazdırılacak </li>
 </ol>
 
 
