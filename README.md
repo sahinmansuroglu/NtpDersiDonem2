@@ -63,6 +63,10 @@
 1. [Veri Doğrulama ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation.md) 
 
 
+### 10.  2. Dönem 1. Yazılı (HAZIRLANIYOR)  ###
+
+1. [2. Dönem 1. Yazılı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
+
 ### 8. Bölüm:  Rich Text (Hazır Değil)  ###
 Rich Text controls
 Introduction to WPF Rich Text controls
