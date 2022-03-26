@@ -25,7 +25,7 @@
 
 
 <ol>
-  <li>Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme
+  <li>Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme **10P**
      <ol type="a">
       <li> Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak</li>
       <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
@@ -61,25 +61,25 @@
    
    <li>Sil butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi listeden sildirebilme
      <ol type="a">
-      <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verilecek</li>
-      <li>Sil Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açılacak</li>
+      <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verdirilecek</li>
+      <li>Sil Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açtırılacak</li>
       <li>Mesaj'a evet cevabı verilirse öğrenci listeden sildirilecek ve textBox'lar temizletilecek</li>
-      <li>Mesaj'a hayır cevabı verilirse sildirme yapılmayacak</li>
+      <li>Mesaj'a hayır cevabı verilirse sildirme yaptırılmayacak</li>
      </ol>
     </li>
   
   <li>Güncelleme butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi güncelleyebilme
      <ol type="a">
-      <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verilecek</li>
-      <li>Güncelle Butonuna Tıklandığında Ekleme işleminde verilen doğrulamalar sağlandıktan sonra güncelleme yapılacak aksi durumda hata verilecek. </li>
-      <li>Güncelle Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açılacak</li>
+      <li>Seçili bir öğrenci olup olmadığı kontol edilecek. Eğer Seçili öğrenci yoksa hata verdirilecek</li>
+      <li>Güncelle Butonuna Tıklandığında Ekleme işleminde verilen doğrulamalar sağlandıktan sonra güncelleme yapılacak aksi durumda hata verdirilecek. </li>
+      <li>Güncelle Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açtırılacak</li>
       <li>Mesaj'a evet cevabı verilirse öğrenci bilgisi listede güncellenecek ve textBox'lar temizletilecek</li>
-      <li>Mesaj'a hayır cevabı verilirse güncelleme yapılmayacak</li>
+      <li>Mesaj'a hayır cevabı verilirse güncelleme yaptırılmayacak</li>
     </ol>
     </li>
   
    <li>Temizle butonuna tıklandığında tüm text kutuları ve hata listesi temizlenecek </li>
-   <li>Yazdır butonuna tıklandığından Tüm arayüz yadırılacak </li>
+   <li>Yazdır butonuna tıklandığından Tüm arayüz yazdırılacak </li>
 </ol>
 
 
