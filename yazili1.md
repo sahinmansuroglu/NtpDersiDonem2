@@ -1,7 +1,5 @@
 ## 2. Dönem 1. Yazılı ##
 
-**Not:** Uygulamanın soru metinleri ve puanlandırması hazırlanma aşamasındadır.
-
 [Uygulamanın Tamamlanmış Halini indirmek için tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8354576/2.Donem1.Yazili.zip)
 
 
