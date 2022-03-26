@@ -1,5 +1,7 @@
 ## 2. Dönem 1. Yazılı ##
 
+[Uygulamanın Tamamlanmış Halini indirmek için tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8354576/2.Donem1.Yazili.zip)
+
 
 ### Uygulamanın Ekran Görüntüsü ###
 
@@ -117,7 +119,7 @@ namespace WpfApp40
 
 ```
 
-### Veri Dogrulama Sınıfı (OgrenciDogrulama.cs)###
+### Veri Dogrulama Sınıfı (OgrenciDogrulama.cs) ###
 
 ```csharp
 using FluentValidation;
@@ -147,7 +149,7 @@ namespace WpfApp40.Dogrulama
 
 ```
 
-### WPF Arayüzünün arka planında çalışan C# kodları (MainWindow.xaml.cs)###
+### WPF Arayüzünün arka planında çalışan C# kodları (MainWindow.xaml.cs) ###
 
 ```csharp
 using FluentValidation.Results;
@@ -356,7 +358,7 @@ namespace WpfApp40
 
 ```
 
-### WPF Arayüzünün XAML kodları (MainWindow.xaml)###
+### WPF Arayüzünün XAML kodları (MainWindow.xaml) ###
 
 ```xaml
 <Window x:Class="WpfApp40.MainWindow"
