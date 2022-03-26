@@ -63,9 +63,9 @@
 1. [Veri Doğrulama ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation.md) 
 
 
-### 10.  2. Dönem 1. Yazılı  (Yayın Tarihi: 26.03.2022 06:20) ###
+### 10.  2. Dönem 1. Uygulama Sınavı  (Yayın Tarihi: 26.03.2022 06:20) ###
 
-   [2. Dönem 1. Yazılı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
+   [2. Dönem 1. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
 
 
 
