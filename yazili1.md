@@ -26,7 +26,7 @@
 
 <ol>
   <li>Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme
-     <ol>
+     <ol type="a">
       <li> Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak</li>
       <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
       <li>Hata Listesi GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak</li>
