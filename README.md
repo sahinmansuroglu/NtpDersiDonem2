@@ -67,16 +67,7 @@
 
 1. [2. Dönem 1. Yazılı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
 
-### 8. Bölüm:  Rich Text (Hazır Değil)  ###
-Rich Text controls
-Introduction to WPF Rich Text controls
-The FlowDocumentScrollViewer control
-The FlowDocumentPageViewer control
-The FlowDocumentReader control
-Creating a FlowDocument from Code-behind
-Advanced FlowDocument content
-The RichTextBox control
-How-to: Creating a Rich Text Editor
+
 
 
 
@@ -94,6 +85,18 @@ How-to: Creating a Rich Text Editor
 2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
 3. Tooltip
 
+
+### 8. Bölüm:  Rich Text (Hazır Değil)  ###
+      Rich Text controls
+      Introduction to WPF Rich Text controls
+      The FlowDocumentScrollViewer control
+      The FlowDocumentPageViewer control
+      The FlowDocumentReader control
+      Creating a FlowDocument from Code-behind
+      Advanced FlowDocument content
+      The RichTextBox control
+      How-to: Creating a Rich Text Editor
+
 [materialUI](https://www.youtube.com/watch?v=qSP8v8Gi3XU)
 
 Icon İçin flatIcon:https://www.flaticon.com/
@@ -104,3 +107,5 @@ Icon İçin flatIcon:https://www.flaticon.com/
 [Kurulacaklar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/kurulacak.md)
 
 [Hazırlık Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8350570/WpfApp40.zip)
+
+
