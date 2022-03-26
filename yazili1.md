@@ -81,7 +81,9 @@
 </ol>
 
 
+**Not-1:**Ogrenci Class'ı sınav anında bilgisayarlarınıza gönderilecektir.
 
+**Not-2:**Ogrennci Doğrulama  Class'ı temel şablonu sınav anında bilgisayarlarınıza gönderilecektir ancak kuralları sizin yazmanız beklenmektedir.
 
 ### Ogrenci Sınıfı (Ogrenci.cs) ###
 
