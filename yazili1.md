@@ -20,6 +20,21 @@
 
 ![image](https://user-images.githubusercontent.com/28144917/160222019-06a52788-adec-4fbb-ac34-e3f8e2d6ad03.png)
 
+
+### Uygulamada Yapılması istenenler ###
+
+1. Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme
+
+    Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak
+    Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak
+    Hata Listesi GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak
+    İçerisinde arayüzde görüldüğü şekilde sütünlara sahip DataGrid Bulunacak
+    Arayüzün altında işlem yapılan Öğrencinin Adı ve Soyadı ile DataGrid içerisinde kayıtlı öğrenci sayısının görülebildiği StatusBar bulunacak
+
+2. 
+
+
+
 ### Ogrenci Sınıfı (Ogrenci.cs) ###
 
 ```csharp
