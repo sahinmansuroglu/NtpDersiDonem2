@@ -35,9 +35,25 @@
     </ol>
     </li>
     
-  <li>Second item</li>
-  <li>Third item</li>
-  <li>Fourth item</li>
+  <li> ObservableCollection türünde ogrenciList adında içerisinde Ogrenci nesnelerinin bulunduğu bir koleksiyon listesini tasarlayabilme </li>
+  <li>Oluşturulan listeyi DataGrid Nesnesine Bağlayabilme </li>
+  <li>Listeye kullancı arayüzün ait sınıfın kurucu metodu içerisinde ik öğrenci ekleyebilme</li>
+  
+  <li>Ekleme butonuna tıklandığında Öğrenci bilgileri için aşağıdaki tüm doğrulamaları sağladıktan sonra öğrenciyi listeye ekleyebilme. 
+     <ol>
+      <li> Öğrenci Adı Boş Geçilirse "Öğrenci Adı Gereklidir." uyarısı verilecek </li>
+      <li> Öğrenci Adı 3 Karakterden az ise   "Öğrenci Adı En az 3 karakter olmalı" uyarısı verilecek </li>
+      <li> Öğrenci Soyadı Boş Geçilirse "Öğrenci Soyadı Gereklidir." uyarısı verilecek </li>
+      <li> Öğrenci Soyadı 3 Karakterden az ise   "Öğrenci Soyadı En az 3 karakter olmalı" uyarısı verilecek </li>
+      <li> OkulNo Boş Geçilirse "Okul No Gereklidir." uyarısı verilecek </li>
+      <li> OkulNo 4 basamaktan fazla ise  "Okul No No En fazla 4 Rakamlı olmalı" uyarısı verilecek </li>
+      <li> 1. Yazılı Boş Geçilirse "1. Yazılı Gereklidir" uyarısı verilecek </li>
+      <li> 1. Yazılı 0-100 arası değilse "1. Yazılı 0-100 arası olmalı" uyarısı verilecek </li>
+      <li> 2. Yazılı Boş Geçilirse "2. Yazılı Gereklidir" uyarısı verilecek </li>
+      <li> 2. Yazılı 0-100 arası değilse "2. Yazılı 0-100 arası olmalı" uyarısı verilecek </li>
+    </ol>
+    </li>
+  
 </ol>
 
 
