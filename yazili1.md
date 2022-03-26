@@ -23,15 +23,23 @@
 
 ### Uygulamada Yapılması istenenler ###
 
-1. Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme
 
-    Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak
-    Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak
-    Hata Listesi GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak
-    İçerisinde arayüzde görüldüğü şekilde sütünlara sahip DataGrid Bulunacak
-    Arayüzün altında işlem yapılan Öğrencinin Adı ve Soyadı ile DataGrid içerisinde kayıtlı öğrenci sayısının görülebildiği StatusBar bulunacak
+<ol>
+  <li>Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme
+     <ol>
+      <li> Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak</li>
+      <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
+      <li>Hata Listesi GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak</li>
+      <li>İçerisinde arayüzde görüldüğü şekilde sütünlara sahip DataGrid Bulunacak</li>
+      <li>Arayüzün altında işlem yapılan Öğrencinin Adı ve Soyadı ile DataGrid içerisinde kayıtlı öğrenci sayısının görülebildiği StatusBar bulunacak</li>
+    </ol>
+    </li>
+    
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ol>
 
-2. 
 
 
 
