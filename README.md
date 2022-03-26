@@ -63,7 +63,7 @@
 1. [Veri Doğrulama ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation.md) 
 
 
-### 10.  2. Dönem 1. Yazılı (HAZIRLANIYOR)  ###
+### 10.  2. Dönem 1. Yazılı   ###
 
 1. [2. Dönem 1. Yazılı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
 
