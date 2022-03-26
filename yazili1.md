@@ -85,6 +85,8 @@
 
 **Not-2:** OgrenciDogrulama  Class'ının temel yapısı sınav anında bilgisayarlarınıza gönderilecektir. Ancak kuralları sizin yazmanız beklenmektedir.
 
+**Süre:** 90 Dakikadır.
+
 ### Ogrenci Sınıfı (Ogrenci.cs) ###
 
 ```csharp
