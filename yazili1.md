@@ -65,8 +65,7 @@
       <li>Sil Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açılacak</li>
       <li>Mesaj'a evet cevabı verilirse öğrenci listeden sildirilecek ve textBox'lar temizletilecek</li>
       <li>Mesaj'a hayır cevabı verilirse sildirme yapılmayacak</li>
-   
-    </ol>
+     </ol>
     </li>
   
   <li>Güncelleme butonuna tıklandığında aşağıda verilen işlemlere göre seçili öğrenciyi güncelleyebilme
@@ -76,7 +75,6 @@
       <li>Güncelle Butonuna Tıklandığında Evet/Hayır butonları bulunan bir messageBox kutusu açılacak</li>
       <li>Mesaj'a evet cevabı verilirse öğrenci bilgisi listede güncellenecek ve textBox'lar temizletilecek</li>
       <li>Mesaj'a hayır cevabı verilirse güncelleme yapılmayacak</li>
-   
     </ol>
     </li>
   
