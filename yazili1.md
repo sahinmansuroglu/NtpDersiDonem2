@@ -1,4 +1,4 @@
-## 2. Dönem 1. Yazılı ##
+## 2. Dönem 1. Uygulama Sınavı Sorusu ve Çözümü  ##
 
 [Uygulamanın Tamamlanmış Halini indirmek için tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8354576/2.Donem1.Yazili.zip)
 
