@@ -83,7 +83,7 @@
 
 **Not-1:** Ogrenci Class'ı sınav anında bilgisayarlarınıza gönderilecektir.
 
-**Not-2:** OgrenciDogrulama  Class'ının temel yapısı sınav anında bilgisayarlarınıza gönderilecektir. Ancak kuralları sizin yazmanız beklenmektedir.
+**Not-2:** OgrenciDogrulama  Class'ının temel yapısı sınav anında bilgisayarlarınıza gönderilecektir. Ancak doğrulama kurallarını sizin yazmanız beklenmektedir.
 
 **Süre:** 90 Dakikadır.
 
