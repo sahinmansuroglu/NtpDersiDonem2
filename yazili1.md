@@ -26,8 +26,8 @@
   <li><b>( 10 Puan )</b> Uygulamanın Arayüzünü aşağıda verilenlere göre  tasarlayabilme 
      <ol type="a">
       <li> Üst Bölümde sırasıyla Ekle, Sil, Güncelle, Temizle ve Yazdır iconlu butonlardan oluşan Toolbar bulunacak</li>
-      <li>Öğrenci Bilgileri GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
-      <li>Hata Listesi GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak</li>
+      <li>"Öğrenci Bilgileri" GroubBox'ı içerisinde Öğrenci bilgilerinin Girişinin yapıldığı textBox'lar bulunacak</li>
+      <li>"Hata Listesi" GroubBox'ı içerisinde hataların yazdırıldığı ListBox bulunacak</li>
       <li>İçerisinde arayüzde görüldüğü şekilde sütünlara sahip DataGrid Bulunacak</li>
       <li>Arayüzün altında işlem yapılan Öğrencinin Adı ve Soyadı ile DataGrid içerisinde kayıtlı öğrenci sayısının görülebildiği StatusBar bulunacak</li>
     </ol>
