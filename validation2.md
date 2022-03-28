@@ -60,10 +60,10 @@ Ogrenci ogrenci = new Ogrenci()
 OgrenciDogrulama dogrulama = new OgrenciDogrulama();
 ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
 ```    
-> Validate methodu  ValidationResult nesnesi döndürür. 
+> Validate methodu  ValidationResult nesnesi döndürür. Bu değer;
    
 <ul>
-<li>Eğer IsValid=True ise doğrulamanın başarılı olduğu anlamına gelir.</li>
+<li>Eğer **IsValid=True** ise doğrulamanın başarılı olduğu anlamına gelir.</li>
 <li>Eğer IsValid=False ise hata vardır. Errors listesi ile hatalara erişilebilinir.</li>
 </ul>
 
