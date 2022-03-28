@@ -90,6 +90,16 @@ ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
    
 ![image](https://user-images.githubusercontent.com/28144917/160344914-88c100bf-a090-4568-a3dd-f2d66282e7a4.png)
 
+> Yukarıda kullanıcı arayüzü verilen uygulamada aşağıda belirtilen doğrulamalar yapıldıktan sonra Ad Soyad, Dogum Yılı ve Puanı bir metin içerisinde birleştirilerek listbox'a ekletilmiştir.(Aşağıdaki doğrulamalar FluentValidation kütüphanesi kullanılarak yapılmıştır.)
+<ol>
+            <li>Öğrenci Ad Soyadı Boş Geçilirse "Lütfen Ad Soyad Giriniz" uyarısı verilecek</li>
+<li>Öğrenci Ad Soyadı 6 Karakterden az ise ""Ad Soyad en az 6 karakterden olusmali"" uyarısı verilecek</li>
+<li>Doğum Yılı boş geçilirse veya rakam dışında bir karakter girilirse "Doğum Tarihi girilmeli ve Rakam olmalı" uyarısı verilecek</li>
+<li>Doğum Yılı 1910'dan Küçükse "Dogum yili 1910'dan Küçük olamaz" uyarısı verilecek</li>
+<li>Doğum Yılı Güncel yıldan büyükse "Doğum yılı Bulunulan Yıldan Fazla olamaz" uyarısı verilecek</li>
+<li>Puan boş geçilirse veya rakam dışında bir karakter girilirse "Puan girilmeli ve Rakam olmalı" uyarısı verilecek</li>
+<li>Puan 0-100 arası değilse "Puan 0-100 arası olmalı" uyarısı verilecek</li>
+</ol>   
 ![image](https://user-images.githubusercontent.com/28144917/160344949-8a94865c-a159-4b27-a637-80e2a82f93cd.png)
 
 
