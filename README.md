@@ -59,8 +59,9 @@
 3. [Ornek - 3 ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/userControl3.md) 
 
 ### 9.  Veri Doğrulama (FluentValidation Kullanımı)  ###
-
-1. [Veri Doğrulama ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation.md) 
+1. [Veri Doğrulama ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation1.md) 
+1. [FluentValidation ile Veri Doğrulama ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation2.md) 
+1. [Veri Doğrulama Örneği ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/validation.md) 
 
 
 ### 10.  2. Dönem 1. Uygulama Sınavı  (Yayın Tarihi: 26.03.2022 06:20) ###
