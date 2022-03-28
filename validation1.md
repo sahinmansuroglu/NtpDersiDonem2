@@ -59,7 +59,7 @@ if (adSoyadGirisiDogrumu ==  true)
 <li>Doğum Yılı Güncel yıldan büyükse "Doğum yılı Bulunulan Yıldan Fazla olamaz" uyarısı verilecek</li>
 <li>Puan boş geçilirse veya rakam dışında bir karakter girilirse "Puan girilmeli ve Rakam olmalı" uyarısı verilecek</li>
 <li>Puan 0-100 arası değilse "Puan 0-100 arası olmalı" uyarısı verilecek</li>
-
+</ol>
             
 **Çözüm (Butona tıklandığında yapılan kontroller)**
             
