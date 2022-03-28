@@ -86,7 +86,7 @@ ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
 
             }    
 ```
-**Tamamlanmış Örnek**
+### Örnek ###
    
 ![image](https://user-images.githubusercontent.com/28144917/160344914-88c100bf-a090-4568-a3dd-f2d66282e7a4.png)
 
