@@ -30,3 +30,17 @@ if (adSoyadGirisiDogrumu ==  true)
                     MessageBox.Show("Ad Soyad en az 6 karakterden olusmali");
                 }
 ```
+### Int32.TryParse() ile sayısal değer kontrolü ##
+
+**Örnek**
+> Aşağıdaki örnekte txtDogumYili adlı text kutusunun içeriği tamsayıya çevrilmeye çalışılır. Eğer çevrim başarılı ise "true" değeri döner başarısız ise "false" değeri döner.
+
+```csharp
+ bool dogumTarihiSayisalmi = Int32.TryParse(txtDogumYili.Text, out int gecerliDogumYili);
+
+                    if (dogumTarihiSayisalmi == false)
+                    {
+                        MessageBox.Show("Doğum Tarihi girilmeli ve Rakam olmalı");
+
+                    }
+```
