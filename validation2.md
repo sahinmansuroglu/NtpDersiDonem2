@@ -1,6 +1,6 @@
 ## FluentValidation ile Veri Doğrulama ##
 
-[FluentValidation] (https://fluentvalidation.net/) kolay ve hizli bir şekilde veri doğrulama yapılmasına imkan sağlayan bir .NET kütüphanesidir.
+[FluentValidation](https://fluentvalidation.net/) kolay ve hizli bir şekilde veri doğrulama yapılmasına imkan sağlayan bir .NET kütüphanesidir.
 
 > Bir nesne için doğrulama kuralı tanımlayabilmek için ilk olarak AbstractValidator<T> 'sınıfını miras alan  bir sınıf türetilmesi gerekir.
    
