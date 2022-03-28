@@ -1,3 +1,90 @@
+## FluentValidation ile Veri Doğrulama ##
+
+[FluentValidation] (https://fluentvalidation.net/) kolay ve hizli bir şekilde veri doğrulama yapılmasına imkan sağlayan bir .NET kütüphanesidir.
+
+> Bir nesne için doğrulama kuralı tanımlayabilmek için ilk olarak AbstractValidator<T> 'sınıfını miras alan  bir sınıf türetilmesi gerekir.
+   
+> Aşağıdaki gibi Bir Ogrenci Sınıfı için doğrulama kuralları oluşturalım.
+   
+ ```csharp
+    class Ogrenci
+    {
+        public string AdSoyad { get; set; }
+        public int? DogumYili { get; set; }
+        public int? Puan { get; set; }
+
+        public override string ToString()
+        {
+            return $"{AdSoyad} {DogumYili} {Puan}";
+        }
+    }
+``` 
+    
+> Yukarıdaki sınıfa doğrulama kuralı tanımlamak için  AbstractValidator<Ogrenci> sınıfını miras alan bir sınıf tanımlanır.
+    
+```csharp
+    using FluentValidation;
+    class OgrenciDogrulama:AbstractValidator<Ogrenci>
+    {
+        
+    }
+```
+    
+> Doğrulama kuralları yukarıdaki sınıfın kurucu metodu içerisinde tanımlanır.
+ 
+```csharp
+using FluentValidation;
+ class OgrenciDogrulama:AbstractValidator<Ogrenci>
+    {
+        public OgrenciDogrulama()
+        {
+            RuleFor(x => x.AdSoyad).NotEmpty().WithMessage("Öğrenci Adı ve Soyadı boş Geçilemez");
+            RuleFor(x => x.AdSoyad).MinimumLength(6).WithMessage("Öğrenci Adı ve Soyadı  enaz 6 karakterden oluşmalı");
+            RuleFor(x => x.DogumYili).NotNull().WithMessage("Dogum Yili Gerekli");
+            RuleFor(x => x.DogumYili).InclusiveBetween(1910, DateTime.Now.Year).WithMessage("Doğum Yılı 1910 ile günümüz arasında olmalı");
+            RuleFor(x => x.Puan).NotNull().WithMessage("Puan Gerekli");
+            RuleFor(x => x.Puan).InclusiveBetween(0,100).WithMessage("Puan 0-100 arasında olmalı");
+        }
+    }
+```
+
+> Doğrulamayı Çalıştırmak için Validate Metodu kullanılır
+
+```csharp
+Ogrenci ogrenci = new Ogrenci()
+            {
+                AdSoyad = "Ali",
+                DogumYili = 1935,
+                Puan = 85
+            };
+OgrenciDogrulama dogrulama = new OgrenciDogrulama();
+ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
+```    
+> Validate methodu  ValidationResult nesnesi döndürür. 
+    <ul>
+        <li>Eğer IsValid=True ise doğrulamanın başarılı olduğu anlamına gelir.</li>
+        <li>Eğer IsValid=False ise hata vardır. Errors listesi ile hatalara erişilebilinir.</li>
+    </ul>
+
+```csharp    
+if (dogrulamaSonucu.IsValid == false)
+            {
+                foreach (ValidationFailure herBirHata in dogrulamaSonucu.Errors)
+                {
+                    HataList.Items.Add(herBirHata.ErrorMessage);
+                }
+            }
+            else
+            {
+                liste1.Items.Add(ogr);
+                txtPuan.Clear();
+                txtDogumYili.Clear();
+                txtAdSoyad.Clear();
+                MessageBox.Show("Herşey başarılı");
+
+            }    
+```
+    
 ![image](https://user-images.githubusercontent.com/28144917/160344914-88c100bf-a090-4568-a3dd-f2d66282e7a4.png)
 
 ![image](https://user-images.githubusercontent.com/28144917/160344949-8a94865c-a159-4b27-a637-80e2a82f93cd.png)
