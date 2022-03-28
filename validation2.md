@@ -62,10 +62,10 @@ ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
 ```    
 > Validate methodu  ValidationResult nesnesi döndürür. 
    
-    <ul>
-        <li>Eğer IsValid=True ise doğrulamanın başarılı olduğu anlamına gelir.</li>
-        <li>Eğer IsValid=False ise hata vardır. Errors listesi ile hatalara erişilebilinir.</li>
-    </ul>
+<ul>
+<li>Eğer IsValid=True ise doğrulamanın başarılı olduğu anlamına gelir.</li>
+<li>Eğer IsValid=False ise hata vardır. Errors listesi ile hatalara erişilebilinir.</li>
+</ul>
 
    
 ```csharp    
