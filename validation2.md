@@ -63,8 +63,8 @@ ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
 > Validate methodu  ValidationResult nesnesi döndürür. Bu değer;
    
 <ul>
-<li>Eğer **IsValid=True** ise doğrulamanın başarılı olduğu anlamına gelir.</li>
-<li>Eğer IsValid=False ise hata vardır. Errors listesi ile hatalara erişilebilinir.</li>
+   <li>Eğer <b>IsValid=True</b> ise doğrulamanın başarılı olduğu anlamına gelir.</li>
+<li>Eğer <b>IsValid=False</b> ise hata vardır. Errors listesi ile hatalara erişilebilinir.</li>
 </ul>
 
    
