@@ -101,10 +101,14 @@ ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
 <li>Puan 0-100 arası değilse "Puan 0-100 arası olmalı" uyarısı verilecek</li>
 </ol>   
    
+   
+**Dosya Yapısı**
+   
 ![image](https://user-images.githubusercontent.com/28144917/160344949-8a94865c-a159-4b27-a637-80e2a82f93cd.png)
 
 
-
+**Ogrenci Class'ı**
+   
 ```csharp
 class Ogrenci
     {
@@ -119,6 +123,8 @@ class Ogrenci
     }
 ```
 
+**OgrenciDogrulama Class'ı**   
+   
 ```csharp
 
  class OgrenciDogrulama:AbstractValidator<Ogrenci>
@@ -135,6 +141,8 @@ class Ogrenci
     }
 ```
 
+**Kullanıcı Arayüzünün arkaplanında çalışan kodlar**
+   
 ```csharp
   
   using FluentValidation.Results;
@@ -202,6 +210,8 @@ namespace WpfApp58
   
 ```
 
+**Kullanıcı Arayüzünün XAML kodları**   
+   
 ```xaml
 
 <Window x:Class="WpfApp58.MainWindow"
