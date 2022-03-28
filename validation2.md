@@ -61,13 +61,15 @@ OgrenciDogrulama dogrulama = new OgrenciDogrulama();
 ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
 ```    
 > Validate methodu  ValidationResult nesnesi döndürür. 
+   
     <ul>
         <li>Eğer IsValid=True ise doğrulamanın başarılı olduğu anlamına gelir.</li>
         <li>Eğer IsValid=False ise hata vardır. Errors listesi ile hatalara erişilebilinir.</li>
     </ul>
 
+   
 ```csharp    
-if (dogrulamaSonucu.IsValid == false)
+         if (dogrulamaSonucu.IsValid == false)
             {
                 foreach (ValidationFailure herBirHata in dogrulamaSonucu.Errors)
                 {
@@ -84,7 +86,8 @@ if (dogrulamaSonucu.IsValid == false)
 
             }    
 ```
-    
+**Tamamlanmış Örnek**
+   
 ![image](https://user-images.githubusercontent.com/28144917/160344914-88c100bf-a090-4568-a3dd-f2d66282e7a4.png)
 
 ![image](https://user-images.githubusercontent.com/28144917/160344949-8a94865c-a159-4b27-a637-80e2a82f93cd.png)
