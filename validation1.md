@@ -60,6 +60,9 @@ if (adSoyadGirisiDogrumu ==  true)
 <li>Puan boş geçilirse veya rakam dışında bir karakter girilirse "Puan girilmeli ve Rakam olmalı" uyarısı verilecek</li>
 <li>Puan 0-100 arası değilse "Puan 0-100 arası olmalı" uyarısı verilecek</li>
 
+            
+**Çözüm (Butona tıklandığında yapılan kontroller)**
+            
 ```csharp
 private void Button_Click(object sender, RoutedEventArgs e)
         {
