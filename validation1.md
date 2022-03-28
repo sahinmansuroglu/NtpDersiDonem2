@@ -33,7 +33,7 @@ if (adSoyadGirisiDogrumu ==  true)
 ### Int32.TryParse() ile sayısal değer kontrolü ##
 
 **Örnek**
-> Aşağıdaki örnekte txtDogumYili adlı text kutusunun içeriği tamsayıya çevrilmeye çalışılır. Eğer çevrim başarılı ise "true" değeri döner başarısız ise "false" değeri döner.
+> Aşağıdaki örnekte txtDogumYili adlı text kutusunun içeriği tamsayıya çevrilmeye çalışılır. Eğer çevrim başarılı ise "true" değeri döner başarısız ise "false" değeri döner. Ayrıca çevrim başarılı olduğunda gecerliDogumYili değişkenine doğum yılının int tipindeki değeri atanır. Çevrim gerçekleşmezse int tipinin varsayılan değeri olan 0 değeri atanır.
 
 ```csharp
  bool dogumTarihiSayisalmi = Int32.TryParse(txtDogumYili.Text, out int gecerliDogumYili);
