@@ -47,8 +47,18 @@ if (adSoyadGirisiDogrumu ==  true)
 
 ### Veri Doğrulama Örneği ###
 
+
 ![image](https://user-images.githubusercontent.com/28144917/160339486-b35fd2f9-6a10-4479-ae50-b547234332ae.png)
 
+> Yukarıda kullanıcı arayüzü verilen uygulamada aşağıda belirtilen doğrulamalar yapıldıktan sonra Ad Soyad, Dogum Yılı ve Puanı bir metin içerisinde birleştirilerek listbox'a ekletilmiştir.
+<ol>
+            <li>Öğrenci Ad Soyadı Boş Geçilirse "Lütfen Ad Soyad Giriniz" uyarısı verilecek</li>
+<li>Öğrenci Ad Soyadı 6 Karakterden az ise ""Ad Soyad en az 6 karakterden olusmali"" uyarısı verilecek</li>
+<li>Doğum Yılı boş geçilirse veya rakam dışında bir karakter girilirse "Doğum Tarihi girilmeli ve Rakam olmalı" uyarısı verilecek</li>
+<li>Doğum Yılı 1910'dan Küçükse "Dogum yili 1910'dan Küçük olamaz" uyarısı verilecek</li>
+<li>Doğum Yılı Güncel yıldan büyükse "Doğum yılı Bulunulan Yıldan Fazla olamaz" uyarısı verilecek</li>
+<li>Puan boş geçilirse veya rakam dışında bir karakter girilirse "Puan girilmeli ve Rakam olmalı" uyarısı verilecek</li>
+<li>Puan 0-100 arası değilse "Puan 0-100 arası olmalı" uyarısı verilecek</li>
 
 ```csharp
 private void Button_Click(object sender, RoutedEventArgs e)
