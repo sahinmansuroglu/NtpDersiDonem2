@@ -3,6 +3,8 @@
 ![image](https://user-images.githubusercontent.com/28144917/160344949-8a94865c-a159-4b27-a637-80e2a82f93cd.png)
 
 
+
+```csharp
 class Ogrenci
     {
         public string AdSoyad { get; set; }
@@ -14,7 +16,9 @@ class Ogrenci
             return $"{AdSoyad} {DogumYili} {Puan}";
         }
     }
+```
 
+```csharp
 
  class OgrenciDogrulama:AbstractValidator<Ogrenci>
     {
@@ -28,7 +32,9 @@ class Ogrenci
             RuleFor(x => x.Puan).InclusiveBetween(0,100).WithMessage("Puan 0-100 arasında olmalı");
         }
     }
+```
 
+```csharp
   
   using FluentValidation.Results;
 using System;
@@ -93,8 +99,10 @@ namespace WpfApp58
 }
 
   
-  
-  using FluentValidation.Results;
+```
+
+```csharp
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -155,3 +163,6 @@ namespace WpfApp58
         }
     }
 }
+
+
+```csharp
