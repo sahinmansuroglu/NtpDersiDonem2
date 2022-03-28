@@ -47,7 +47,9 @@ using FluentValidation;
         }
     }
 ```
-
+   
+**Not:** [Fluentvalidation kütüphanesindeki yerleşik doğrulama kurallarını incelemek için tıklayınız](https://docs.fluentvalidation.net/en/latest/built-in-validators.html)
+   
 > Doğrulamayı Çalıştırmak için Validate Metodu kullanılır
 
 ```csharp
