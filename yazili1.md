@@ -2,23 +2,6 @@
 
 [Uygulamanın Tamamlanmış Halini indirmek için tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8354576/2.Donem1.Yazili.zip)
 
-
-### Uygulamanın Çalışan Halinin Ekran Görüntüsü ###
-
-![image](https://user-images.githubusercontent.com/28144917/160221900-74e9b6be-4b10-43b1-a233-e114ccdc8b35.png)
-
-
-### Uygulamada Kullanılan Nesnelerin Ekran Görüntüsü ###
-
-![tempsnip](https://user-images.githubusercontent.com/28144917/160252354-ce137fcd-14ea-4278-a846-eeb4a41acd23.png)
-
-
-
-### Uygulamanın Dosya Yapısı ###
-
-![image](https://user-images.githubusercontent.com/28144917/160222019-06a52788-adec-4fbb-ac34-e3f8e2d6ad03.png)
-
-
 ### Uygulamada Yapılması istenenler ###
 
 
@@ -86,6 +69,24 @@
 **Not-2:** OgrenciDogrulama  Class'ının temel yapısı sınav anında bilgisayarlarınıza gönderilecektir. Ancak doğrulama kurallarını sizin yazmanız beklenmektedir.
 
 **Süre:** 120 Dakikadır.
+
+### Uygulamanın Çalışan Halinin Ekran Görüntüsü ###
+
+![image](https://user-images.githubusercontent.com/28144917/160221900-74e9b6be-4b10-43b1-a233-e114ccdc8b35.png)
+
+
+### Uygulamada Kullanılan Nesnelerin Ekran Görüntüsü ###
+
+![tempsnip](https://user-images.githubusercontent.com/28144917/160252354-ce137fcd-14ea-4278-a846-eeb4a41acd23.png)
+
+
+
+### Uygulamanın Dosya Yapısı ###
+
+![image](https://user-images.githubusercontent.com/28144917/160222019-06a52788-adec-4fbb-ac34-e3f8e2d6ad03.png)
+
+
+
 
 
 
