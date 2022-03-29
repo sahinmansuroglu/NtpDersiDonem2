@@ -2,6 +2,9 @@
 
 [Uygulamanın Tamamlanmış Halini indirmek için tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8354576/2.Donem1.Yazili.zip)
 
+[Sınav Esnasında verilecek dökümanlar](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8370633/YaziliHazirlik.zip)
+
+
 ### Uygulamada Yapılması istenenler ###
 
 
