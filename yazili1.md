@@ -297,9 +297,9 @@ namespace WpfApp40
             ValidationResult dogrulamaSonucu = dogrulama.Validate(ogrenci);
             if (dogrulamaSonucu.IsValid == false)
             {
-                foreach (ValidationFailure failure in dogrulamaSonucu.Errors)
+                foreach (ValidationFailure herBirHata in dogrulamaSonucu.Errors)
                 {
-                    HataList.Items.Add(failure.ErrorMessage);
+                    HataList.Items.Add(herBirHata.ErrorMessage);
                 }
             }
             else
