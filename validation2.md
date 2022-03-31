@@ -19,7 +19,10 @@
         }
     }
 ``` 
-    
+**Not:** int tipinde tanımlanan bir değişkene değer ataması yapılmazsa varsayılan değeri 0 dir. Eğer null değer alabilen bir  tipinde değişken tanımlanması istenirse int? veri tipi kullanılır. (float?, double?, short?, byte? gibi)
+   
+   
+   
 > Yukarıdaki sınıfa doğrulama kuralı tanımlamak için  AbstractValidator<Ogrenci> sınıfını miras alan bir sınıf tanımlanır.
     
 ```csharp
