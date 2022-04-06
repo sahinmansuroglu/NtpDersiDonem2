@@ -12,4 +12,4 @@
 
 
 
-[SQLite Veritabanı dosyaları ile çalışmak için gerekli olan program için tıklayınız](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.msi)
+[DB Browser for SQLite (SQLite Veritabanı dosyaları ile çalışmak için gerekli)](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.msi)
