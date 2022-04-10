@@ -79,6 +79,9 @@
 1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
 1. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
 
+
+https://www.nuget.org/packages/MySql.EntityFrameworkCore/
+
 ### 11.  Karma ###
 
 2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
