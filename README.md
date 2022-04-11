@@ -81,6 +81,9 @@
 
 
 https://www.nuget.org/packages/MySql.EntityFrameworkCore/
+https://www.tektutorialshub.com/entity-framework-core/using-mysql-mariadb-in-entity-framework-core/
+
+https://docs.microsoft.com/tr-tr/ef/ef6/modeling/code-first/workflows/existing-database
 
 ### 11.  Karma ###
 
