@@ -76,7 +76,7 @@
 
 
 ### 10. Veritabanı İşlemleri ###
-1. [Veritabanı Temelleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/veritabanitemel.md) 
+1. [Veritabanı Temelleri, MYSQL, SQL(Sorgulama Dili) ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/veritabanitemel.md) 
 1. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
 1. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
 
