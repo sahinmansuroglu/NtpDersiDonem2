@@ -81,6 +81,12 @@
 1. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
 
 
+
+<br/>
+<br/>
+
+<br/>
+<br/>
 https://www.nuget.org/packages/MySql.EntityFrameworkCore/
 https://www.tektutorialshub.com/entity-framework-core/using-mysql-mariadb-in-entity-framework-core/
 
