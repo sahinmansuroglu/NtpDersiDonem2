@@ -57,3 +57,43 @@ CREATE TABLE `eokul`.`tblkisi` (
 ![image](https://user-images.githubusercontent.com/28144917/165025400-14327818-8cf5-4393-8354-edb6ece469d9.png)
 
 ![image](https://user-images.githubusercontent.com/28144917/165025405-7cef5a42-33df-4341-b598-8fdfb79a07f0.png)
+
+### İlişkili tablo Örneği
+
+![image](https://user-images.githubusercontent.com/28144917/165026934-0b7a46cd-6854-4d94-9114-7ac48d89eb99.png)
+
+#### Kullanılan Tablolar
+
+```sql
+ CREATE TABLE `eokul`.`dersler` (
+  `derskodu` VARCHAR(4) NOT NULL,
+  `dersadi` VARCHAR(45) NULL,
+  PRIMARY KEY (`derskodu`)
+  );
+  
+  CREATE TABLE `eokul`.`ogrencibilgi` (
+  `ogrenciNo` INT NOT NULL,
+  `ogrenciAdi` VARCHAR(20) NOT NULL,
+  `ogrenciSoyadi` VARCHAR(20) NOT NULL,
+  `ogrenciBolumu` VARCHAR(30) NOT NULL,
+  `ogrencisinifi` TINYINT NOT NULL,
+  `ogrenciDogumTarihi` DATE NOT NULL
+  );
+  
+  CREATE TABLE `eokul`.`ogrencinot` (
+  `idogrencinot` INT NOT NULL,
+  `ogrNoFK` INT NOT NULL,
+  `dersKoduFK` VARCHAR(4) NOT NULL,
+  `yazili1` TINYINT NOT NULL,
+  `yazili2` TINYINT NOT NULL,
+  `yazili3` TINYINT NOT NULL,
+  `uygulama1` TINYINT NOT NULL,
+  `uygulama2` TINYINT NOT NULL,
+  `sozlu1` TINYINT NOT NULL,
+  `sozlu2` TINYINT NOT NULL,
+  `ortalama` TINYINT NULL DEFAULT 0,
+  PRIMARY KEY (`idogrencinot`)
+  );
+ 
+  
+```
