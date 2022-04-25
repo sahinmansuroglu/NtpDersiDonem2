@@ -41,4 +41,4 @@ SELECT * FROM ogrencibilgi order by ogrenciAdi asc
 SELECT * FROM ogrencibilgi order by ogrencisinifi DESC
 SELECT * FROM ogrencibilgi WHERE ogrenciBolumu="ELEKTRİK" OR ogrencisinifi>10
 SELECT * FROM ogrencibilgi WHERE ogrenciBolumu="ELEKTRİK" AND ogrencisinifi>10
-```sql
+```
