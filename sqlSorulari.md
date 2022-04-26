@@ -100,6 +100,9 @@ SELECT tblNot.ogrAdSoyad,
  FROM tblNot;
 
 ```
+S.11. 
+
+![image](https://user-images.githubusercontent.com/28144917/165276696-8a3abedd-2157-43d2-a2d4-89467a156aa4.png)
 
 
 [Word Dosyası Halinde indirmek için Tıklayınız.](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8562020/SQLsORU.docx)
