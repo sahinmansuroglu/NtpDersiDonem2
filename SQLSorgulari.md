@@ -79,6 +79,7 @@ DELETE FROM tablo WHERE şart
 DELETE FROM ogrenci WHERE eposta IS NULL
 delete from tblpuan where id=3
 delete from tblpuan where ortalama<50
+delete from tblpuan 
 ```
 
 
