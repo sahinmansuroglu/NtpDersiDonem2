@@ -42,3 +42,22 @@ SELECT * FROM ogrencibilgi order by ogrencisinifi DESC
 SELECT * FROM ogrencibilgi WHERE ogrenciBolumu="ELEKTRİK" OR ogrencisinifi>10
 SELECT * FROM ogrencibilgi WHERE ogrenciBolumu="ELEKTRİK" AND ogrencisinifi>10
 ```
+
+### Update Deyimi (Güncelleme) ###
+
+> Temel Kullanım
+
+```sql
+UPDATE tablo SET sütun1=değer1, sütun2=değer2,…WHERE şart
+```
+
+
+Kullanılan Tablo
+
+![image](https://user-images.githubusercontent.com/28144917/165227623-883c19e2-c693-46a9-ac38-1591d7c9ee9d.png)
+
+![image](https://user-images.githubusercontent.com/28144917/165228726-cbf0c1dd-adf3-42d6-ab55-f1ac35c44673.png)
+
+update tblpuan set ortalama=(puan1+puan2)/2 
+
+![image](https://user-images.githubusercontent.com/28144917/165228683-08112047-ef57-4831-a9e2-748e06feff02.png)
