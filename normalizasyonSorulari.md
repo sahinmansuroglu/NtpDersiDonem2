@@ -1,5 +1,7 @@
 ## Normalizasyon Sorusu-1 ##
 
+[Normalizasyon Sorusu-1'i word Dosyası olarak indirmek için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8562070/normalizasyon1.docx)
+
 ![image](https://user-images.githubusercontent.com/28144917/165275247-70e0b2dc-326e-4f16-b726-2f59af5469b7.png)
 
 
@@ -24,3 +26,19 @@
 >2NF olarak ayırdığımız tablolarda, birbirine bağımlı olan sütunları bulup bunları ayrı bir tabloya aktarmamız gerekli.
 
 ![image](https://user-images.githubusercontent.com/28144917/165275650-265803b6-d587-484c-ad9d-6da291d092fb.png)
+
+
+## Normalizasyon Sorusu-2 ##
+
+![image](https://user-images.githubusercontent.com/28144917/165276163-dccbe069-6f00-475a-9da9-ca111ba120ac.png)
+
+
+
+> Yukarıdaki tabloyu  normalizasyon işlemlerini uygulayarak son haline getiriniz.
+
+
+## Normalizasyon Sorusu-2 Cevap ##
+
+![image](https://user-images.githubusercontent.com/28144917/165276305-f4ee1d2d-a956-4e5a-86f0-e3110d921cf2.png)
+
+
