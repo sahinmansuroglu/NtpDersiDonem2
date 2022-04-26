@@ -127,4 +127,5 @@ Veri tabanındaki herhangi bir nesneyi (tablo veya veri tabanı) kaldırmak içi
 
 ```sql
 DROP TABLE dersler
+drop database eokul3;
 ```
