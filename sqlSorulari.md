@@ -53,6 +53,11 @@ e)	SELECT min(not1)  from tblNot
   
   ………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………
 
+  S.11. Aşağıdaki tablolarda Birincil anahtar(Primary Key) ve Yabancı Anahtar(Foreign key)alanlarını  gösteriniz (Soldan sağa a, b, c)
+
+![image](https://user-images.githubusercontent.com/28144917/165276509-d54caabd-5244-48bf-b3b0-d99d05d2b473.png)
+
+
   ### Cevaplar ###
   
 ```sql
@@ -83,6 +88,8 @@ c)	Tblnot tablosunun not1 alanındaki değerlerin ortalamasını  verir.
 d)	Tblnot tablosunun not1 alanındaki değerlerden en büyüğünü verir.
 
 e)	Tblnot tablosunun not1 alanındaki değerlerden en küçüğünü verir.
+
+
 
 S.10.     SELECT tblNot.ogrAdSoyad, tblDers.dersAdi, tblNot.not1, tblNot.not2
 
