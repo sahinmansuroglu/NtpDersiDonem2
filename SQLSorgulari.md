@@ -86,5 +86,23 @@ delete from tblpuan
 ### Create ###
 > Veri tabanı ya da tablo oluşturmak için kullanılır.
 
-CREATE DATABASE eokul
-CREATE TABLE ogrencibilgi
+```sql
+
+ CREATE DATABASE eokul
+ CREATE TABLE ogrencibilgi
+
+
+```
+
+**Örnek**
+> Aşağıdaki SQL kodu okulotomasyon adında bir veritabanı oluşturur. bu veritabanını kullanarak içinde dersler adında bir tablo oluşturur.
+```sql
+create database okulotomasyon;
+use okulotomasyon;
+CREATE TABLE dersler (
+  `derskodu` VARCHAR(4) NOT NULL,
+  `dersadi` VARCHAR(45) NULL,
+  PRIMARY KEY (`derskodu`)
+  );
+  
+  ```
