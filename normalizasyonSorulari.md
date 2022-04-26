@@ -36,6 +36,7 @@
 
 > Yukarıdaki tabloyu  normalizasyon işlemlerini uygulayarak son haline getiriniz.
 
+> ürün Sokları:  Çanta(100 Adet),  Cd(500 Adet), Kitap(325 Adet),Laptop(966 Adet),Defter(332 Adet)
 
 ## Normalizasyon Sorusu-2 Cevap ##
 
