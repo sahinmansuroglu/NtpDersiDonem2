@@ -42,4 +42,54 @@ d)	SELECT max(not1)  from tblNot
 
 e)	SELECT min(not1)  from tblNot
    …………………………………………………………………………………………………………………………..……………………………………………………………………………….
-   
+  
+  S.10.tblNot tablosundaki ortalaması 70 dan küçük olan kayıtları aşağıdaki şekilde listeleyen sorguyu yazınız.
+  
+  ![image](https://user-images.githubusercontent.com/28144917/165274246-dea199ef-edd2-4426-a0a9-b2266263e248.png)
+  
+  ………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………
+  
+  ………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………
+  
+  ………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………
+
+  ### Cevaplar ###
+  
+```sql
+  
+S.1. SELECT * FROM  tblNot
+
+S.2. SELECT ogrAdSoyad,not1  from tblnot
+
+S.3. SELECT ogrAdSoyad,not1, not2 , (not1+not2)/2 as Ortalama from tblnot
+
+S.4. SELECT * from tblnot WHERE not1 between 80 and 100
+
+S.5. INSERT INTO tblNot (ogrAdSoyad, ders,not1, not2) VALUES("Berfin",3,78,99)
+
+S.6. UPDATE tblnot set ogrAdSoyad=" Mehmet CAN " where sn=3
+
+S.7. ALTER TABLE tblNot ADD ortalama float
+
+S.8. drop table tblDers
+
+S.9. 
+a)	Tblnot tablosundaki tüm kayıtları ogrAdSoyad alanına göre Z’den A’ya listeler
+
+b)	tblDers tablosundaki dersSaati alanındaki değerlerin toplamını verir.
+
+c)	Tblnot tablosunun not1 alanındaki değerlerin ortalamasını  verir.
+
+d)	Tblnot tablosunun not1 alanındaki değerlerden en büyüğünü verir.
+
+e)	Tblnot tablosunun not1 alanındaki değerlerden en küçüğünü verir.
+
+S.10.     SELECT tblNot.ogrAdSoyad, tblDers.dersAdi, tblNot.not1, tblNot.not2
+
+FROM  tblNot INNER JOIN tblDers ON tblNot.ders=tblDers.sn where  (tblNot.not1+tblNot.not2)/2<70
+
+SELECT tblNot.ogrAdSoyad,
+(select [tblDers.dersAdi] from tblDers where tblDers.sn=tblNot.ders) as DersAdi
+ FROM tblNot;
+
+```
