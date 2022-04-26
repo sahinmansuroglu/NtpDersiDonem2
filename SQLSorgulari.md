@@ -77,4 +77,8 @@ DELETE FROM tablo WHERE şart
 
 ```sql
 DELETE FROM ogrenci WHERE eposta IS NULL
+delete from tblpuan where id=3
+delete from tblpuan where ortalama<50
 ```
+
+
