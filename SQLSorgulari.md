@@ -106,3 +106,16 @@ CREATE TABLE dersler (
   );
   
   ```
+  
+### Alter ###
+> Var olan bir nesne üzerinde değişiklikler yapmak için kullanılır. Veri alanı eklemek için aşağıdaki kod 
+kullanılabilir
+
+
+```sql
+ALTER TABLE personel ADD eposta VARCHAR(40) NULL
+```
+```sql
+use eokul;
+ALTER TABLE tblpuan ADD eposta VARCHAR(40) NULL;
+```
