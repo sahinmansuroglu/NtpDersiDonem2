@@ -57,7 +57,10 @@ Kullanılan Tablo
 ![image](https://user-images.githubusercontent.com/28144917/165227623-883c19e2-c693-46a9-ac38-1591d7c9ee9d.png)
 
 ![image](https://user-images.githubusercontent.com/28144917/165228726-cbf0c1dd-adf3-42d6-ab55-f1ac35c44673.png)
-
+```sql
 update tblpuan set ortalama=(puan1+puan2)/2 
-
+```
 ![image](https://user-images.githubusercontent.com/28144917/165228683-08112047-ef57-4831-a9e2-748e06feff02.png)
+```sql
+update tblpuan set adsoyad="Veli" where id=4; 
+```
