@@ -119,3 +119,12 @@ ALTER TABLE personel ADD eposta VARCHAR(40) NULL
 use eokul;
 ALTER TABLE tblpuan ADD eposta VARCHAR(40) NULL;
 ```
+
+### Drop ###
+
+Veri tabanındaki herhangi bir nesneyi (tablo veya veri tabanı) kaldırmak için kullanılır. DROP kullanırken 
+çok dikkatli olunmalıdır.
+
+```sql
+DROP TABLE dersler
+```
