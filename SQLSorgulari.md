@@ -1,7 +1,7 @@
 ## SQl Sorguları ile ekleme silme Listeleme Güncelleme İşlemleri ##
 Sorgulamada Kullanılan 
 
-### Insert into Ekleme (bilgi Girişi) ### 
+### Insert into komutu (bilgi Girişi) ### 
 
 > Temel Kullanım
 
@@ -19,7 +19,7 @@ insert into tabloadı (alan1, alan2, …, alan(n)) VALUES (deger1, deger2, …, 
  
  ```
  
-### Select Deyimi ###
+### Select Komutu ###
 
 
 > Temel Kullanım
@@ -43,7 +43,7 @@ SELECT * FROM ogrencibilgi WHERE ogrenciBolumu="ELEKTRİK" OR ogrencisinifi>10
 SELECT * FROM ogrencibilgi WHERE ogrenciBolumu="ELEKTRİK" AND ogrencisinifi>10
 ```
 
-### Update Deyimi (Güncelleme) ###
+### Update Komutu (Güncelleme) ###
 
 > Temel Kullanım
 
@@ -63,4 +63,18 @@ update tblpuan set ortalama=(puan1+puan2)/2
 ![image](https://user-images.githubusercontent.com/28144917/165228683-08112047-ef57-4831-a9e2-748e06feff02.png)
 ```sql
 update tblpuan set adsoyad="Veli" where id=4; 
+```
+
+
+### Delete Komutu (Kayıt Silme) ###
+
+
+> Temel Kullanım
+
+```sql
+DELETE FROM tablo WHERE şart
+```
+
+```sql
+DELETE FROM ogrenci WHERE eposta IS NULL
 ```
