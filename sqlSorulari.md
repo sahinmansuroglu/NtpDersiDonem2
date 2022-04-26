@@ -11,9 +11,9 @@ S.2. tblNot tablosundaki ogrAdSoyad ve not1  alanlarını  listeleyen SQL sorguy
 S.3. tblNot tablosundaki tüm alanları ve 2 yazılının ortalamasını (Ortalama isminde yeni bir alanda) listeleyen SQL sorguyu yazınız.
 ……………………………………………………………………………………………………………………………………………………………………………………………………………….
 
-S.4. tblNot tablosunda not1 değeri 80 ile 100 arasında olan kayıtları listeleten SQ
-L sorguyu yazınız.
+S.4. tblNot tablosunda not1 değeri 80 ile 100 arasında olan kayıtları listeleten SQL sorguyu yazınız.
 ……………………………………………………………………………………………………………………………………………………………………………………………………………….
+
 S.5. tblNot tablosununun [ogrAdSoyad], [ders],[not1], [not2]   alanlarına sırasıyla  [”Ahmet SAKİN”], [2], [90, [60] değerlerine sahip  yeni bir kayıt ekleyen SQL sorgusunu yazınız.
 …………………………………………………………………………………………………………………………………………………………………………………………………………….
 
@@ -27,6 +27,7 @@ S.8. tblDers tablosunu silen SQL sorgusunu yazınız.
 ……………………………………………………………………………………………………………………………………………………………………………………………………………….
 
 S.9. Aşağıdaki sorgular ne iş yapar tek cümleyle yazınız.
+
 a)	SELECT * from tblnot order by ogrAdSoyad desc
 ……………………………………………………………………………………………………………………………………………..…………………………………………………………….
 
