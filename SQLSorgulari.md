@@ -83,3 +83,8 @@ delete from tblpuan
 ```
 
 
+### Create ###
+> Veri tabanı ya da tablo oluşturmak için kullanılır.
+
+CREATE DATABASE eokul
+CREATE TABLE ogrencibilgi
