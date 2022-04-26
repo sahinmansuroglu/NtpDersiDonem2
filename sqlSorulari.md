@@ -1,8 +1,10 @@
 ## SQL Soruları ##
 
 ![image](https://user-images.githubusercontent.com/28144917/165273746-dff53195-7400-4e1d-8307-c299e15cd0ab.png)
+
 S.1.tblNot tablosundaki tüm kayıtları listeleyen SQL sorguyu yazınız.
 ……………………………………………………………………………………………………………………………………………………………………………………………………………….
+
 S.2. tblNot tablosundaki ogrAdSoyad ve not1  alanlarını  listeleyen SQL sorguyu yazınız.
 ……………………………………………………………………………………………………………………………………………………………………………………………………………….
 S.3. tblNot tablosundaki tüm alanları ve 2 yazılının ortalamasını (Ortalama isminde yeni bir alanda) listeleyen SQL sorguyu yazınız.
