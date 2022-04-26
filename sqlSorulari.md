@@ -93,3 +93,6 @@ SELECT tblNot.ogrAdSoyad,
  FROM tblNot;
 
 ```
+
+
+[Word Dosyası Halinde indirmek için Tıklayınız.](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8562020/SQLsORU.docx)
