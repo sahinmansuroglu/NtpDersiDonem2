@@ -65,35 +65,48 @@ CREATE TABLE `eokul`.`tblkisi` (
 #### Kullanılan Tablolar
 
 ```sql
- CREATE TABLE `eokul`.`dersler` (
-  `derskodu` VARCHAR(4) NOT NULL,
-  `dersadi` VARCHAR(45) NULL,
+CREATE TABLE `dersler` (
+  `derskodu` varchar(4) NOT NULL,
+  `dersadi` varchar(45) DEFAULT NULL,
+  `dersSaati` tinyint DEFAULT NULL,
   PRIMARY KEY (`derskodu`)
-  );
-  
-  CREATE TABLE `eokul`.`ogrencibilgi` (
-  `ogrenciNo` INT NOT NULL,
-  `ogrenciAdi` VARCHAR(20) NOT NULL,
-  `ogrenciSoyadi` VARCHAR(20) NOT NULL,
-  `ogrenciBolumu` VARCHAR(30) NOT NULL,
-  `ogrencisinifi` TINYINT NOT NULL,
-  `ogrenciDogumTarihi` DATE NOT NULL
-  );
-  
-  CREATE TABLE `eokul`.`ogrencinot` (
-  `idogrencinot` INT NOT NULL,
-  `ogrNoFK` INT NOT NULL,
-  `dersKoduFK` VARCHAR(4) NOT NULL,
-  `yazili1` TINYINT NOT NULL,
-  `yazili2` TINYINT NOT NULL,
-  `yazili3` TINYINT NOT NULL,
-  `uygulama1` TINYINT NOT NULL,
-  `uygulama2` TINYINT NOT NULL,
-  `sozlu1` TINYINT NOT NULL,
-  `sozlu2` TINYINT NOT NULL,
-  `ortalama` TINYINT NULL DEFAULT 0,
+)
+
+CREATE TABLE `ogrencibilgi` (
+  `ogrenciNo` int NOT NULL,
+  `ogrenciAdi` varchar(20) NOT NULL,
+  `ogrenciSoyadi` varchar(20) NOT NULL,
+  `ogrenciBolumu` varchar(30) NOT NULL,
+  `ogrencisinifi` int NOT NULL,
+  `ogrenciDogumTarihi` date NOT NULL,
+  PRIMARY KEY (`ogrenciNo`)
+)
+  CREATE TABLE `ogrencinot` (
+  `idogrencinot` int NOT NULL,
+  `ogrNoFK` int NOT NULL,
+  `dersKoduFK` varchar(4) NOT NULL,
+  `yazili1` tinyint NOT NULL,
+  `yazili2` tinyint NOT NULL,
+  `yazili3` tinyint NOT NULL,
+  `uygulama1` tinyint NOT NULL,
+  `uygulama2` tinyint NOT NULL,
+  `sozlu1` tinyint NOT NULL,
+  `sozlu2` tinyint NOT NULL,
+  `ortalama` float DEFAULT '0',
   PRIMARY KEY (`idogrencinot`)
-  );
- 
-  
+)
+
+CREATE TABLE `tblmezuniyet` (
+  `idtblMezuniyet` int NOT NULL,
+  `ogrenciNoFK` int NOT NULL,
+  `mezunYili` int NOT NULL,
+  `mezunOrtalamasi` float NOT NULL,
+  PRIMARY KEY (`idtblMezuniyet`)
+) 
 ```
+
+### Tabloların MYSQL Workbench ile tasarımı ###
+![dersler](https://user-images.githubusercontent.com/28144917/165704848-cd323104-8647-4b09-a8a1-165b8628991b.JPG)
+![ogrenciBilgi](https://user-images.githubusercontent.com/28144917/165704853-08caaee7-0e69-4b58-9fbf-a9565eae32db.JPG)
+![ogrNot](https://user-images.githubusercontent.com/28144917/165704856-215beddc-53a5-405c-84fa-13eff445f9a3.JPG)
+![tblmezuniyet](https://user-images.githubusercontent.com/28144917/165704857-d9eba488-8a6c-4545-bb64-d653e76b5db3.JPG)
