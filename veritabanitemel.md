@@ -106,7 +106,11 @@ CREATE TABLE `tblmezuniyet` (
 ```
 
 ### Tabloların MYSQL Workbench ile tasarımı ###
+
 ![dersler](https://user-images.githubusercontent.com/28144917/165704848-cd323104-8647-4b09-a8a1-165b8628991b.JPG)
+
 ![ogrenciBilgi](https://user-images.githubusercontent.com/28144917/165704853-08caaee7-0e69-4b58-9fbf-a9565eae32db.JPG)
-![ogrNot](https://user-images.githubusercontent.com/28144917/165704856-215beddc-53a5-405c-84fa-13eff445f9a3.JPG)
+
+![image](https://user-images.githubusercontent.com/28144917/165705242-e6c0c5dd-f0c1-4b81-b000-9a5906979b7b.png)
+
 ![tblmezuniyet](https://user-images.githubusercontent.com/28144917/165704857-d9eba488-8a6c-4545-bb64-d653e76b5db3.JPG)
