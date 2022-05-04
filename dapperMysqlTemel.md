@@ -108,3 +108,22 @@ namespace ConsoleApp1
 }
 
 ```
+**Kaynaklar**
+
+https://riptutorial.com/Download/dapper-net.pdf
+
+https://www.learndapper.com/
+
+https://www.jetbrains.com/dotnet/guide/tutorials/basics/dapper/
+
+https://www.c-sharpcorner.com/UploadFile/e4e3f7/dapper-king-of-micro-orm-C-Sharp-net/
+
+https://github.com/DapperLib/Dapper
+
+https://www.ezzylearning.net/tutorial/crud-operations-in-asp-net-core-5-using-dapper-orm
+
+https://www.borakasmer.com/dapper-nedir/
+
+https://www.geeksforgeeks.org/c-dapper/
+
+https://developerpublish.com/learn-dapper-net-step-by-step-tutorial/
