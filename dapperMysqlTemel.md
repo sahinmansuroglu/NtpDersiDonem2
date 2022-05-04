@@ -9,7 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/28144917/156490264-64cfc5eb-b6ec-4e5f-a67f-119773b640f5.png)
 
-[veritabani.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8624935/veritabani.zip)
+[Veritabanının SQL kodlarını indirmek için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8624935/veritabani.zip)
 
 
 
