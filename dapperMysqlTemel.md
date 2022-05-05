@@ -4,6 +4,15 @@
 
 ![image](https://user-images.githubusercontent.com/28144917/156490303-cff9c336-98da-4d58-a953-88e8a69664b4.png)
 
+**root şifresini değiştirme**
+```
+cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin> mysql -u root -p
+Enter password: *********
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newrootpassword';
+```
 
 ### Mysql Tablo Yapısı ###
 
@@ -53,7 +62,7 @@ namespace ConsoleApp1
     {
 
 
-        string ConnectionString1 = "host=localhost;port=3306;user id=sahin;password=1234;database=eokul;";
+        string ConnectionString1 = "host=localhost;port=3306;user id=sahin;password=1234;database=eokul;SslMode=None";
 
         public void tumKayitlariListele()
         {
