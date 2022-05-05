@@ -24,3 +24,59 @@ Enter password: *********
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yeni Şifre';
 
 ```
+### Kullanılacak olan OgrenciPuan Sınıfı ###
+
+```csharp
+ class OgrenciPuan
+    {
+        public int id { get; set; }
+        public string ogrenciAdSoyad { get; set; }
+
+        public int puan1 { get; set; }
+        public int puan2 { get; set; }
+        public double ortalama { get; set; }
+        public override string ToString()
+        {
+            return $"{id}-{ogrenciAdSoyad}-{puan1}-{puan2}-{ortalama}";
+        }
+    }
+    
+```
+
+### Veritabınından Verileri Çekip DataGrid içerisinde görüntüleme ###
+
+```csharp
+ string ConnectionString = "host=localhost;port=3306;user id=root;password=mtal2022;database=eokul;SslMode=None";
+ 
+ private void BtnListele_Click(object sender, RoutedEventArgs e)
+        {
+            using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                var ogrenciler = baglanti.Query<OgrenciPuan>("select * from tblnot").ToList();
+                dgOgrenci.ItemsSource = ogrenciler;
+            }
+        }
+ ```
+ 
+ 
+### Veritabınına Yeni Öğrenci Ekleme ###
+
+```csharp
+ string ConnectionString = "host=localhost;port=3306;user id=root;password=mtal2022;database=eokul;SslMode=None";
+ 
+ private void BtnYeniOgrenciEkle_Click(object sender, RoutedEventArgs e)
+        {
+            using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                OgrenciPuan ogrenciPuan=new OgrenciPuan{ 
+                    ogrenciAdSoyad="AYla OZAN",
+                    puan1=57,
+                    puan2=45,
+                    ortalama=51
+                };  
+                string eklemeSorgusu= "Insert into tblnot(ogrenciAdSoyad,puan1,puan2,ortalama)  values (@ogrenciAdSoyad,@puan1,@puan2,@ortalama)";
+                baglanti.Execute(eklemeSorgusu,ogrenciPuan);
+
+            }
+        }
+ ```
