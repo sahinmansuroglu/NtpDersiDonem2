@@ -19,7 +19,7 @@
 
 > Yapacağımız işlem, Birincil anahtar yoksa eklemek, varsa tekrarına neden olan sütunları ayırmak. Yukarıdaki tabloda birincil anahtar olarak kullanabileceğimiz Müşteri No alanı var.  aynı hücre içinde yer alan birden fazla veri varsa, bunları satırlar halinde ayrı kayıtlara bölmek. Bu durumda ihtiyaç duyduğumuz tablonun yapısını çiziniz.
 
-![image](https://user-images.githubusercontent.com/28144917/165275568-e0ab3f52-e460-4d2a-a690-11e63fcf2cc2.png)
+![image](https://user-images.githubusercontent.com/28144917/166872494-0452128b-6cab-463c-866f-34b04d2363f5.png)
 
 **3NF**
 
