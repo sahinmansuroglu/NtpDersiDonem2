@@ -37,19 +37,11 @@
 
 > ürün Sokları: Çanta(100 Adet), Cd(500 Adet), Kitap(325 Adet),Laptop(105 Adet),Defter(145 Adet)
 
-## Normalizasyon Sorusu-2 Çö<üm ##
+## Normalizasyon Sorusu-2 Çözüm ##
 
-1. Adım						
-tblSatış Tablosu						
-SatisId	MusteriNo	MusteriAdi	ilAdi	Posta_Kodu	UrunAdı	UrunAdedi
-1	1	Ayhan ERDEM	Adıyaman	2000	Çanta	5
-2	1	Ayhan ERDEM	Adıyaman	2000	CD	200
-3	1	Ayhan ERDEM	Adıyaman	2000	Kitap	3
-4	2	Derya YAMAN	Aydın	5000	Çanta	10
-5	3	Serdar AKIN	Bursa	1500	Laptop	5
-6	4	Aylin KOTİL	İzmir	3000	Kitap	2
-7	4	Aylin KOTİL	İzmir	3000	Defter	5
-![image](https://user-images.githubusercontent.com/28144917/166876696-7b8f9001-d136-4e99-ada3-55e0b7d7ecc8.png)
+
+![image](https://user-images.githubusercontent.com/28144917/166876779-72ad52ce-4a4f-4435-bcfa-73e79c8bf735.png)
+
 
 
 
