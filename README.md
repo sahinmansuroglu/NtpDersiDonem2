@@ -80,9 +80,10 @@
 2. [SQl Sorguları ile ekleme silme Listeleme Güncelleme İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/SQLSorgulari.md) 
 3. [SQl çalışma Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/sqlSorulari.md) 
 4. [Normalizasyon çalışma Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/normalizasyonSorulari.md) 
-5. [Dapper-Mysql ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
-6. [Entity Framework-MYSQL ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel1.md) 
-7. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
+5. [Dapper-Mysql ile Veritabanı İşlemleri-1](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel1.md) 
+6. [Dapper-Mysql ile Veritabanı İşlemleri-2](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
+7. [Entity Framework-MYSQL ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel1.md) 
+8. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
 
 
 
