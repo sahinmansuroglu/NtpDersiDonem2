@@ -1,7 +1,5 @@
 ## Normalizasyon Sorusu-1 ##
 
-[Normalizasyon Sorusu-1'i word Dosyası olarak indirmek için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8562070/normalizasyon1.docx)
-
 ![image](https://user-images.githubusercontent.com/28144917/165275247-70e0b2dc-326e-4f16-b726-2f59af5469b7.png)
 
 
