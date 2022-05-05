@@ -25,7 +25,7 @@
 
 >2NF olarak ayırdığımız tablolarda, birbirine bağımlı olan sütunları bulup bunları ayrı bir tabloya aktarmamız gerekli.
 
-![image](https://user-images.githubusercontent.com/28144917/165275650-265803b6-d587-484c-ad9d-6da291d092fb.png)
+![image](https://user-images.githubusercontent.com/28144917/166872599-2aad2412-2e21-4357-80aa-0537838f8526.png)
 
 
 ## Normalizasyon Sorusu-2 ##
