@@ -69,8 +69,13 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'y
         {
             using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
             {
-                var ogrenciler = baglanti.Query<OgrenciPuan>("select * from tblnot").ToList();
-                dgOgrenci.ItemsSource = ogrenciler;
+                string sorgu = "select * from tblnot";
+
+                var ogrenciler= baglanti.Query<OgrenciPuan>(sorgu).ToList();
+
+                ogrenciler.ForEach(x => Console.WriteLine(x));
+
+                dgOgrenci.ItemsSource=ogrenciler;
             }
         }
  ```
