@@ -1,10 +1,17 @@
 ## Dapper ile Mysql İşlemleri ##
 
 ### Dapper Nedir? ###
-Dapper, .NET uygulamalarında veritabanı ile bağlantı kurarak tablolar üzerinde kolay ve hızlı bir şekilde ekleme silme, güncelleme ve arama yapabilmemize yarayan bir kütüphanedir.  ADO.NET kadar hızlı çalışmaktadır.
+>Dapper, .NET uygulamalarında veritabanı ile bağlantı kurarak tablolar üzerinde kolay ve hızlı bir şekilde ekleme silme, güncelleme ve arama yapabilmemize yarayan bir kütüphanedir.  ADO.NET kadar hızlı çalışmaktadır.
 
 ### ORM (Object Relational Mapping) nedir? ###
-Bir ORM, veritabanı ve programlama dili arasında eşleme yapmaktan sorumlu olan bir Nesne İlişkisel Eşleştiricisidir. Yani veritabanından bulunan tablolar ile c# tarafında oluşturulan sınıfların birbiriyle eşleştirilmesini sağlayarak kod yazımını ve okunurluğunu kolaylaştırmaktadır. Dapper ORM'yi desteklediği ve basit olduğundan dolayı  bir Mikro ORM kategorisine girmektedir. Hatta ulaştığı hızlardan dolayı "King of Micro ORM " yani Mikro ORM'lerin kralı olarak adlandırılır.
+>Bir ORM, veritabanı ve programlama dili arasında eşleme yapmaktan sorumlu olan bir Nesne İlişkisel Eşleştiricisidir. Yani veritabanından bulunan tablolar ile c# tarafında oluşturulan sınıfların birbiriyle eşleştirilmesini sağlayarak kod yazımını ve okunurluğunu kolaylaştırmaktadır. Dapper ORM'yi desteklediği ve basit olduğundan dolayı  bir Mikro ORM kategorisine girmektedir. Hatta ulaştığı hızlardan dolayı "King of Micro ORM " yani Mikro ORM'lerin kralı olarak adlandırılır.
+
+**CRUD:**  Create - Read - Update - Delete kelimelerinin baş harflerinden oluşur.  Yani Ekleme, Okuma, Güncelleme, silme işlemlerini belirtmek İçin CRUD kısaltması kullanılır
+
+### Dapper Nasıl çalışır? ###
+1.  IDbConnection nesnesi oluşturularak veritabanına bağlantı kurulur.
+2.  CRUD işlemleri için sorgu yazılır.
+3.  Execute metodu ile yazılan sorgular çalıştırılır
 
 
 
