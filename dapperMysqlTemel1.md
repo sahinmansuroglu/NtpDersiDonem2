@@ -1,7 +1,7 @@
 ## Dapper ile Mysql İşlemleri ##
 
 ### Dapper Nedir? ###
->Dapper, .NET uygulamalarında veritabanı ile bağlantı kurarak tablolar üzerinde kolay ve hızlı bir şekilde ekleme silme, güncelleme ve arama yapabilmemize yarayan bir kütüphanedir.  ADO.NET kadar hızlı çalışmaktadır.
+>Dapper, .NET uygulamalarında veritabanı ile bağlantı kurarak tablolar üzerinde kolay ve hızlı bir şekilde ekleme silme, güncelleme ve arama yapabilmemize yarayan bir kütüphanedir.  ADO.NET kadar hızlı çalışmaktadır. Dapper ile ilgili daha fazla bilgi almak için https://dapper-tutorial.net/dapper sitesinden faydalanabilirsiniz.
 
 ### ORM (Object Relational Mapping) nedir? ###
 >Bir ORM, veritabanı ve programlama dili arasında eşleme yapmaktan sorumlu olan bir Nesne İlişkisel Eşleştiricisidir. Yani veritabanından bulunan tablolar ile c# tarafında oluşturulan sınıfların birbiriyle eşleştirilmesini sağlayarak kod yazımını ve okunurluğunu kolaylaştırmaktadır. Dapper ORM'yi desteklediği ve basit olduğundan dolayı  bir Mikro ORM kategorisine girmektedir. Hatta ulaştığı hızlardan dolayı "King of Micro ORM " yani Mikro ORM'lerin kralı olarak adlandırılır.
@@ -13,9 +13,47 @@
 2.  CRUD işlemleri için sorgu yazılır.
 3.  Execute metodu ile yazılan sorgular çalıştırılır
 
+### Kullanılacak Olan Veritabanı sql kodları ve workbench'deki tasarım  penceresi ###
 
+```sql
+CREATE TABLE `eokul`.`tblnot` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `ogrenciAdSoyad` VARCHAR(45) NOT NULL,
+  `puan1` TINYINT(3) NOT NULL,
+  `puan2` TINYINT(3) NOT NULL,
+  `ortalama` DOUBLE NOT NULL,
+  PRIMARY KEY (`id`));
+```
 
-Dapper, veritabanınızı sorgulamak için kullanışlı uzantı yöntemleri sağlayarak IDbConnection'ı genişletir.
+![image](https://user-images.githubusercontent.com/28144917/166909704-b41ab263-4a34-4110-860d-a1694173e9ef.png)
+
+**Örnek-1**
+> Aşağıdaki örnekte mysql ile bağlantı kuralarak eokul veritabanındaki tbnot tablosundaki tüm veriler ekrana getirilmektedir.
+
+```csharp
+using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                string sorgu = "select * from tblnot";
+
+               var ogrenciler= baglanti.Query<OgrenciPuan>(sorgu).ToList();
+                
+                ogrenciler.ForEach(x => Console.WriteLine(x)); //Tüm Öğrencileri ekrana console ekranına yazdırır.
+
+                dgOgrenci.ItemsSource=ogrenciler;     // Tüm öğrencileri datagrid içerisinde görüntüler.
+            }
+```
+
+### Dapper'da sık kullanılan metodlar  ###
+> Dapperda sık kullanılan metotlar aşağıda bulunmaktadır. Fazlası için https://dapper-tutorial.net/dapper linki ile dapper resmi sitesinden faydalanabilirsiniz.
+#### 1. Execute ####
+> Execute metodu bir komutu yada sql sorgusunu bir veya birden fazla çalıştırmak için kullanılır. Çalıştıldıktan sonra etkilenen kayıt sayısını sonuç olarak döndürür. Genellikle **INSERT-UPDATE-DELETE** sorguları ile kullanılır.
+
+#### 2. Query #### 
+#### 3. QueryFirst  ####
+#### 4. QueryFirstOrDefault ####
+#### 5. QuerySingle ####
+#### 6. QuerySingleOrDefault ####
+
 
 ### Kullanılacak Olan Veritabanı sql kodları ve workbench'deki tasarım  penceresi ###
 
