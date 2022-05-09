@@ -1,5 +1,15 @@
 ## Dapper ile Mysql İşlemleri ##
 
+### Dapper Nedir? ###
+Dapper, .NET uygulamalarında veritabanı ile bağlantı kurarak tablolar üzerinde kolay ve hızlı bir şekilde ekleme silme, güncelleme ve arama yapabilmemize yarayan bir kütüphanedir.  ADO.NET kadar hızlı çalışmaktadır.
+
+### ORM (Object Relational Mapping) nedir? ###
+Bir ORM, veritabanı ve programlama dili arasında eşleme yapmaktan sorumlu olan bir Nesne İlişkisel Eşleştiricisidir. Yani veritabanından bulunan tablolar ile c# tarafında oluşturulan sınıfların birbiriyle eşleştirilmesini sağlayarak kod yazımını ve okunurluğunu kolaylaştırmaktadır. Dapper ORM'yi desteklediği ve basit olduğundan dolayı  bir Mikro ORM kategorisine girmektedir. Hatta ulaştığı hızlardan dolayı "King of Micro ORM " yani Mikro ORM'lerin kralı olarak adlandırılır.
+
+
+
+Dapper, veritabanınızı sorgulamak için kullanışlı uzantı yöntemleri sağlayarak IDbConnection'ı genişletir.
+
 ### Kullanılacak Olan Veritabanı sql kodları ve workbench'deki tasarım  penceresi ###
 
 ```sql
