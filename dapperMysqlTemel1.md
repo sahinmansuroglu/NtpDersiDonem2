@@ -43,29 +43,6 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
             }
 ```
 
-### Dapper'da sık kullanılan metodlar  ###
-> Dapperda sık kullanılan metotlar aşağıda bulunmaktadır. Fazlası için https://dapper-tutorial.net/dapper linki ile dapper resmi sitesinden faydalanabilirsiniz.
-#### 1. Execute ####
-> Execute metodu bir komutu yada sql sorgusunu bir veya birden fazla çalıştırmak için kullanılır. Çalıştıldıktan sonra etkilenen kayıt sayısını sonuç olarak döndürür. Genellikle **INSERT-UPDATE-DELETE** sorguları ile kullanılır.
-
-#### 2. Query #### 
-#### 3. QueryFirst  ####
-#### 4. QueryFirstOrDefault ####
-#### 5. QuerySingle ####
-#### 6. QuerySingleOrDefault ####
-
-
-
-
-### Root kullanıcısının Kimlik Doğrulama tipini  (authentication type) standart olarak ayarlamak ###
-```
-cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
-
-C:\Program Files\MySQL\MySQL Server 8.0\bin> mysql -u root -p
-Enter password: *********
-
-mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yeni Şifre';
-
 ```
 ### Kullanılacak olan OgrenciPuan Sınıfı ###
 
@@ -85,6 +62,57 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'y
     }
     
 ```
+
+### Dapper'da sık kullanılan metodlar  ###
+> Dapperda sık kullanılan metotlar aşağıda bulunmaktadır. Fazlası için https://dapper-tutorial.net/dapper linki ile dapper resmi sitesinden faydalanabilirsiniz.
+#### 1. Execute ####
+> Execute metodu bir komutu yada sql sorgusunu bir veya birden fazla çalıştırmak için kullanılır. Çalıştıldıktan sonra etkilenen kayıt sayısını sonuç olarak döndürür. Genellikle **INSERT-UPDATE-DELETE** sorguları ile kullanılır.
+
+**Örnek**
+```csharp
+              OgrenciPuan yeniogrenci = new OgrenciPuan
+                {
+                    ogrenciAdSoyad = "Serkan TAN",
+                    puan1 = 95,
+                    puan2 = 85,
+                    ortalama = 90
+                };
+
+                string sorgu = "Insert into tblnot(ogrenciAdSoyad,puan1,puan2,ortalama) values (@ogrenciAdSoyad,@puan1,@puan2,@ortalama)";
+
+                int etkilenenKayitSayisi= baglanti.Execute(sorgu, yeniogrenci);
+                
+```
+#### 2. Query #### 
+
+> Query metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonucu döndürür. Sonucu döndürürken arka planda sonuca karşılık gelen nesneye eşleştirme işlemi de yapar
+
+**Örnek**
+> Aşağıdaki örnekte tbnot tablosundaki tüm kayıtları seçen  "select * from tblnot" sorgusu çalıştırılmıştır. Sonucunda gelen veriler bir OgrenciPuan listesine eşleştirilerek döndürülmüştür.
+
+```csharp
+              string sorgu = "select * from tblnot";
+              var ogrenciler= baglanti.Query<OgrenciPuan>(sorgu).ToList();
+```
+
+#### 3. QueryFirst  ####
+#### 4. QueryFirstOrDefault ####
+#### 5. QuerySingle ####
+#### 6. QuerySingleOrDefault ####
+
+
+
+
+### Root kullanıcısının Kimlik Doğrulama tipini  (authentication type) standart olarak ayarlamak ###
+```
+cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin> mysql -u root -p
+Enter password: *********
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yeni Şifre';
+
+
 
 ### Veritabınından Verileri Çekip DataGrid içerisinde görüntüleme ###
 
@@ -116,14 +144,18 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'y
         {
             using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
             {
-                OgrenciPuan ogrenciPuan=new OgrenciPuan{ 
-                    ogrenciAdSoyad="AYla OZAN",
-                    puan1=57,
-                    puan2=45,
-                    ortalama=51
-                };  
-                string eklemeSorgusu= "Insert into tblnot(ogrenciAdSoyad,puan1,puan2,ortalama)  values (@ogrenciAdSoyad,@puan1,@puan2,@ortalama)";
-                baglanti.Execute(eklemeSorgusu,ogrenciPuan);
+                 OgrenciPuan yeniogrenci = new OgrenciPuan
+                {
+                    ogrenciAdSoyad = "Serkan TAN",
+                    puan1 = 95,
+                    puan2 = 85,
+                    ortalama = 90
+                };
+
+                string sorgu = "Insert into tblnot(ogrenciAdSoyad,puan1,puan2,ortalama) values (@ogrenciAdSoyad,@puan1,@puan2,@ortalama)";
+
+                int etkilenenKayitSayisi= baglanti.Execute(sorgu, yeniogrenci);
+                MessageBox.Show(etkilenenKayitSayisi.ToString());
 
             }
         }
