@@ -69,8 +69,10 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 #### 1. Execute ####
 > Execute metodu bir komutu yada sql sorgusunu bir veya birden fazla çalıştırmak için kullanılır. Çalıştıldıktan sonra etkilenen kayıt sayısını sonuç olarak döndürür. Genellikle **INSERT-UPDATE-DELETE** sorguları ile kullanılır.
 
-**Örnek**
+**Örnek-1 - Ekleme Sorgusu**
 ```csharp
+ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
               OgrenciPuan yeniogrenci = new OgrenciPuan
                 {
                     ogrenciAdSoyad = "Serkan TAN",
@@ -82,6 +84,28 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
                 string sorgu = "Insert into tblnot(ogrenciAdSoyad,puan1,puan2,ortalama) values (@ogrenciAdSoyad,@puan1,@puan2,@ortalama)";
 
                 int etkilenenKayitSayisi= baglanti.Execute(sorgu, yeniogrenci);
+     }           
+```
+
+**Örnek-2 Güncelleme Sorgusu**
+```csharp
+            using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                string sorgu = "UPDATE tblnot set ogrenciAdSoyad=@ogrenciAdSoyad WHERE id=@id";
+                int guncellenenKayıtSayisi=baglanti.Execute(sorgu,new { ogrenciAdSoyad ="EKİN SOLMAZ", id=4});
+                MessageBox.Show($"{guncellenenKayıtSayisi} tane kayıt güncellenmiştir.");
+            }
+                
+```
+**Örnek-3 Silme Sorgusu**
+```csharp
+    
+            using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                string sorgu = "DELETE FROM tblnot WHERE id=@id";
+                int silinenKayıtSayisi = baglanti.Execute(sorgu, new { id = 2 });
+                MessageBox.Show($"{silinenKayıtSayisi} tane kayıt silinmiştir.");
+            }          
                 
 ```
 
@@ -98,14 +122,15 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 ```
 
 #### 3. QueryFirst  ####
-> Query metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonuca uygun kayıtlardan sadece ilkini döndürür. Sonucu döndürürken arka planda sonuca karşılık gelen nesneye eşleştirme işlemi de yapar. 
+> QueryFirst metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonuca uygun kayıtlardan sadece ilkini döndürür. Sonucu döndürürken arka planda sonuca karşılık gelen nesneye eşleştirme işlemi de yapar. 
 
-**Örnek**
+**Not:** QueryFirst metodu sorguyu çalıştırdığında eğer sorguya uygun bir kayıt yoksa QueryFirst metodu hata fırlatır. Hata yerine varsayılan değer döndürülmesi istenirse QueryFirstOrDefault metodu kullanılır.
+
+**Örnek-1**
 > Aşağıdaki örnekte tbnot tablosundaki tüm kayıtları seçen  "select * from tblnot" sorgusu çalıştırılmıştır.QueryFirst metodu ile  sorguya uygun ilk kayıt ilkogrenci  nesnesine atanmıştır.
 
 ```csharp
-private void queryFirst_Click(object sender, RoutedEventArgs e)
-        {
+
             using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
             {
                 string sorgu = "select * from tblnot";
@@ -113,14 +138,56 @@ private void queryFirst_Click(object sender, RoutedEventArgs e)
                 OgrenciPuan ilkogrenci = baglanti.QueryFirst<OgrenciPuan>(sorgu);
                 MessageBox.Show(ilkogrenci.ToString());
             }
-        }
+      
 ```
 
+**Örnek-2**
+> Aşağıdaki Örnek id=2 olan öğrenciyi bulunan öğrenciye atar.
+
+```csharp
+            using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                string sorgu = "select * from tblnot where id=@id";
+                OgrenciPuan bulunanOgrenci = baglanti.QueryFirst<OgrenciPuan>(sorgu,new {id=2});
+                MessageBox.Show(ilkogrenci.ToString());
+            }
+           
+      
+```
+ 
+
 #### 4. QueryFirstOrDefault ####
+> QueryFirstOrDefault metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonuca uygun kayıtlardan sadece ilkini döndürür. Eğer döndürecek kayıt yoksa hata fırlatmaz varsayılan değer döndürür. 
+
+
+> Aşağıdaki örnekte tbnot tablosundaki tüm kayıtları seçen  "select * from tblnot" sorgusu çalıştırılmıştır.QueryFirst metodu ile  sorguya uygun ilk kayıt ilkogrenci  nesnesine atanmıştır.
+
+```csharp
+
+            using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                string sorgu = "select * from tblnot where id=@id";
+
+                OgrenciPuan bulunanOgrenci = baglanti.QueryFirstOrDefault<OgrenciPuan>(sorgu,new {id=6});
+                if (bulunanOgrenci != null)
+                {
+                    MessageBox.Show(bulunanOgrenci.ToString());
+                }
+                else
+                {
+                    MessageBox.Show("6 nolu id ye ait ogrenci bulunamadı");
+                }
+               
+            }
+      
+```
+
 #### 5. QuerySingle ####
+> QuerySingle metodu parametre olarak verilen sql sorgusunu çalıştırır.Sorguya uygun tek bir kayıt varsa döndürür.Sorgu sonucunda birden fazla kayıt varsa veya sorguya uygun hiç bir kayıt yoksa hata fırlatır.
+
 #### 6. QuerySingleOrDefault ####
 
-
+> QuerySingleOrDefault metodu parametre olarak verilen sql sorgusunu çalıştırır.Sorguya uygun tek bir kayıt varsa döndürür. Sorgu sonucunda birden fazla kayıt varsa veya sorguya uygun hiç bir kayıt yoksa varsayılan değer döndürür.
 
 
 ### Root kullanıcısının Kimlik Doğrulama tipini  (authentication type) standart olarak ayarlamak ###
