@@ -142,7 +142,7 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 ```
 
 **Örnek-2**
-> Aşağıdaki Örnek id=2 olan öğrenciyi bulunan öğrenciye atar.
+> Aşağıdaki Örnek id=2 olan öğrenciyi bulunanOgrenci referansına atar.
 
 ```csharp
             using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
