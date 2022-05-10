@@ -43,7 +43,7 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
             }
 ```
 
-```
+
 ### Kullanılacak olan OgrenciPuan Sınıfı ###
 
 ```csharp
@@ -65,6 +65,7 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 
 ### Dapper'da sık kullanılan metodlar  ###
 > Dapperda sık kullanılan metotlar aşağıda bulunmaktadır. Fazlası için https://dapper-tutorial.net/dapper linki ile dapper resmi sitesinden faydalanabilirsiniz.
+
 #### 1. Execute ####
 > Execute metodu bir komutu yada sql sorgusunu bir veya birden fazla çalıştırmak için kullanılır. Çalıştıldıktan sonra etkilenen kayıt sayısını sonuç olarak döndürür. Genellikle **INSERT-UPDATE-DELETE** sorguları ile kullanılır.
 
@@ -83,6 +84,7 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
                 int etkilenenKayitSayisi= baglanti.Execute(sorgu, yeniogrenci);
                 
 ```
+
 #### 2. Query #### 
 
 > Query metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonucu döndürür. Sonucu döndürürken arka planda sonuca karşılık gelen nesneye eşleştirme işlemi de yapar
@@ -104,14 +106,15 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 
 
 ### Root kullanıcısının Kimlik Doğrulama tipini  (authentication type) standart olarak ayarlamak ###
-```
+
+```shell
 cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
 
 C:\Program Files\MySQL\MySQL Server 8.0\bin> mysql -u root -p
 Enter password: *********
 
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yeni Şifre';
-
+```
 
 
 ### Veritabınından Verileri Çekip DataGrid içerisinde görüntüleme ###
