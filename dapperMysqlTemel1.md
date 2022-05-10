@@ -64,7 +64,7 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 ```
 
 ### Dapper'da sık kullanılan metodlar  ###
-> Dapperda sık kullanılan metotlar aşağıda bulunmaktadır. Fazlası için https://dapper-tutorial.net/dapper linki ile dapper resmi sitesinden faydalanabilirsiniz.
+> Dapperda sık kullanılan metotlar aşağıda bulunmaktadır. Daha fazla bilgi almak  https://dapper-tutorial.net/dapper linki ile dapper resmi sitesinden faydalanabilirsiniz.
 
 #### 1. Execute ####
 > Execute metodu bir komutu yada sql sorgusunu bir veya birden fazla çalıştırmak için kullanılır. Çalıştıldıktan sonra etkilenen kayıt sayısını sonuç olarak döndürür. Genellikle **INSERT-UPDATE-DELETE** sorguları ile kullanılır.
@@ -87,7 +87,7 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 
 #### 2. Query #### 
 
-> Query metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonucu döndürür. Sonucu döndürürken arka planda sonuca karşılık gelen nesneye eşleştirme işlemi de yapar
+> Query metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonucu liste olarak döndürür. Sonucu döndürürken arka planda sonuca karşılık gelen nesneye eşleştirme işlemi de yapar. 
 
 **Örnek**
 > Aşağıdaki örnekte tbnot tablosundaki tüm kayıtları seçen  "select * from tblnot" sorgusu çalıştırılmıştır. Sonucunda gelen veriler bir OgrenciPuan listesine eşleştirilerek döndürülmüştür.
@@ -98,6 +98,24 @@ using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
 ```
 
 #### 3. QueryFirst  ####
+> Query metodu parametre olarak verilen sql sorgusunu çalıştırır ve sonuca uygun kayıtlardan sadece ilkini döndürür. Sonucu döndürürken arka planda sonuca karşılık gelen nesneye eşleştirme işlemi de yapar. 
+
+**Örnek**
+> Aşağıdaki örnekte tbnot tablosundaki tüm kayıtları seçen  "select * from tblnot" sorgusu çalıştırılmıştır.QueryFirst metodu ile  sorguya uygun ilk kayıt ilkogrenci  nesnesine atanmıştır.
+
+```csharp
+private void queryFirst_Click(object sender, RoutedEventArgs e)
+        {
+            using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
+            {
+                string sorgu = "select * from tblnot";
+
+                OgrenciPuan ilkogrenci = baglanti.QueryFirst<OgrenciPuan>(sorgu);
+                MessageBox.Show(ilkogrenci.ToString());
+            }
+        }
+```
+
 #### 4. QueryFirstOrDefault ####
 #### 5. QuerySingle ####
 #### 6. QuerySingleOrDefault ####
