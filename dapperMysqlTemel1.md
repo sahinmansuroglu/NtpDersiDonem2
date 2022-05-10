@@ -31,6 +31,7 @@ CREATE TABLE `eokul`.`tblnot` (
 > Aşağıdaki örnekte mysql ile bağlantı kuralarak eokul veritabanındaki tbnot tablosundaki tüm veriler ekrana getirilmektedir.
 
 ```csharp
+string ConnectionString = "host=localhost;port=3306;user id=root;password=mtal2022;database=eokul;SslMode=None";
 using (IDbConnection baglanti = new MySqlConnection(ConnectionString))
             {
                 string sorgu = "select * from tblnot";
