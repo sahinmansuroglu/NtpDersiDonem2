@@ -88,6 +88,10 @@
 
 
 
+### 12.  2. Dönem 2. Uygulama Sınavı  (Hazır Değil) ###
+
+   [2. Dönem 2. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili2.md) 
+
 <br/>
 <br/>
 
