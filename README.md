@@ -81,9 +81,10 @@
 3. [SQl çalışma Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/sqlSorulari.md) 
 4. [Normalizasyon çalışma Soruları](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/normalizasyonSorulari.md) 
 5. [Dapper-Mysql ile Veritabanı İşlemleri-1](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel1.md) 
-6. [Dapper-Mysql ile Veritabanı İşlemleri-2](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
-7. [Entity Framework-MYSQL ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel1.md) 
-8. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
+6. [Dapper-Mysql ile Veritabanı Temel Kullanım İle İlgili Örnek Uygulama](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemelOrnek.md) 
+7. [Dapper-Mysql ile Veritabanı İşlemleri-2](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
+8. [Entity Framework-MYSQL ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel1.md) 
+9. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
 
 
 
