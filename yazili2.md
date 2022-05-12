@@ -97,14 +97,7 @@ on ders.DersKodu=ogrencipuan.DersKodu
 inner  join ogrenci
 on ogrenci.Id=ogrencipuan.OgrenciId
 ```
-```sql
-select ders.DersAdi, ogrencipuan.Performans1,ogrenci.Ad
-from ogrencipuan
-inner  join ders
-on ders.DersKodu=ogrencipuan.DersKodu
-inner  join ogrenci
-on ogrenci.Id=ogrencipuan.OgrenciId
-```
+
 
 ```sql
 select ders.*, ogrencipuan.*,ogrenci.* from ogrencipuan  
