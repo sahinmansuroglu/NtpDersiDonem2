@@ -109,4 +109,5 @@ inner join ogrenci on ogrenci.Id = ogrencipuan.OgrenciId
 
 [VeritabaniProjesi1.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8679437/VeritabaniProjesi.zip)
 [VeritabaniProjesieski.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8695587/VeritabaniProjesi.zip)
+[VeritabaniProjesi En Eski.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8698112/VeritabaniProjesi.zip)
 
