@@ -503,3 +503,5 @@ namespace VeritabaniUygulamaTamalandi
 [Sınıf Ortamında Uygulama İçin Verilen Dökümanları İndirmek İçin Tıklayınız.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8676073/Sinif.Ortaminda.Uygulam.Icin.Verilen.Dokumanlar.zip)
 
 [Uygulamanın tamamlanmış halini indirmek için Tıklayınız..](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8676077/VeritabaniUygulamaTamalandi.zip)
+
+[Uygulamanın tamamlanmış halini indirmek için Tıklayınız.. (FluentValidation İle Doğrulama Yapılmış)](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8705971/VeritabaniProjesi.zip)
