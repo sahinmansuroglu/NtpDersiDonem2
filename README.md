@@ -65,8 +65,7 @@
 
 
 ### 10.  2. Dönem 1. Uygulama Sınavı  (Yayın Tarihi: 26.03.2022 06:20) ###
-
-   [2. Dönem 1. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
+ [2. Dönem 1. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili1.md) 
 
 
 
@@ -89,7 +88,7 @@
 
 
 ### 12.  2. Dönem 2. Uygulama Sınavı  (Hazır Değil) ###
-[2. Dönem 2. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili2.md) 
+ [2. Dönem 2. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili2.md) 
 
 
 
