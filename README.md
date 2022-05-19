@@ -89,47 +89,17 @@
 
 
 ### 12.  2. Dönem 2. Uygulama Sınavı  (Hazır Değil) ###
-
-   [2. Dönem 2. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili2.md) 
-
-<br/>
-<br/>
-
-<br/>
-<br/>
-https://www.nuget.org/packages/MySql.EntityFrameworkCore/
-https://www.tektutorialshub.com/entity-framework-core/using-mysql-mariadb-in-entity-framework-core/
-
-https://docs.microsoft.com/tr-tr/ef/ef6/modeling/code-first/workflows/existing-database
-
-### 11.  Karma ###
-
-2. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
-3. Tooltip
+[2. Dönem 2. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili2.md) 
 
 
-### 12. Bölüm:  Rich Text (Hazır Değil)  ###
-      Rich Text controls
-      Introduction to WPF Rich Text controls
-      The FlowDocumentScrollViewer control
-      The FlowDocumentPageViewer control
-      The FlowDocumentReader control
-      Creating a FlowDocument from Code-behind
-      Advanced FlowDocument content
-      The RichTextBox control
-      How-to: Creating a Rich Text Editor
 
 
-### Yararlı Linkler ###
-
-[materialUI](https://www.youtube.com/watch?v=qSP8v8Gi3XU)
-
-Icon İçin flatIcon:https://www.flaticon.com/
-
-[Material Design Template](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8259443/WpfApp13.zip)
-
-
-[Kurulacaklar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/kurulacak.md)
+### Ekler ###
+1. [Timer Kullanımı](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/timer.md) 
+2. [materialUI](https://www.youtube.com/watch?v=qSP8v8Gi3XU)
+3. Icon İçin flatIcon:https://www.flaticon.com/
+4. [Material Design Template](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8259443/WpfApp13.zip)
+5. [Kurulacaklar](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/kurulacak.md)
 
 
 
