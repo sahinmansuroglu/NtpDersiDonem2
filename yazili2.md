@@ -76,7 +76,7 @@ public class Ders
 
 Tablonun SQL Kodları
 
-[sqlEokul.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8708228/sqlEokul.zip)
+[sinavVeritababaniKodlari.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8778955/sinavVeritababaniKodlari.zip)
 
 
 
@@ -100,9 +100,12 @@ inner  join ders on ders.DersKodu = ogrencipuan.DersKodu
 inner join ogrenci on ogrenci.Id = ogrencipuan.OgrenciId
                                
 ```
+
+### Ders İşlemlerinin Boş bir  projede adım adım yapıldığı dökmanı aşağıdan İndirebilirsiniz. ###
+[EOKULPROJE.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8778989/EOKUPROJE.zip)
+
 ### Proje Dosyası ###
 
-[Tamamlanmış Proje Dosyasını indirmek için tıklayınız](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8708180/VeritabaniProjesi.zip)
-
+[VeritabaniProjesi Tamamlanmış.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8778960/VeritabaniProjesi.Tamamlanmis.zip)
 
 [Kütüphaneler Eklenmiş Boş Proje Dosyasını indirmek için tıklayınız.](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8708203/VeritabaniProjesiBos.zip)
