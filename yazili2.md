@@ -74,7 +74,7 @@ public class Ders
     
 ```
 
-Tablonun SQL Kodları
+### eokul veritabanının SQL kodları (İçerisindeki  tablo ve kayıtlar ile beraber)  ###
 
 [sinavVeritababaniKodlari.zip](https://github.com/sahinmansuroglu/NtpDersiDonem2/files/8778955/sinavVeritababaniKodlari.zip)
 
