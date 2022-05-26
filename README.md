@@ -84,11 +84,11 @@
 7. [Dapper-Mysql ile Veritabanı İşlemleri-2](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/dapperMysqlTemel.md) 
 8. [Entity Framework-MYSQL ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel1.md) 
 9. [Entity Framework-SQLite ile Veritabanı İşlemleri](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/efMysqlTemel.md) 
-
+10.[Dapper ile basit bir eokul uygulaması tasarımı ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili2.md) 
 
 
 ### 12.  2. Dönem 2. Uygulama Sınavı  (Hazır Değil) ###
- [2. Dönem 2. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili2.md) 
+1. [2. Dönem 2. Uygulama Sınavı Sorusu ve Çözümü ](https://github.com/sahinmansuroglu/NtpDersiDonem2/blob/main/yazili21.md) 
 
 
 
